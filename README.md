@@ -1,5 +1,11 @@
 # Bounded sports agents — one kernel, two live-match artifacts
 
+> 🚀 **Live Working Prototype**: **[https://qfwff-103-129-229-22.run.pinggy-free.link](https://qfwff-103-129-229-22.run.pinggy-free.link)**  
+> - **Pack B (Gap Receipt)**: [https://qfwff-103-129-229-22.run.pinggy-free.link/gap](https://qfwff-103-129-229-22.run.pinggy-free.link/gap)  
+> - **Pack A (Watch Along)**: [https://qfwff-103-129-229-22.run.pinggy-free.link/creator](https://qfwff-103-129-229-22.run.pinggy-free.link/creator)  
+> - **Agent Room Orchestrator**: [https://qfwff-103-129-229-22.run.pinggy-free.link/agents](https://qfwff-103-129-229-22.run.pinggy-free.link/agents)  
+> *(No login or account required)*
+
 A Dream11 FDE assignment prototype: one shared multi-agent kernel (`backend/kernel/`) with
 two product packs bolted onto it, serving two different fan problems from the same
 propose → verify → commit loop.
