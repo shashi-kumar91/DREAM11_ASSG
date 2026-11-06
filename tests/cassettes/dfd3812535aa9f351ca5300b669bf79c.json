@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Analyst classified u08 as new tactic advice on spin length in death overs, no factual verdict needed, ready to commit attributed insight.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Creator tip: keep spin medium length in death overs\", \"body\": \"Creator advises keeping spin on a medium length in the death overs, targeting the stumps low.\", \"salience\": 0.6, \"cited_utterance_ids\": [\"u08\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"tactic\", \"death_overs\", \"spin\"]}, \"reason\": \"Tactic insight is new, attributed, and not a factual claim requiring verification.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2049,
+    "output_tokens": 170,
+    "finish_reason": "stop"
+  },
+  "t": 1793817367.2932248
+}

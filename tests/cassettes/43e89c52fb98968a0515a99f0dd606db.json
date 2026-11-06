@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"u09 uses ambiguous 'Isne' for who spread the field at 17.3, so reference must be resolved before classification.\", \"action\": \"dispatch\", \"agent\": \"perceiver\", \"args_json\": \"{}\", \"reason\": \"Resolve 'Isne' and field reference against match state before analyst drafts a claim.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1912,
+    "output_tokens": 71
+  },
+  "t": 1793809157.8209572
+}

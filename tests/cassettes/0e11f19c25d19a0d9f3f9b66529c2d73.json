@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Bedi could be current bowler Dev Kapoor or next-over bowler Rohan Bedi in match state; need explicit resolve_reference for 'Bedi' before classifying.\",\"tool\":\"resolve_reference\",\"args_json\":\"{\\\"phrase\\\":\\\"Bedi\\\",\\\"kind_hint\\\":\\\"bowler\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1036,
+    "output_tokens": 69
+  },
+  "t": 1793809012.524345
+}

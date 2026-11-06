@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"search_transcript and recall_utterance returned u12 at 03:24 by Sunny Agarwal with verbatim weather line, analyst returned filler\", \"action\": \"commit\", \"reason\": \"Direct attributed transcript evidence answers the fan query without synthesis; commit as query_answer citing u12\", \"card\": {\"kind\": \"query_answer\", \"insight_type\": \"quote\", \"headline\": \"What he said about the weather\", \"body\": \"Sunny Agarwal (@courtside_sunny) at 03:24: \\\"Haan bhai, aaj rain ka koi risk nahi, poora clear sky hai.\\\"\", \"salience\": 0.9, \"cited_utterance_ids\": [\"u12\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"weather\", \"transcript\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2092,
+    "output_tokens": 171
+  },
+  "t": 1793807637.9668384
+}

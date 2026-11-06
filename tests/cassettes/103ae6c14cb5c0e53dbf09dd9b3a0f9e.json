@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need to resolve 'Bedi' against current squads/bowler Dev Kapoor to avoid misattribution; use resolve_reference tool.\",\"tool\":\"resolve_reference\",\"args_json\":\"{\\\"phrase\\\":\\\"Bedi\\\",\\\"kind_hint\\\":\\\"bowler\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 824,
+    "output_tokens": 65,
+    "finish_reason": "stop"
+  },
+  "t": 1793817293.3195593
+}

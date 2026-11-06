@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Verify current match state before deciding to interrupt tense chase with generic DRS explanation.\",\"tool\":\"get_match_state\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 822,
+    "output_tokens": 47
+  },
+  "t": 1793807507.613976
+}

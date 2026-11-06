@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"u11 comments on bowler Rohan Bedi bowling slow at 17.6 with no speed data in state; needs classification before any verdict or card.\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"reason\": \"Analyst is the only role that can classify this utterance and draft a structured claim; verifier before analyst would verify nothing.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1910,
+    "output_tokens": 83
+  },
+  "t": 1793808328.9121792
+}

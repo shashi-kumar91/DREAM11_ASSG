@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator confirmed material missed events 16.3-16.5 with frame and commentary agreement and fan boundary at 16.2, so recovery modality needs choosing\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"reason\": \"Evidence is gathered and fan boundary is settled; strategist must pick safest useful recovery without showing at/after 16.6\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2155,
+    "output_tokens": 89,
+    "finish_reason": "stop"
+  },
+  "t": 1793815735.9545467
+}

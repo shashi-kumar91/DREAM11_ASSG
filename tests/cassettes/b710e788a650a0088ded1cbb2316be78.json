@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify window before resume 17.4 contains wickets/boundaries and no spoiler; query feed clamped.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"start_over\\\":\\\"15.1\\\",\\\"end_over\\\":\\\"17.4\\\",\\\"only_material\\\":true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1391,
+    "output_tokens": 68,
+    "finish_reason": "stop"
+  },
+  "t": 1793845429.4942203
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify window vs resume evt_071 at 16.6 and boundary 16.2; query feed clamped to resume.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"start_over\\\":\\\"16.2\\\",\\\"end_over\\\":\\\"16.6\\\",\\\"only_material\\\":true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1421,
+    "output_tokens": 67,
+    "finish_reason": "stop"
+  },
+  "t": 1793845880.157295
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Query asks what creator said about death bowling. Retrieval hit u08 is verbatim tactic advice at 02:22, not a checkable claim or future bet. Classify as tactic and quote creator's words with attribution, no synthesis.\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"card_text\\\":\\\"Sunny Agarwal (@courtside_sunny) ne kaha: Death overs mein spin ko medium length par rakhna chahiye\\\",\\\"text\\\":\\\"Sunny Agarwal (@courtside_sunny) ne kaha: Death overs mein spin ko medium length par rakhna chahiye\\\",\\\"quote\\\":\\\"Death overs mein spin ko medium length par rakhna chahiye\\\",\\\"excerpt\\\":\\\"Death overs mein spin ko medium length par rakhna chahiye\\\",\\\"speaker\\\":\\\"Sunny Agarwal (@courtside_sunny)\\\",\\\"timestamp\\\":\\\"02:22\\\",\\\"source_id\\\":\\\"u08\\\",\\\"confidence\\\":0.94,\\\"claim\\\":null,\\\"prediction\\\":null}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1054,
+    "output_tokens": 216
+  },
+  "t": 1793808422.312015
+}

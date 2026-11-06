@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Bedi not in striker/bowler given; need squad list to resolve identity before classifying.\",\"tool\":\"get_match_state\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 820,
+    "output_tokens": 44
+  },
+  "t": 1793808997.2198384
+}

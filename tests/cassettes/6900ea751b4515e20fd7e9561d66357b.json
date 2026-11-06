@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The receipt fails to cite the event IDs in the body text as required by the instructions.\",\"result_json\":\"{\\\"approve\\\":false,\\\"reason\\\":\\\"Causal sentences in the body lack [evt_id] citations.\\\",\\\"must_fix\\\":\\\"Add [evt_id] citations to each event description in the body.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1108,
+    "output_tokens": 75
+  },
+  "t": 1793893922.446073
+}

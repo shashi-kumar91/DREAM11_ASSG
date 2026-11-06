@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Match state confirms 17.1, 147/5, RRR 10.24, target 176. Creator tactic is relevant to death overs but generic, salience 0.5, and 3 cards already shown in watch mode; collapse rather than interrupt.\",\"result_json\":\"{\\\"mode\\\": \\\"collapsed\\\", \\\"reason\\\": \\\"Generic death-overs tactic relevant at 17.1 but not urgent; collapse to timeline to protect watch-mode attention.\\\", \\\"salience\\\": 0.5}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 992,
+    "output_tokens": 107
+  },
+  "t": 1793807447.6985967
+}

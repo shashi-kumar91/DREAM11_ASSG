@@ -1,0 +1,108 @@
+{
+ "utterances": {
+  "u01": {
+   "insight_type": "filler",
+   "surface": false,
+   "why": "greeting + call to comments"
+  },
+  "u02": {
+   "insight_type": "tactic",
+   "surface": true,
+   "resolved_role": "striker",
+   "resolved_entity": "Aarav Sen",
+   "why": "'yeh banda' -> striker at t=24"
+  },
+  "u03": {
+   "insight_type": "factual_claim",
+   "surface": false,
+   "asr_low_confidence": true,
+   "why": "noisy segment must abstain, not guess"
+  },
+  "u04": {
+   "insight_type": "factual_claim",
+   "surface": true,
+   "verdict": "CONFIRMED",
+   "why": "142/4 matches the feed 4s after 16.3"
+  },
+  "u05": {
+   "insight_type": "prediction",
+   "surface": true,
+   "prediction": {
+    "bowler": "Rohan Bedi",
+    "over": 17,
+    "metric": "yorker_count",
+    "threshold": 2
+   },
+   "settles_as": "hit",
+   "tally": "2 yorkers, 1 slower ball"
+  },
+  "u06": {
+   "insight_type": "filler",
+   "surface": false,
+   "repeats": "u02",
+   "why": "restates u02, no new information"
+  },
+  "u07": {
+   "insight_type": "factual_claim",
+   "surface": true,
+   "verdict": "CONFLICT",
+   "observed": "147/5",
+   "claimed": "142/3",
+   "matched_earlier_over": "16.2",
+   "matched_earlier_age_balls": 4
+  },
+  "u08": {
+   "insight_type": "tactic",
+   "surface": true
+  },
+  "u09": {
+   "insight_type": "tactic",
+   "surface": true,
+   "resolved_role": "bowler",
+   "resolved_entity": "Rohan Bedi",
+   "why": "'isne' -> current bowler at t=158"
+  },
+  "u10": {
+   "insight_type": "rule_explanation",
+   "surface": true
+  },
+  "u11": {
+   "insight_type": "quote",
+   "surface": true
+  },
+  "u12": {
+   "insight_type": "answer",
+   "surface": true
+  }
+ },
+ "queries": [
+  {
+   "q": "Death bowling ke baare mein creator ne kya bola?",
+   "expect_utterances": [
+    "u08"
+   ],
+   "expect_topic": "death"
+  },
+  {
+   "q": "What did he say about the weather?",
+   "expect_utterances": [
+    "u12"
+   ]
+  },
+  {
+   "q": "Did the creator talk about guitar lessons?",
+   "expect_utterances": [],
+   "expect_notice": "hasn't said"
+  }
+ ],
+ "expected_settlement": "hit",
+ "expected_cards_min": 7,
+ "expected_cards_max": 12,
+ "filler_ids": [
+  "u01",
+  "u06"
+ ],
+ "abstain_ids": [
+  "u03"
+ ]
+}

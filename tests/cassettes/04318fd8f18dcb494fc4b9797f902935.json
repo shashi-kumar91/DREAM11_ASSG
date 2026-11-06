@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Feed shows evt_071 at 16.6 is a wicket within tagged 16.6-17.2 window, but card claims no wicket/boundary and nothing missed. This violates no-op truth rule.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Card claims no wicket in window but evt_071 at 16.6 is a wicket\\\", \\\"must_fix\\\": \\\"Do not claim noop; report the 16.6 wicket with citation\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1044,
+    "output_tokens": 100
+  },
+  "t": 1793810504.911397
+}

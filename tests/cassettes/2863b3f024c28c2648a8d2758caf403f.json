@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is creator opinion about slow bowling, no checkable score/count or future bet, so classify as opinion and quote verbatim.\",\"tool\":null,\"args_json\":\"{}\",\"result_json\":\"{\\\"insight_type\\\":\\\"opinion\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"quote\\\":\\\"Yeh bowler itna slow phenk raha hai, dadi ki ginti bhi tez hai.\\\",\\\"card_text\\\":\\\"Creator: \\\\\\\"Yeh bowler itna slow phenk raha hai, dadi ki ginti bhi tez hai.\\\\\\\"\\\",\\\"attribution\\\":\\\"creator\\\",\\\"confidence\\\":\\\"high\\\",\\\"is_filler\\\":false}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 864,
+    "output_tokens": 140,
+    "finish_reason": "stop"
+  },
+  "t": 1793817460.5052626
+}

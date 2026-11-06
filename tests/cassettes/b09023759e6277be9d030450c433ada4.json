@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Card claims no wicket/boundary, but feed shows evt_071 wicket at 16.6 in window, triggering rejection rule.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Card claims nothing happened but window contains evt_071 wicket at 16.6\\\", \\\"must_fix\\\": \\\"Report the 16.6 wicket; do not claim nothing happened\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1304,
+    "output_tokens": 87
+  },
+  "t": 1793811011.8052456
+}

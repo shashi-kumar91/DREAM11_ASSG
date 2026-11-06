@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Resume cursor is 16.6 evt_071 per scratch; card body/headline include 16.6 RUN OUT and 147/5, a spoiler at resume position, despite strategist ordering to stop before evt_071.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Card includes the resume ball 16.6 wicket/run-out and 147/5 score, spoiling content at the fan's resume position.\\\", \\\"must_fix\\\": \\\"Remove all 16.6 content, end receipt at 16.5 with score 146/4, and add [evt_id] citations to causal sentence.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1180,
+    "output_tokens": 131
+  },
+  "t": 1793810897.7714555
+}

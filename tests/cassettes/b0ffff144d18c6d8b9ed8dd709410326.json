@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Card cites only u08, whose text has no digits and t_start 142.0. Digits 17.1, 147/5, 176 in body are uncited and timestamp mismatches evidence.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Digits 17.1, 147/5 and 176 do not appear in cited utterance u08, and its timestamp is 142.0 not 17.1.\\\", \\\"must_fix\\\": \\\"Remove uncited score/over digits or cite event evidence; correct attribution timestamp to 142.0.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 824,
+    "output_tokens": 116
+  },
+  "t": 1793808260.8963745
+}

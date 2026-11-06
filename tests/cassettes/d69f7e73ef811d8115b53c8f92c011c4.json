@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Late join at evt_075 with no boundary candidates and fan already scoped to key Chennai Kestrels moments, so reader must confirm telemetry boundary hypotheses before any recovery.\", \"action\": \"dispatch\", \"agent\": \"reader\", \"reason\": \"No ball rendered and boundary_confidence 0.0; reader needs to read playback log and name hypotheses without inventing a boundary.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2018,
+    "output_tokens": 91
+  },
+  "t": 1793811036.8419795
+}

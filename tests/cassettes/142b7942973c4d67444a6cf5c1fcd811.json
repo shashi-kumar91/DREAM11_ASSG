@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The creator is making a factual claim about the weather conditions at the match venue. I will classify this as a factual_claim and present it as a card.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":\\\"Haan bhai aaj rain ka koi risk nahi, poora clear sky hai.\\\",\\\"card_text\\\":\\\"No risk of rain today, the sky is completely clear.\\\",\\\"confidence\\\":\\\"high\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 738,
+    "output_tokens": 97
+  },
+  "t": 1793894222.990593
+}

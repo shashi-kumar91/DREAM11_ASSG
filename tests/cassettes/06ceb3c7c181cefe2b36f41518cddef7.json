@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The fan requested a recap of wickets and boundaries for Chennai Kestrels. I have identified four key events in the gap (15.3, 16.3, 16.4, 16.6) and will provide a receipt modality with the required event citations.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\", \\\"offer_clip_event\\\":\\\"evt_068\\\", \\\"why_it_matters\\\":\\\"Catch up on the key moments including the boundaries at [evt_068] and [evt_070] and the wickets at [evt_069] and [evt_071].\\\", \\\"ordering\\\":\\\"chronological\\\", \\\"reason\\\":\\\"The fan requested a recap of wickets and boundaries for their team, which were confirmed in the gap.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1133,
+    "output_tokens": 175
+  },
+  "t": 1793893924.350485
+}

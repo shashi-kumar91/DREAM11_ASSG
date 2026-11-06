@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Retrieval returned 1 attributed match for weather query at 03:24 from Sunny Agarwal. This is a quote, not a feed-checkable claim, so quote verbatim without synthesis.\",\"result_json\":\"{\\\"insight_type\\\":\\\"quote\\\",\\\"card_text\\\":\\\"Sunny Agarwal (@courtside_sunny) at 03:24: \\\\\\\"aaj rain ka koi risk nahi\\\\\\\"\\\",\\\"quote\\\":\\\"aaj rain ka koi risk nahi\\\",\\\"speaker\\\":\\\"Sunny Agarwal (@courtside_sunny)\\\",\\\"timestamp\\\":\\\"03:24\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"confidence\\\":0.94}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 936,
+    "output_tokens": 139
+  },
+  "t": 1793809360.7966108
+}

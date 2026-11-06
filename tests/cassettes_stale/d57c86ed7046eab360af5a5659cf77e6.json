@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Creator repeats outdated 142/3 while match state is 147/5 at 16.6 and verdict ver_93682db37a is UNVERIFIABLE with no checkable claim.\", \"action\": \"skip\", \"reason\": \"No verified new information worth fan attention; presenting the stale score would mislead.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2089,
+    "output_tokens": 68
+  },
+  "t": 1793806026.933133
+}

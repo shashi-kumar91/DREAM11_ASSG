@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed boundary 16.1 and investigator cross-checked window to resume 16.6, so recovery modality can now be chosen without asking again.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"reason\": \"Boundary is fan-resolved and evidence checked; strategist must pick safest useful recovery excluding resume ball 16.6.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2495,
+    "output_tokens": 81,
+    "finish_reason": "stop"
+  },
+  "t": 1793866042.6526654
+}

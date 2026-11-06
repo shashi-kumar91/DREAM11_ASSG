@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Wicket at evt_068 was missed, but offer_clip was refused for unreadable frame, so a text receipt before resume is safest.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"\\\",\\\"why_it_matters\\\":\\\"The wicket at 16.3 in [evt_068] changed the score to 142/4 before your resume at 16.6, so a text receipt is the safest useful recovery.\\\",\\\"ordering\\\":\\\"receipt for evt_068 before resume evt_071\\\",\\\"reason\\\":\\\"offer_clip refused as frame unreadable, so no clip offered\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1195,
+    "output_tokens": 135,
+    "finish_reason": "stop"
+  },
+  "t": 1793811886.609748
+}

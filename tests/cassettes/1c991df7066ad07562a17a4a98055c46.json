@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\":\"Fan scoped recap to key moments and clamped feed returned 4 material events before 17.4 resume\",\"action\":\"dispatch\",\"agent\":\"strategist\",\"args_json\":\"{}\",\"reason\":\"Choose safest recovery modality and causal sentence from clamped feed without inventing a boundary\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2316,
+    "output_tokens": 72,
+    "finish_reason": "stop"
+  },
+  "t": 1793842287.9529073
+}

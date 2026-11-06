@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Prediction pr_ec9c951760 settled hit in scratchpad with tally tal_ac624523a3: 2 yorkers in over 17 vs threshold 2, at 17.6 with RRR 12.5.\", \"action\": \"commit\", \"reason\": \"Deterministic settlement already exists in scratchpad, so fan should be told now via templated settlement card citing tally, events and utterance.\", \"card\": {\"kind\": \"settlement\", \"insight_type\": \"prediction\", \"headline\": \"Creator prediction settled: hit - 2 yorkers in over 17\", \"body\": \"Bedi bowled 2 yorkers in over 17, meeting the predicted threshold of 2.\", \"salience\": 0.85, \"cited_utterance_ids\": [\"u05\"], \"cited_event_ids\": [\"evt_072\", \"evt_073\", \"evt_074\", \"evt_075\", \"evt_076\", \"evt_077\"], \"cited_verdict_ids\": [], \"cited_tally_ids\": [\"tal_ac624523a3\"], \"tags\": [\"prediction\", \"settlement\", \"yorker\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2040,
+    "output_tokens": 211
+  },
+  "t": 1793807535.8931828
+}

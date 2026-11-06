@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Evidence gathered from feed, frame, and commentary within clamped window to resume evt_071; no disagreements found.\",\"result_json\":\"{\\\"sources\\\": [{\\\"tool\\\": \\\"query_event_feed\\\", \\\"found\\\": true, \\\"detail\\\": \\\"6 events 16.1-16.6 clamped at 16.6, material_count 3: evt_068 16.3 wicket 142/4, evt_069 16.4 four 146/4, evt_071 16.6 run out 147/5\\\"}, {\\\"tool\\\": \\\"inspect_frame\\\", \\\"found\\\": true, \\\"detail\\\": \\\"frm_16_3 pixels score 142/4 over 16.3 rrr 9.71 agrees with feed 142/4\\\"}, {\\\"tool\\\": \\\"search_commentary\\\", \\\"found\\\": true, \\\"detail\\\": \\\"2 lines: evt_068 16.3 wicket 142/4, evt_071 16.6 run out 147/5 matching feed\\\"}], \\\"disagreements\\\": [], \\\"coverage_ok\\\": true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1978,
+    "output_tokens": 195,
+    "finish_reason": "stop"
+  },
+  "t": 1793843385.368488
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u04 as factual_claim and kernel verdict ver_180f68b87e is CONFIRMED for 142/4 at 16.3 matching evt_068, so a verified card can be committed.\", \"action\": \"commit\", \"reason\": \"Verdict already exists in scratchpad and claim is new information about striker wicket, worth committing for surface policy to gate.\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"factual_claim\", \"headline\": \"Vikram Naidu out \u2014 142/4 at 16.3\", \"body\": \"Creator said Vikram Naidu out ho gaye, score 142/4. Kernel verdict CONFIRMED matches live feed at 16.3.\", \"salience\": 0.6, \"cited_utterance_ids\": [\"u04\"], \"cited_event_ids\": [\"evt_068\"], \"cited_verdict_ids\": [\"ver_180f68b87e\"], \"cited_tally_ids\": [], \"tags\": [\"wicket\", \"score\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2179,
+    "output_tokens": 192
+  },
+  "t": 1793808985.1729681
+}

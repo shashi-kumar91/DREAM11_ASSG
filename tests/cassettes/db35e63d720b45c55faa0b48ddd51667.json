@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The fan missed a wicket at 16.3 and a boundary at 16.4 during the ad break, so I will offer a receipt for the wicket to provide the requested recap.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"evt_072\\\",\\\"why_it_matters\\\":\\\"You missed the crucial wicket at [evt_072] that occurred right after you left the stream.\\\",\\\"ordering\\\":\\\"16.3, 16.4\\\",\\\"reason\\\":\\\"The fan requested a recap of the missed interval which includes a significant wicket event.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 944,
+    "output_tokens": 134
+  },
+  "t": 1793892609.291653
+}

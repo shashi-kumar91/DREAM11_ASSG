@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Fan asks what creator said about death bowling; must search attributed transcript only, not synthesise.\",\"tool\":\"search_transcript\",\"args_json\":\"{\\\"query\\\":\\\"death bowling\\\",\\\"limit\\\":10}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 842,
+    "output_tokens": 60
+  },
+  "t": 1793807569.8102472
+}

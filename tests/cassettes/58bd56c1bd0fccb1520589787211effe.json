@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Cross-checked feed, frame at 16.3, and commentary within clamped window to 16.6; all agree, no disagreements.\",\"result_json\":\"{\\\"sources\\\":[{\\\"tool\\\":\\\"query_event_feed\\\",\\\"found\\\":true,\\\"detail\\\":\\\"5 events evt_067 16.2 to evt_071 16.6 clamped_at 16.6 material_count 3; 16.3 wicket 142/4, 16.4 four 146/4, 16.5 dot 146/4, 16.6 wicket 147/5\\\"},{\\\"tool\\\":\\\"inspect_frame\\\",\\\"found\\\":true,\\\"detail\\\":\\\"frm_16_3 pixels read 142/4 over 16.3 rrr 9.71 agrees with feed_score 142/4\\\"},{\\\"tool\\\":\\\"search_commentary\\\",\\\"found\\\":true,\\\"detail\\\":\\\"4 lines; evt_068 16.3 wicket 142/4, evt_069 16.4 four 146/4, evt_071 16.6 run out 147/5 match feed text/score; plus evt_062 15.3\\\"}],\\\"disagreements\\\":[],\\\"coverage_ok\\\":true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1523,
+    "output_tokens": 212,
+    "finish_reason": "stop"
+  },
+  "t": 1793844737.0177119
+}

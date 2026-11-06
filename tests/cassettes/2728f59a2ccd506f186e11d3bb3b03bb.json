@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Cross-checked feed, frame at 16.3, and commentary within clamped window to resume 16.6; all sources agree on 142/4 at 16.3, no disagreements found.\",\"result_json\":\"{\\\"sources\\\": [{\\\"tool\\\": \\\"query_event_feed\\\", \\\"found\\\": true, \\\"detail\\\": \\\"Clamped at 16.6, count 5, material_count 3. Events from 16.2 to 16.6 returned: 16.2 1 run 142/3, 16.3 WICKET Vikram Naidu bowled 142/4, 16.4 FOUR Kabir Menon 146/4, 16.5 dot 146/4, 16.6 at resume cursor evt_071.\\\"}, {\\\"tool\\\": \\\"inspect_frame\\\", \\\"found\\\": true, \\\"detail\\\": \\\"Frame frm_16_3 at 16.3 read from pixels score 142/4, over 16.3, RRR 9.71, readable true. Feed score 142/4, agrees true, injected_fault false.\\\"}, {\\\"tool\\\": \\\"search_commentary\\\", \\\"found\\\": true, \\\"detail\\\": \\\"Count 2 lines in clamped window: 16.3 WICKET Vikram Naidu bowled through the gate score 142/4, and 16.6 line at resume cursor. Commentary for 16.3 matches feed and frame.\\\"}], \\\"disagreements\\\": [], \\\"coverage_ok\\\": true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1474,
+    "output_tokens": 258
+  },
+  "t": 1793810864.2420115
+}

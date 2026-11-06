@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Telemetry shows confident boundary 16.6 with no material events in gap and investigator found nothing usable, so no recovery is needed.\", \"action\": \"commit\", \"reason\": \"Buffer stall with no key action missed; safest useful outcome is a no-op receipt.\", \"card\": {\"kind\": \"noop\", \"insight_type\": \"filler\", \"headline\": \"No key action missed during stall\", \"body\": \"The missed interval contained no material events, so no replay or summary is needed.\", \"salience\": 0.2, \"cited_event_ids\": [\"evt_071\", \"evt_072\", \"evt_073\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"buffer\", \"no-op\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2188,
+    "output_tokens": 167,
+    "finish_reason": "stop"
+  },
+  "t": 1793811943.5792985
+}

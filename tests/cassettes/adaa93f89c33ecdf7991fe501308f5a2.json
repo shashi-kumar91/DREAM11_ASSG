@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Telemetry VOI says ask=true because boundary candidates 16.1/16.2/16.3 change the receipt and investigator returned nothing usable.\", \"action\": \"ask_user\", \"question\": \"What was the last ball you saw before the ad overlay covered the player?\", \"options\": [\"16.1\", \"16.2\", \"16.3\"], \"reason\": \"Resolving the uncertain boundary determines whether the 16.3 wicket was missed, so the fan answer has value before any receipt is committed.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2425,
+    "output_tokens": 114,
+    "finish_reason": "stop"
+  },
+  "t": 1793880400.4301317
+}

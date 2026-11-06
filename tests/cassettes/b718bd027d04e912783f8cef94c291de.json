@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Event feed shows wicket at 16.3 and run out at 16.6; need frame evidence to verify scoreboard pixels for those events before reporting agreement.\",\"tool\":\"inspect_frame\",\"args_json\":\"{\\\"event_id\\\":\\\"evt_068\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1264,
+    "output_tokens": 65,
+    "finish_reason": "stop"
+  },
+  "t": 1793812295.1302056
+}

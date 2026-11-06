@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator found 4 material events clamped before resume 17.4 and strategist chose receipt recap; ready to commit without inventing boundary or showing post-resume ball.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Key moments missed before you joined\", \"body\": \"The missed interval contains two wickets and two boundaries for Chennai Kestrels that change the innings [evt_062] [evt_068] [evt_069] [evt_071].\", \"salience\": 0.8, \"cited_event_ids\": [\"evt_062\", \"evt_068\", \"evt_069\", \"evt_071\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"recap\", \"late_join\"]}, \"reason\": \"Fan requested key-moment recap, material events verified in clamped window, no clip available so receipt is safest recovery.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2287,
+    "output_tokens": 207,
+    "finish_reason": "stop"
+  },
+  "t": 1793816027.3820229
+}

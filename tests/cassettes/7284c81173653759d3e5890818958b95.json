@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The card correctly identifies a conflict between the creator's claim and the live feed, cites the correct utterance and event IDs, and uses the provided data accurately.\",\"result_json\":\"{\\\"approve\\\": true, \\\"reason\\\": \\\"The card accurately reports a conflict between the creator's claim and the live feed data.\\\", \\\"must_fix\\\": \\\"none\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 789,
+    "output_tokens": 82
+  },
+  "t": 1793893981.6787748
+}

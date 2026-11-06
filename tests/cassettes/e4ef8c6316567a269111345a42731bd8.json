@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Wicket at evt_068 missed after fan left at 16.2, frame check passed in scratchpad; verify clip offer before receipt.\",\"tool\":\"offer_clip\",\"args_json\":\"{\\\"event_id\\\":\\\"evt_068\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1112,
+    "output_tokens": 54,
+    "finish_reason": "stop"
+  },
+  "t": 1793811880.401919
+}

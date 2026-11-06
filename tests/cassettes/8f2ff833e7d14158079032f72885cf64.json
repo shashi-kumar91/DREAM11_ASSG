@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The card mentions a specific measurement (2.5 millimeters) that is not present in the cited utterance or any event feed, violating the rule against using digits not present in the evidence.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"The card includes a digit (2.5) not present in the cited evidence.\\\", \\\"must_fix\\\": \\\"Remove or correct the digit based on provided evidence.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 597,
+    "output_tokens": 95
+  },
+  "t": 1793894203.6549146
+}

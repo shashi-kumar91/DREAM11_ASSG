@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan requested key-moment recap and clamped feed returned 4 material events before resume evt_075 with strategist choosing receipt modality.\", \"action\": \"commit\", \"reason\": \"Material events exist, fan explicitly asked for recap, and receipt is safest recovery with no clip or post-resume content.\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"answer\", \"headline\": \"Recap: key moments before 17.4\", \"body\": \"Fan requested key-moment recap for Chennai Kestrels. Material events in clamped window: [evt_062] [evt_068] [evt_069] [evt_071]. Receipt recap then resume at evt_075.\", \"salience\": 0.85, \"cited_event_ids\": [\"evt_062\", \"evt_068\", \"evt_069\", \"evt_071\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"recap\", \"late_join\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2434,
+    "output_tokens": 206,
+    "finish_reason": "stop"
+  },
+  "t": 1793842317.2727025
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance questions field spread and suggests filling straight boundaries - creator tactic/opinion, not checkable fact or future prediction. Quote verbatim, leave claim/prediction null.\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator on field placement: \\\\\\\"Isne field kyun spread kiya? Seedhi boundaries bharna tha, simple logic.\\\\\\\"\\\",\\\"card\\\":\\\"Creator on field placement: \\\\\\\"Isne field kyun spread kiya? Seedhi boundaries bharna tha, simple logic.\\\\\\\"\\\",\\\"quote\\\":\\\"Isne field kyun spread kiya? Seedhi boundaries bharna tha, simple logic.\\\",\\\"confidence\\\":\\\"high\\\",\\\"attribution\\\":\\\"creator\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 873,
+    "output_tokens": 178
+  },
+  "t": 1793808286.1004674
+}

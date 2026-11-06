@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator field opinion at 17.3, RRR 11.2 is attributed opinion not new fact or prediction; in watch mode with 3 cards already, preserve in timeline without interrupting.\",\"result_json\":\"{\\\"mode\\\": \\\"collapsed\\\", \\\"reason\\\": \\\"Tactic opinion with no claim or prediction is low-urgency attributed insight, better collapsed than interrupting watch mode.\\\", \\\"salience\\\": 0.4}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 981,
+    "output_tokens": 104
+  },
+  "t": 1793807478.5805573
+}

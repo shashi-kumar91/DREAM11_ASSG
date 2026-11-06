@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The receipt correctly identifies the events in the window (16.4-16.6), cites the correct event IDs, and does not contain spoilers. The scoreboard progression is accurate based on the event feed.\",\"result_json\":\"{\\\"approve\\\":true,\\\"reason\\\":\\\"The receipt accurately summarizes the events and scores for the specified window.\\\",\\\"must_fix\\\":\\\"none\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1130,
+    "output_tokens": 85
+  },
+  "t": 1793890444.0351539
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The creator confirmed Vikram Naidu's dismissal at 142/4, which is verified by the kernel; I will commit this as a factual insight.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"factual_claim\", \"headline\": \"Vikram Naidu dismissed\", \"body\": \"Vikram Naidu is out, leaving the score at 142/4.\", \"salience\": 0.8, \"cited_utterance_ids\": [\"u04\"], \"cited_verdict_ids\": [\"ver_7b753ff98d\"], \"tags\": [\"dismissal\", \"score_update\"]}, \"question\": null, \"options\": []}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1478,
+    "output_tokens": 160
+  },
+  "t": 1793893970.656293
+}

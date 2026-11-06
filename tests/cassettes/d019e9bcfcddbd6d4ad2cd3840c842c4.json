@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"u08 is tactic advice on spin length in death overs with no checkable digits, and critic rejected prior card only for uncited score digits.\", \"action\": \"commit\", \"reason\": \"Corrected card cites only u08, removes uncited digits, and preserves the tactic insight for surface policy to gate.\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Creator: keep spin medium length in death overs\", \"body\": \"Creator advises keeping spin at medium length in death overs, targeting the stumps low.\", \"salience\": 0.55, \"cited_utterance_ids\": [\"u08\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"tactic\", \"spin\", \"death_overs\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2172,
+    "output_tokens": 173
+  },
+  "t": 1793808272.6148376
+}

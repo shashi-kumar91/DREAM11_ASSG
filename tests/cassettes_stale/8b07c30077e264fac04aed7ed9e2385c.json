@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Verdict ver_2a0f451005 already in scratchpad: claimed 142/3 conflicts with observed 147/5 at 16.6, was score at 16.2\", \"action\": \"commit\", \"reason\": \"Verified CONFLICT exists, so commit conflict card citing utterance, event and verdict\", \"card\": {\"kind\": \"conflict\", \"insight_type\": \"factual_claim\", \"headline\": \"Creator score 142/3 conflicts with match state 147/5\", \"body\": \"Creator said 'Score 142 hai abhi, 142/3, same as before.' Verdict: claimed 142/3, observed 147/5 at 16.6; 142/3 was the score at 16.2, 4 balls earlier.\", \"salience\": 0.6, \"cited_utterance_ids\": [\"u07\"], \"cited_event_ids\": [\"evt_067\"], \"cited_verdict_ids\": [\"ver_2a0f451005\"], \"cited_tally_ids\": [], \"tags\": [\"score\", \"conflict\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2049,
+    "output_tokens": 191
+  },
+  "t": 1793806556.982047
+}

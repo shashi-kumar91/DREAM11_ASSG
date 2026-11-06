@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u10 as new rule_explanation about 2.5mm ball-tracking threshold with no checkable score claim to verify.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"rule_explanation\", \"headline\": \"Ball-tracking review threshold explained\", \"body\": \"Creator explained the review depends on ball tracking: if the edge is less than 2.5 millimeter, it is not out.\", \"salience\": 0.5, \"cited_utterance_ids\": [\"u10\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"drs\", \"ball-tracking\"]}, \"reason\": \"New attributed rule explanation worth surfacing at low salience; no verifier verdict needed for non-score claim.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2057,
+    "output_tokens": 175
+  },
+  "t": 1793809238.0066695
+}

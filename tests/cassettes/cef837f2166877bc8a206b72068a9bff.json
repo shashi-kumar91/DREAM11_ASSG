@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Window contains evt_071 16.6 wicket RUN OUT, but card claims nothing key missed and no wicket. This violates the no-false-nothing rule.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Card claims no wicket/boundary but window contains evt_071 wicket at 16.6\\\", \\\"must_fix\\\": \\\"Report the 16.6 wicket; do not claim nothing happened\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1231,
+    "output_tokens": 95
+  },
+  "t": 1793810952.2940514
+}

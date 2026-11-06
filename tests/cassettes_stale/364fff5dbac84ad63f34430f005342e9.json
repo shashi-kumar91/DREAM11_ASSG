@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Search for weather returned only u12 'Haan bhai' at 03:24 by Sunny Agarwal, with no weather content. Creator never said about weather, so no factual card can be made.\",\"result_json\":\"{\\\"insight_type\\\":\\\"filler\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator did not mention the weather in the stored transcript.\\\",\\\"confidence\\\":\\\"low\\\",\\\"evidence\\\":\\\"search_transcript weather: 1 segment u12 03:24 Sunny Agarwal (@courtside_sunny) excerpt 'Haan bhai' - no weather mention\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 924,
+    "output_tokens": 137
+  },
+  "t": 1793807610.1062841
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The card provides a tactical insight based on field placement. I need to verify if the third man is indeed up as claimed.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"The card lacks a cited event ID to verify the field placement claim.\\\", \\\"must_fix\\\": \\\"Include a cited_event_id that confirms the field placement.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 635,
+    "output_tokens": 82
+  },
+  "t": 1793894170.4064775
+}

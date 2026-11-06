@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Fan confirmed left at 16.2, so wicket [evt_068] and four [evt_069] before resume were missed; no frames checked so no clip, receipt is safest.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"\\\",\\\"why_it_matters\\\":\\\"You missed a wicket at 16.3 [evt_068] and a four at 16.4 [evt_069] while you were away.\\\",\\\"ordering\\\":\\\"receipt before live\\\",\\\"reason\\\":\\\"Boundary 16.2 confirmed by fan; material wicket and boundary in gap, no clip frame check passed\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1434,
+    "output_tokens": 135,
+    "finish_reason": "stop"
+  },
+  "t": 1793842105.6636207
+}

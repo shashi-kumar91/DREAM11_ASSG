@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"I have queried the event feed to bridge the gap between the fan's departure at 16.2 and their return at 16.6. The feed confirms three events occurred: a wicket at 16.3, a boundary at 16.4, and a run-out at 16.6. All sources are in agreement.\",\"result_json\":\"{\\\"sources\\\":[{\\\"tool\\\":\\\"query_event_feed\\\",\\\"found\\\":true,\\\"detail\\\":\\\"Events identified: 16.3 (Wicket, Vikram Naidu), 16.4 (Four, Kabir Menon), 16.6 (Run Out, Kabir Menon)\\\"}],\\\"disagreements\\\":[],\\\"coverage_ok\\\":true}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1788,
+    "output_tokens": 161
+  },
+  "t": 1793892779.166464
+}

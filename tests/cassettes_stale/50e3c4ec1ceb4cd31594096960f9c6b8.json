@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Verified 149/5 at 17.4, RRR 11.57, no wicket/review on last ball. Generic DRS threshold not tied to live event; interrupting tense chase costs attention for low urgency.\",\"result_json\":\"{\\\"mode\\\": \\\"collapsed\\\", \\\"reason\\\": \\\"Generic DRS threshold explanation with no live review during tense chase at 149/5; collapse to timeline instead of interrupting.\\\", \\\"salience\\\": 0.2}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 998,
+    "output_tokens": 106
+  },
+  "t": 1793807526.5534186
+}

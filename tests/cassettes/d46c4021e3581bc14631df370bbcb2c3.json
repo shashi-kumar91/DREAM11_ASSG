@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator cross-checked feed, frame 16.3, and commentary with no disagreements and fan confirmed leaving at 16.2, so recovery modality is now needed.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"args_json\": \"{\\\"task\\\": \\\"Choose safest useful recovery for missed 16.3-16.5 interval, resume at 16.6, never show ball at or after resume, provide one causal sentence citing event ids\\\"}\", \"reason\": \"Evidence is complete and agreed; strategist must pick modality before any receipt can be committed.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2170,
+    "output_tokens": 126,
+    "finish_reason": "stop"
+  },
+  "t": 1793844741.2630002
+}

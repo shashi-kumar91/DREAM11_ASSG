@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Feed confirms 16.3-16.6 wicket/boundary/wicket with no spoiler beyond 16.6 and frame agreed, but card's Why-it-matters causal sentence has blank citations with no [evt_id], violating citation rule.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Causal Why-it-matters sentence in card body carries no [evt_id] citations (blanks for wicket/boundary/resume point).\\\", \\\"must_fix\\\": \\\"Add [evt_068], [evt_069], [evt_071] citations to that sentence.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1449,
+    "output_tokens": 128,
+    "finish_reason": "stop"
+  },
+  "t": 1793844782.4300969
+}

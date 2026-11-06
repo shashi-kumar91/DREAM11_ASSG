@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The analyst has corrected the card body to remove the unverified digit, ensuring it aligns with the cited utterance.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"rule_explanation\", \"headline\": \"DRS Edge Detection Rule\", \"body\": \"Review ball tracking pe depend karta hai, edge ho to not out hota hai.\", \"salience\": 0.5, \"cited_utterance_ids\": [\"u10\"], \"tags\": [\"DRS\", \"rules\"]}, \"question\": null, \"options\": []}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1578,
+    "output_tokens": 123
+  },
+  "t": 1793894394.4998899
+}

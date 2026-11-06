@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The fan requested a recap of key moments for Chennai Kestrels. I have identified a wicket at [evt_068] and a boundary at [evt_069] within the requested window, so I will offer a receipt for the wicket.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"evt_068\\\",\\\"why_it_matters\\\":\\\"See the crucial breakthrough at [evt_068] that shifted the momentum for the Chennai Kestrels.\\\",\\\"ordering\\\":\\\"chronological\\\",\\\"reason\\\":\\\"The fan explicitly requested a recap of key moments, and [evt_068] is a significant wicket event within the requested interval.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 904,
+    "output_tokens": 152
+  },
+  "t": 1793892666.9150321
+}

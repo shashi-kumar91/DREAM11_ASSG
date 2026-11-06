@@ -1,0 +1,6 @@
+{
+  "text": "```json\n{\"text\": \"Isne field kyu spread kiya? Seedhi boundaries bharna tha. Simple logic.\",\n \"confidence\": 0.98,\n \"uncertain_words\": []}\n```",
+  "model": "gemini-3.5-flash",
+  "usage": {},
+  "t": 1793802456.3014796
+}

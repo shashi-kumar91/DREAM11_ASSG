@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The strategist has identified the missed events (wicket at 16.3, boundary at 16.4) and the fan requested a recap; I will now commit the receipt to the fan.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"answer\", \"headline\": \"Recap of missed interval\", \"body\": \"While you were away, a wicket fell at 16.3 [evt_072] followed by a boundary at 16.4 [evt_073].\", \"salience\": 1.0, \"cited_utterance_ids\": [\"evt_072\", \"evt_073\"], \"tags\": [\"recap\", \"wicket\", \"boundary\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1620,
+    "output_tokens": 166
+  },
+  "t": 1793892612.4863575
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need deterministic verdict on wicket/score claim; prior verifier unusable. Testing exact utterance claim against verifier before any commit.\",\"tool\":\"verify_claim\",\"args_json\":\"{\\\"claim_json\\\": \\\"{\\\\\\\"claim\\\\\\\": \\\\\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\\\\\", \\\\\\\"player\\\\\\\": \\\\\\\"Vikram Naidu\\\\\\\", \\\\\\\"event\\\\\\\": \\\\\\\"wicket\\\\\\\", \\\\\\\"score\\\\\\\": \\\\\\\"142/4\\\\\\\", \\\\\\\"over\\\\\\\": \\\\\\\"16.3\\\\\\\", \\\\\\\"utterance_id\\\\\\\": \\\\\\\"u04\\\\\\\"}\\\"} \"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 858,
+    "output_tokens": 133
+  },
+  "t": 1793805360.740994
+}

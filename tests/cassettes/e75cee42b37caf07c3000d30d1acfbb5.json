@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Speculative tactic opinion, not urgent fact; preserve attributed insight in timeline without interrupting watch mode.\",\"result_json\":\"{\\\"mode\\\": \\\"collapsed\\\", \\\"reason\\\": \\\"Speculative reverse-sweep opinion at 15.3 is not urgent or verified, so collapse to timeline\\\", \\\"salience\\\": 0.35}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1025,
+    "output_tokens": 82
+  },
+  "t": 1793808099.3880863
+}

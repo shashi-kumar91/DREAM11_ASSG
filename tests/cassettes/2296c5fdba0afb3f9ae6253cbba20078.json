@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Match state shows next_over_bowler Rohan Bedi in squad; utterance says Bedi in next over, so not current bowler Dev Kapoor.\",\"result_json\":\"{\\\"mentions\\\": [{\\\"phrase\\\": \\\"Bedi\\\", \\\"kind\\\": \\\"bowler\\\", \\\"resolved\\\": \\\"Rohan Bedi\\\", \\\"confidence\\\": 0.98}], \\\"ambiguity\\\": \\\"\\\", \\\"summary\\\": \\\"Bedi refers to next-over bowler Rohan Bedi, not current bowler Dev Kapoor.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1261,
+    "output_tokens": 105,
+    "finish_reason": "stop"
+  },
+  "t": 1793817327.6250644
+}

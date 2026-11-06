@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Window 16.6-17.2 contains evt_071 wicket at 16.6 per feed, but card claims nothing key missed and no wicket in 17.1-17.2 only, violating noop rule.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Receipt claims nothing happened/no wicket but window includes evt_071 wicket at 16.6 (147/5 RUN OUT)\\\", \\\"must_fix\\\": \\\"Do not issue noop; include 16.6 wicket in recap\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1179,
+    "output_tokens": 104,
+    "finish_reason": "stop"
+  },
+  "t": 1793842221.931538
+}

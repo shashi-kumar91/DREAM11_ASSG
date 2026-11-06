@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator found 4 material events before resume 17.4 and strategist chose receipt, but no analyst verdict exists in scratchpad yet.\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"args_json\": \"{}\", \"reason\": \"Need structured claim classification and kernel verdict before committing receipt; verifier before analyst would verify nothing.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2265,
+    "output_tokens": 85,
+    "finish_reason": "stop"
+  },
+  "t": 1793816018.5112872
+}

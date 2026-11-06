@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Fan confirmed left at 16.2 and boundary chosen=16.2, investigator returned nothing usable, so recovery modality must be chosen before any commit.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"reason\": \"Strategist chooses safest useful recovery and causal sentence citing missed events before resume 16.6.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2465,
+    "output_tokens": 81
+  },
+  "t": 1793810452.7157
+}

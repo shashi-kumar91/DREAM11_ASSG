@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Prediction: Bedi to bowl two yorkers next over. Metric corrected to yorker_count, threshold 2 from creator's 'do'. Quote creator wording on card.\",\"result_json\":\"{\\\"insight_type\\\":\\\"prediction\\\",\\\"claim\\\":null,\\\"prediction\\\":{\\\"bowler\\\":\\\"Bedi\\\",\\\"over\\\":\\\"17\\\",\\\"metric\\\":\\\"yorker_count\\\",\\\"threshold\\\":2},\\\"card_text\\\":\\\"Bedi agle over mein do yorker phenkega, main dekh raha hoon uska length.\\\",\\\"confidence\\\":0.94}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 982,
+    "output_tokens": 124
+  },
+  "t": 1793807361.0179121
+}

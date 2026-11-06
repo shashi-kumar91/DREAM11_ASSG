@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed boundary 16.2 and asked for recap, resume is 16.6, frames checked=0 so missed window needs evidence cross-check before recovery.\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"args_json\": \"{}\", \"reason\": \"Investigator should cross-check events after 16.2 and before 16.6 resume against frames/commentary to reconstruct missed interval safely.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2468,
+    "output_tokens": 95,
+    "finish_reason": "stop"
+  },
+  "t": 1793845840.0905378
+}

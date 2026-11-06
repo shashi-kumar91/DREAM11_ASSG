@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"kind\": \"final\",\n  \"thought\": \"The user wants to identify 'Bedi' in the context of the match. The tool resolve_reference identified 'Bedi' as Dev Kapoor, the current bowler, based on the context of the utterance.\",\n  \"result_json\": \"{\\\"mentions\\\": [{\\\"phrase\\\": \\\"Bedi\\\", \\\"kind\\\": \\\"bowler\\\", \\\"resolved\\\": \\\"Dev Kapoor\\\", \\\"confidence\\\": 0.9}], \\\"ambiguity\\\": \\\"\\\", \\\"summary\\\": \\\"The creator predicts Dev Kapoor will bowl two yorkers in the next over.\\\"}\"\n}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 753,
+    "output_tokens": 127
+  },
+  "t": 1793893974.2008405
+}

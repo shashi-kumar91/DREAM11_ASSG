@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The creator is making a prediction about the next over. I need to resolve 'Bedi' to a player and then log the prediction.\", \"action\": \"dispatch\", \"agent\": \"perceiver\", \"tool\": \"resolve_reference\", \"args_json\": \"{\\\"phrase\\\": \\\"Bedi\\\", \\\"kind_hint\\\": \\\"player\\\"}\", \"reason\": \"Identify who 'Bedi' refers to in the current match context to accurately log the prediction.\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1294,
+    "output_tokens": 99
+  },
+  "t": 1793893972.486056
+}

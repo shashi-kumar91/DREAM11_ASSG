@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify utterance u05 text and timestamp vs card claim\",\"tool\":\"recall_utterance\",\"args_json\":\"{\\\"utterance_id\\\":\\\"u05\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 930,
+    "output_tokens": 44,
+    "finish_reason": "stop"
+  },
+  "t": 1793817448.7713566
+}

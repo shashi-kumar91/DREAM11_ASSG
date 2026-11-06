@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Feed shows evt_071 wicket at 16.6 inside cited 16.6-17.2 window, contradicting card's no-wicket/nothing-happened claim.\",\"result_json\":\"{\\\"approve\\\":false,\\\"reason\\\":\\\"Card claims no wicket/boundary and nothing happened, but window contains wicket evt_071 at 16.6.\\\",\\\"must_fix\\\":\\\"Acknowledge 16.6 wicket or narrow window to 17.1-17.2 and remove evt_071.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1172,
+    "output_tokens": 104,
+    "finish_reason": "stop"
+  },
+  "t": 1793815884.5635123
+}

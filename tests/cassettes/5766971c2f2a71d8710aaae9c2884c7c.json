@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The fan confirmed they left at 16.2 and missed the wicket at 16.3 and the boundary at 16.4, so I will now commit the receipt.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Recap of missed action\", \"body\": \"While you were away, Vikram Naidu was bowled at 16.3 [evt_068], followed by a boundary from Kabir Menon at 16.4 [evt_069].\", \"salience\": 1.0, \"cited_utterance_ids\": [], \"cited_event_ids\": [\"evt_068\", \"evt_069\"], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"wicket\", \"boundary\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 2108,
+    "output_tokens": 193
+  },
+  "t": 1793892780.2102878
+}

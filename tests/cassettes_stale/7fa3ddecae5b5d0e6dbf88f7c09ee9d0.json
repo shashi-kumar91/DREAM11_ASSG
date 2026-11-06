@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst extraction left player/wickets null and verdict is UNVERIFIABLE, but verifier notes match state aligns on Vikram Naidu out and 142/4.\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"reason\": \"Re-extract structured claim with named player and score from u04 so kernel can verify it; previous null extraction produced no checkable claim.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2217,
+    "output_tokens": 88
+  },
+  "t": 1793805821.5073535
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Recall of u12 gives full weather statement by Sunny Agarwal at 03:24, fixing critic rejection of partial quote.\", \"action\": \"commit\", \"card\": {\"kind\": \"query_answer\", \"insight_type\": \"answer\", \"headline\": \"Sunny Agarwal on weather at 03:24\", \"body\": \"At 03:24, Sunny Agarwal (@courtside_sunny) said: \\\"Haan bhai, aaj rain ka koi risk nahi, poora clear sky hai.\\\"\", \"salience\": 0.9, \"cited_utterance_ids\": [\"u12\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"weather\", \"query_answer\"]}, \"reason\": \"Directly answers fan query from verbatim attributed transcript u12, as critic required.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2197,
+    "output_tokens": 168
+  },
+  "t": 1793807654.0610971
+}

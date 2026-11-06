@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Verdict says no checkable claim, but utterance names player out and score. Need match state to test.\",\"tool\":\"get_match_state\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1044,
+    "output_tokens": 47
+  },
+  "t": 1793805805.8965669
+}

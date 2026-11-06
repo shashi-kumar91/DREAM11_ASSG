@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Match state lists next_over_bowler Rohan Bedi and only one Bedi in squad; current bowler is Dev Kapoor, so Bedi is next-over bowler, unambiguous.\",\"result_json\":\"{\\\"mentions\\\": [{\\\"phrase\\\": \\\"Bedi\\\", \\\"kind\\\": \\\"bowler\\\", \\\"resolved\\\": \\\"Rohan Bedi\\\", \\\"confidence\\\": 0.98}, {\\\"phrase\\\": \\\"agle over\\\", \\\"kind\\\": \\\"over\\\", \\\"resolved\\\": \\\"17\\\", \\\"confidence\\\": 0.9}], \\\"ambiguity\\\": \\\"\\\", \\\"summary\\\": \\\"Bedi resolved to Rohan Bedi, next over bowler.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1069,
+    "output_tokens": 131
+  },
+  "t": 1793809017.34457
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator suggests reverse sweep is possible given field with third man up. This is tactical opinion, not a checkable fact or future bet, so quote verbatim and leave claim/prediction null.\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"card_text\\\":\\\"Creator: \\\\\\\"Yeh banda ab reverse sweep try kar sakta hai, field dekho, third man up hai.\\\\\\\"\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"confidence\\\":0.9,\\\"source_utterance_id\\\":\\\"u02\\\",\\\"spoken_at\\\":\\\"00:24\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 869,
+    "output_tokens": 129
+  },
+  "t": 1793807206.115062
+}

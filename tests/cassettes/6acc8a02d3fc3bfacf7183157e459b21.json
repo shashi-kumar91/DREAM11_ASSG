@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance u09 matches card quote and meaning; card frames it as creator opinion not match fact, no digits or future events, attribution via Creator and citation present.\",\"result_json\":\"{\\\"approve\\\": true, \\\"reason\\\": \\\"Card accurately reflects cited utterance as creator opinion with attribution.\\\", \\\"must_fix\\\": \\\"\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 826,
+    "output_tokens": 88
+  },
+  "t": 1793808296.282852
+}

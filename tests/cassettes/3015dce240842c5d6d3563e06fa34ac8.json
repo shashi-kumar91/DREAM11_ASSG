@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify cited utterance u08 supports creator tip claim\",\"tool\":\"recall_utterance\",\"args_json\":\"{\\\"utterance_id\\\":\\\"u08\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 762,
+    "output_tokens": 42,
+    "finish_reason": "stop"
+  },
+  "t": 1793817369.0871246
+}

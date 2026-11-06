@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The receipt claims no wicket occurred, but the event feed confirms a wicket at 16.6 (evt_071). This violates the rule requiring accurate reporting of wickets.\",\"result_json\":\"{\\\"approve\\\":false,\\\"reason\\\":\\\"The receipt incorrectly claims no wicket occurred, but evt_071 was a wicket at 16.6.\\\",\\\"must_fix\\\":\\\"Acknowledge the wicket at 16.6 instead of claiming nothing happened.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1067,
+    "output_tokens": 106
+  },
+  "t": 1793890365.4013007
+}

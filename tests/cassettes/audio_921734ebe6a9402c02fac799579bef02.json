@@ -1,0 +1,6 @@
+{
+  "text": "```json\n{\n  \"text\": \"Score 142 hai abhi. 142 for 3, same as before.\",\n  \"confidence\": 0.95,\n  \"uncertain_words\": []\n}\n```",
+  "model": "gemini-3.5-flash",
+  "usage": {},
+  "t": 1793802440.1907523
+}

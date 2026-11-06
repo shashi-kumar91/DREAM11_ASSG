@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Investigator coverage_ok with no disagreements and strategist chose receipt for evt_068/evt_069 before resume evt_071\", \"action\": \"commit\", \"reason\": \"Receipt is safest useful recovery after clip refused, covering missed wicket and four without showing resume ball\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"You missed a wicket and a four before resuming\", \"body\": \"Receipt for the missed balls [evt_068] [evt_069]: a wicket fell and a four was scored in the gap before your resume position, so this text receipt covers both without showing the resume ball.\", \"salience\": 0.85, \"cited_event_ids\": [\"evt_068\", \"evt_069\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"receipt\", \"missed_interval\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2340,
+    "output_tokens": 200
+  },
+  "t": 1793810892.5834641
+}

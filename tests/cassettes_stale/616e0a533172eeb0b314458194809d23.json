@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u09 as tactic opinion with no factual claim to verify, so attention value needs checking before any card.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"reason\": \"Tactic opinion at 17.3 with RRR 11.2 may be worth surfacing, but strategist should assess fan attention value first.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1969,
+    "output_tokens": 79
+  },
+  "t": 1793807466.657947
+}

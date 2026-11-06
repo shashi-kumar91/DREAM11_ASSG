@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u04 as factual_claim but kernel verdict is UNVERIFIABLE with no checkable claim, while match state shows Vikram Naidu as striker at 142/4 contradicting 'out' claim.\", \"action\": \"dispatch\", \"agent\": \"verifier\", \"reason\": \"Adversarially test the UNVERIFIABLE verdict and the out-vs-striker conflict against event feed before any commit.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2034,
+    "output_tokens": 91
+  },
+  "t": 1793805638.4262319
+}

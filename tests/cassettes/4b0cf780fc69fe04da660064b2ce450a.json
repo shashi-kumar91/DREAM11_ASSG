@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"u04 wicket/score 142/4 at 16.3 has CONFIRMED verdict ver_7b753ff98d and analyst factual_claim, ready to commit.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"factual_claim\", \"headline\": \"Vikram Naidu out \u2014 142/4 at 16.3 overs\", \"body\": \"Creator said Vikram Naidu out ho gaye, score 142/4. Kernel verdict CONFIRMED matches live feed at 16.3 overs (evt_068), target 176.\", \"salience\": 0.8, \"cited_utterance_ids\": [\"u04\"], \"cited_event_ids\": [\"evt_068\"], \"cited_verdict_ids\": [\"ver_7b753ff98d\"], \"cited_tally_ids\": [], \"tags\": [\"wicket\", \"score\"]}, \"reason\": \"Verified material wicket update worth fan attention; verdict and analyst claim already exist.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2167,
+    "output_tokens": 180,
+    "finish_reason": "stop"
+  },
+  "t": 1793817281.8034244
+}

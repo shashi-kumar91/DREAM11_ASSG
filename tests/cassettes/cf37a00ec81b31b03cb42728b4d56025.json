@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The receipt claims no wicket occurred, but the investigator found a wicket at 16.6 (evt_071). The receipt is factually incorrect.\",\"result_json\":\"{\\\"approve\\\":false,\\\"reason\\\":\\\"The receipt incorrectly claims no wicket occurred, but a wicket (evt_071) happened at 16.6.\\\",\\\"must_fix\\\":\\\"Correct the claim that no wicket occurred.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 936,
+    "output_tokens": 95
+  },
+  "t": 1793892378.998676
+}

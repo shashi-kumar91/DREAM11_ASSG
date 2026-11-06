@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Cross-check clamped events against commentary before final evidence report; frames already returned not found.\",\"tool\":\"search_commentary\",\"args_json\":\"{\\\"query\\\":\\\"FOUR WICKET Kabir Menon Vikram Naidu\\\",\\\"limit\\\":10}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1275,
+    "output_tokens": 66,
+    "finish_reason": "stop"
+  },
+  "t": 1793845389.649177
+}

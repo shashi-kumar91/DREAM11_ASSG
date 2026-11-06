@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Cross-checked 16.6-17.2: feed, frame pixels, and commentary all agree 147/5 at 16.6; only missed ball before resume is 17.1 dot, no key action.\",\"result_json\":\"{\\\"sources\\\": [{\\\"tool\\\": \\\"query_event_feed\\\", \\\"found\\\": true, \\\"detail\\\": \\\"3 events clamped at 17.2: evt_071 16.6 wicket RUN OUT 147/5 rrr 9.67, evt_072 17.1 dot 147/5, evt_073 17.2 dot 147/5; material_count=1 is 16.6 already rendered\\\"}, {\\\"tool\\\": \\\"inspect_frame\\\", \\\"found\\\": true, \\\"detail\\\": \\\"frm_16_6 pixels read score 147/5 over 16.6 rrr 9.67, agrees=true with feed evt_071\\\"}, {\\\"tool\\\": \\\"search_commentary\\\", \\\"found\\\": true, \\\"detail\\\": \\\"4 lines match feed: 16.6 RUN OUT, 17.1 dot perfect yorker, 17.2 dot blocked, all 147/5; no conflicting commentary\\\"}], \\\"disagreements\\\": [], \\\"coverage_ok\\\": true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1317,
+    "output_tokens": 222
+  },
+  "t": 1793810482.7278626
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"u06 classified as new tactic insight with no factual verdict needed, so attention value must be checked before any card.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"reason\": \"Strategist decides if attributed reverse-sweep tactic is worth fan attention at 15.6 before committing.\", \"tool\": null, \"args_json\": \"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1967,
+    "output_tokens": 85
+  },
+  "t": 1793807266.4161942
+}

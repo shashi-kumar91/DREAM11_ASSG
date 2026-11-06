@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Ledger rejected analyst's Kapoor prediction: bowler_not_bowling_next_over Dev Kapoor!=Rohan Bedi, so perceiver's Bedi->Kapoor resolution is wrong.\", \"action\": \"dispatch\", \"agent\": \"perceiver\", \"reason\": \"Re-resolve Bedi correctly to Rohan Bedi before any analyst claim or commit can be valid.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2150,
+    "output_tokens": 79
+  },
+  "t": 1793808198.4494128
+}

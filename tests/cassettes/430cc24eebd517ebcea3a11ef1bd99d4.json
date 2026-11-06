@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Tactical suggestion about reverse sweep based on field placement, not a checkable score or definite future bet. Quote creator verbatim, no invented claim/prediction numbers.\",\"tool\":null,\"args_json\":\"{}\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"card_text\\\":\\\"Yeh banda ab reverse sweep try kar sakta hai, field dekho, third man up hai.\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"confidence\\\":0.94,\\\"source_utterance_id\\\":\\\"u02\\\",\\\"spoken_at\\\":\\\"00:24\\\",\\\"is_filler\\\":false}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 875,
+    "output_tokens": 138
+  },
+  "t": 1793808898.9303355
+}

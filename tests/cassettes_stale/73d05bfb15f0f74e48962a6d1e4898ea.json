@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is a checkable weather claim in creator's own words, not a prediction or opinion. Quote verbatim, no numbers to ground, no tool needed as match_state already supplied.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":\\\"Haan bhai, aaj rain ka koi risk nahi, poora clear sky hai.\\\",\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator: \\\\\\\"Haan bhai, aaj rain ka koi risk nahi, poora clear sky hai.\\\\\\\"\\\",\\\"confidence\\\":0.94}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 861,
+    "output_tokens": 124
+  },
+  "t": 1793807562.115918
+}

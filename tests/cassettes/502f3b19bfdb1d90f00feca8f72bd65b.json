@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u02 as new tactic and strategist rated it collapsed at 0.45, so commit without numbers to avoid prior unlicensed_number rejection.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Creator suggests reverse sweep option\", \"body\": \"Creator opinion: batter could try a reverse sweep, noting third man is up in the field. Attributed tactic suggestion, not a confirmed event.\", \"salience\": 0.45, \"cited_utterance_ids\": [\"u02\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"tactic\", \"reverse sweep\"]}, \"reason\": \"Real attributed tactic insight, not interruption-worthy per strategist; commit for policy demotion with no unlicensed numbers.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2176,
+    "output_tokens": 187
+  },
+  "t": 1793808948.6345124
+}

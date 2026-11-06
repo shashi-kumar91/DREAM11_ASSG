@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Test UNVERIFIABLE: recall exact utterance to check claim wording vs scratchpad empty raw_phrase.\",\"tool\":\"recall_utterance\",\"args_json\":\"{\\\"utterance_id\\\":\\\"u04\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 984,
+    "output_tokens": 54
+  },
+  "t": 1793805641.1011868
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"S2 gap confirmed with boundary 16.6 conf 0.9 and resume 17.2, investigator found nothing usable, and kernel vetoes skip requiring a receipt/no-op commit.\", \"action\": \"commit\", \"reason\": \"No key action was missed in the 12s stall, so an explicit no-op receipt is the safe successful outcome without inventing a boundary or showing post-resume content.\", \"card\": {\"kind\": \"noop\", \"insight_type\": null, \"headline\": \"No key action missed during the stall\", \"body\": \"Playback stalled after the last rendered ball at 16.6 and resumed at 17.2. The missed interval contained no key action worth recovering, so no clip or replay is offered.\", \"salience\": 0.3, \"cited_utterance_ids\": [], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"buffer\", \"noop\", \"S2\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2002,
+    "output_tokens": 199
+  },
+  "t": 1793810498.2875996
+}

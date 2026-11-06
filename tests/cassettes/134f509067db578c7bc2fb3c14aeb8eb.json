@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Evidence gathered from feed, frame pixels, and commentary before resume; all agree on 16.3 wicket 142/4, no disagreements to report.\",\"result_json\":\"{\\\"sources\\\": [{\\\"tool\\\": \\\"query_event_feed\\\", \\\"found\\\": true, \\\"detail\\\": \\\"Feed clamped at 16.6 returned events from 16.2; before resume: 16.2 142/3 1 run, 16.3 wicket 142/4, 16.4 FOUR 146/4, 16.5 dot 146/4. Material count 3.\\\"}, {\\\"tool\\\": \\\"inspect_frame\\\", \\\"found\\\": true, \\\"detail\\\": \\\"Frame frm_16_3 at 16.3 pixels read 142/4 RRR 9.71, agrees with feed score 142/4 at 16.3.\\\"}, {\\\"tool\\\": \\\"search_commentary\\\", \\\"found\\\": true, \\\"detail\\\": \\\"Commentary in window includes 16.3 WICKET Vikram Naidu bowled, score 142/4, matching feed and frame.\\\"}], \\\"disagreements\\\": [], \\\"coverage_ok\\\": true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1460,
+    "output_tokens": 210,
+    "finish_reason": "stop"
+  },
+  "t": 1793815729.827372
+}

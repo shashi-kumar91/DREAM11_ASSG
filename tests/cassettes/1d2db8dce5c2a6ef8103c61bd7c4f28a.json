@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The receipt body contains causal sentences describing events (boundaries and wickets) but fails to include the required [evt_id] citations for these events, as noted in the scratchpad.\",\"result_json\":\"{\\\"approve\\\":false,\\\"reason\\\":\\\"Causal sentences in the body lack [evt_id] citations.\\\",\\\"must_fix\\\":\\\"Add [evt_id] citations to each event description in the body.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1100,
+    "output_tokens": 93
+  },
+  "t": 1793893928.027294
+}

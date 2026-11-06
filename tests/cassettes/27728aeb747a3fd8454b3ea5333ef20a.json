@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Digits 17.3, 148/5, 176 not in cited utterance u09; need feed to verify if supported or beyond playback.\",\"tool\":\"query_event_feed\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 940,
+    "output_tokens": 48,
+    "finish_reason": "stop"
+  },
+  "t": 1793817420.6240597
+}

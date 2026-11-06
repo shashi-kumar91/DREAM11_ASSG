@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Verdict ver_93682db37a is UNVERIFIABLE with unparsed 142/3 claim vs match state 147/5 at 16.6, so no commit is safe yet.\", \"action\": \"dispatch\", \"agent\": \"verifier\", \"reason\": \"Analyst claim had null runs/wickets so kernel could not check it; verifier should test a structured 142/3 claim against match state/feed before any card.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2032,
+    "output_tokens": 87
+  },
+  "t": 1793806006.3264203
+}

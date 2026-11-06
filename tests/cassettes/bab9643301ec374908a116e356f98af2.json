@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Feed shows evt_071 at 16.6 is the resume cursor; including it is a spoiler at/after resume. Fan boundary 16.1 was asked/confirmed, but receipt must exclude evt_071.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Receipt includes evt_071 at 16.6, the fan resume position, which is a spoiler at/after resume.\\\", \\\"must_fix\\\": \\\"Exclude evt_071/16.6; limit window to events before resume (16.3-16.4) per fan-confirmed 16.1 boundary.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1678,
+    "output_tokens": 123,
+    "finish_reason": "stop"
+  },
+  "t": 1793866076.8147907
+}

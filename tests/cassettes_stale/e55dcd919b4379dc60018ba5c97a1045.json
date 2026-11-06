@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The creator made a specific prediction about 'Bedi' bowling two yorkers in the next over; I need to identify 'Bedi' and classify this as a prediction.\", \"action\": \"dispatch\", \"agent\": \"perceiver\", \"tool\": \"resolve_reference\", \"args_json\": \"{\\\"phrase\\\": \\\"Bedi\\\", \\\"kind_hint\\\": \\\"player\\\"}\", \"reason\": \"Identify the player 'Bedi' mentioned in the utterance to ground the prediction.\"}",
+  "model": "gemini-3-flash-preview",
+  "usage": {
+    "prompt_tokens": 1183,
+    "output_tokens": 103
+  },
+  "t": 1793803895.1144927
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Feed and match state both show wicket for Vikram at 142/4, but recall_utterance failed so exact wording unverified. Need deterministic verifier on out/score claim.\",\"tool\":\"verify_claim\",\"args_json\":\"{\\\"claim_json\\\":\\\"{\\\\\\\"utterance_id\\\\\\\":\\\\\\\"u04\\\\\\\",\\\\\\\"text\\\\\\\":\\\\\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\\\\\",\\\\\\\"claim_type\\\\\\\":\\\\\\\"fact\\\\\\\",\\\\\\\"player\\\\\\\":\\\\\\\"Vikram Naidu\\\\\\\",\\\\\\\"event\\\\\\\":\\\\\\\"out\\\\\\\",\\\\\\\"score\\\\\\\":\\\\\\\"142/4\\\\\\\",\\\\\\\"over\\\\\\\":\\\\\\\"16.3\\\\\\\"}\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1243,
+    "output_tokens": 149
+  },
+  "t": 1793805341.7441218
+}

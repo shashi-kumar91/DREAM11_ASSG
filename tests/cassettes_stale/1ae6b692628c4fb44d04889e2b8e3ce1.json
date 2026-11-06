@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"u04 claims Vikram Naidu out at 142/4 but match_state still lists him as striker at 16.3 and no verdict exists in scratchpad.\", \"action\": \"dispatch\", \"agent\": \"verifier\", \"tool\": null, \"args_json\": \"{}\", \"reason\": \"Factual wicket/score claim needs deterministic verdict before any commit; prior verifier returned nothing usable.\", \"card\": null, \"question\": null, \"options\": []}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1789,
+    "output_tokens": 99
+  },
+  "t": 1793805351.55776
+}

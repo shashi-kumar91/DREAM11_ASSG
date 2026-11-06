@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator confirms only a 17.1 dot ball was missed between 16.6 and resume 17.2, with no key action to recover.\", \"action\": \"skip\", \"reason\": \"Buffer stall over a dot ball only; no-op is the successful outcome and nothing is interruption-worthy.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2110,
+    "output_tokens": 66,
+    "finish_reason": "stop"
+  },
+  "t": 1793842182.3423347
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The fan explicitly requested a recap of everything missed since 16.2, and the telemetry confirms a wicket at 16.3 and a boundary at 16.4 occurred during the ad gap.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"answer\", \"headline\": \"Recap of missed events\", \"body\": \"While you were away, Vikram Naidu was bowled at 16.3 [evt_068], followed by a boundary from Kabir Menon at 16.4 [evt_069].\", \"salience\": 1.0, \"cited_event_ids\": [\"evt_068\", \"evt_069\"], \"tags\": [\"recap\", \"wicket\", \"boundary\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 2081,
+    "output_tokens": 172
+  },
+  "t": 1793892763.761784
+}

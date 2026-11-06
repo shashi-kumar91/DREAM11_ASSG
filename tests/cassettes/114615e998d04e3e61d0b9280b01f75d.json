@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Feed and frame agree on 16.6; need commentary cross-check for 16.6-17.2 window before final evidence report.\",\"tool\":\"search_commentary\",\"args_json\":\"{\\\"query\\\":\\\"17.1\\\",\\\"limit\\\":5}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1183,
+    "output_tokens": 61,
+    "finish_reason": "stop"
+  },
+  "t": 1793815802.846701
+}

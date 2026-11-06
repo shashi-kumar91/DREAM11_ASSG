@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Card faithfully translates cited utterance u08 (Hindi tactic tip on medium length spin in death overs, low at stumps). No digits, no match-fact/prediction miswording, no uncited events, creator attribution present via citation and wording.\",\"result_json\":\"{\\\"approve\\\": true, \\\"reason\\\": \\\"Matches cited utterance u08 with creator attribution and no unsupported digits or events.\\\", \\\"must_fix\\\": \\\"\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 813,
+    "output_tokens": 107,
+    "finish_reason": "stop"
+  },
+  "t": 1793817375.5560613
+}

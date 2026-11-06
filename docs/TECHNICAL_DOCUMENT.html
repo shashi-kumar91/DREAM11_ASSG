@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>FanCode Gap Receipt and Dream11 Watch Along - Technical Document</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <style>
+/* Print styling for the technical document: the ASCII architecture diagram has to survive the
+   page width, and the guardrail tables have to stay readable in a PDF a reviewer skims. */
+@page {
+  size: A4;
+  margin: 16mm 14mm;
+}
+
+body {
+  max-width: none;
+  font-size: 10.5pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+}
+
+h1 { font-size: 19pt; }
+h2 { font-size: 14pt; border-bottom: 1px solid #d8d8d8; page-break-after: avoid; }
+h3 { font-size: 11.5pt; page-break-after: avoid; }
+
+pre, code {
+  font-family: "Cascadia Mono", Consolas, "DejaVu Sans Mono", monospace;
+  font-size: 8.6pt;
+}
+
+pre {
+  white-space: pre-wrap;          /* a 100-column diagram must not be clipped by the page */
+  overflow-wrap: break-word;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  padding: 8px 10px;
+  background: #fbfbfb;
+  page-break-inside: avoid;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 9.2pt;
+  page-break-inside: avoid;
+}
+
+th, td {
+  border: 1px solid #cfcfcf;
+  padding: 4px 7px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th { background: #f1f1f1; }
+
+blockquote { border-left: 3px solid #d8d8d8; margin-left: 0; padding-left: 14px; color: #444; }
+a { color: #1a1a1a; text-decoration: none; }
+hr { border: none; border-top: 1px solid #d8d8d8; }
+
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">FanCode Gap Receipt and Dream11 Watch Along -
+Technical Document</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#fancode-gap-receipt-dream11-watch-along"
+id="toc-fancode-gap-receipt-dream11-watch-along">FanCode Gap Receipt
+&amp; Dream11 Watch Along</a>
+<ul>
+<li><a
+href="#a-bounded-multi-agent-system-for-what-a-fan-actually-loses-during-a-live-match"
+id="toc-a-bounded-multi-agent-system-for-what-a-fan-actually-loses-during-a-live-match">A
+bounded multi-agent system for what a fan actually loses during a live
+match</a></li>
+<li><a href="#the-fan-problem" id="toc-the-fan-problem">1. The fan
+problem</a></li>
+<li><a href="#the-product" id="toc-the-product">2. The product</a></li>
+<li><a href="#architecture" id="toc-architecture">3.
+Architecture</a></li>
+<li><a href="#the-central-design-rule-the-model-proposes-code-commits"
+id="toc-the-central-design-rule-the-model-proposes-code-commits">4. The
+central design rule: the model proposes, code commits</a></li>
+<li><a href="#multi-agent-mechanics" id="toc-multi-agent-mechanics">5.
+Multi-agent mechanics</a></li>
+<li><a href="#the-evidence-chain-in-pack-b-step-by-step"
+id="toc-the-evidence-chain-in-pack-b-step-by-step">6. The evidence chain
+in Pack B, step by step</a></li>
+<li><a href="#ai-tools-and-models" id="toc-ai-tools-and-models">7. AI
+tools and models</a></li>
+<li><a href="#deterministic-replay-the-cassettes"
+id="toc-deterministic-replay-the-cassettes">8. Deterministic replay: the
+cassettes</a></li>
+<li><a href="#product-surface-http-sse-and-bytes-the-server-counts"
+id="toc-product-surface-http-sse-and-bytes-the-server-counts">9. Product
+surface: HTTP, SSE, and bytes the server counts</a></li>
+<li><a href="#evaluation-and-proof" id="toc-evaluation-and-proof">10.
+Evaluation and proof</a></li>
+<li><a href="#limits-cost-and-what-changes-in-production"
+id="toc-limits-cost-and-what-changes-in-production">11. Limits, cost,
+and what changes in production</a></li>
+<li><a href="#running-it" id="toc-running-it">12. Running it</a></li>
+<li><a href="#what-this-design-is-for"
+id="toc-what-this-design-is-for">13. What this design is for</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="fancode-gap-receipt-dream11-watch-along">FanCode Gap Receipt
+&amp; Dream11 Watch Along</h1>
+<h2
+id="a-bounded-multi-agent-system-for-what-a-fan-actually-loses-during-a-live-match">A
+bounded multi-agent system for what a fan actually loses during a live
+match</h2>
+<p>Technical document — <code>dre11new</code>, November 2026. Everything
+below describes code that is in this repository. File paths, function
+names and measured numbers are real; where a claim is an intention
+rather than an implementation it says so.</p>
+<hr />
+<h2 id="the-fan-problem">1. The fan problem</h2>
+<p>A cricket fan on a phone during a live match fails in two very
+different ways, and this submission ships an artifact for each.</p>
+<p><strong>Failure one: the interval that disappears.</strong> An ad
+lands on top of a chase, the stream stalls for eleven seconds, or the
+fan joins at 15.1 because the commute did. They come back to a score
+that has moved and a situation they cannot read. Today they have exactly
+three bad options: scroll a commentary timeline that is 200 lines of
+text, watch a highlight reel that <strong>spoils the very ball they
+missed</strong>, or ask a chatbot that confidently invents “India needed
+27 off 14” from a match it never saw. The information they need is tiny
+— <em>which balls, what happened, what is the situation now</em> — and
+the cost of getting it wrong is not neutral: a wrong required rate
+changes what a fan does on Dream11 that minute, and a spoiler ruins the
+ball they were about to watch.</p>
+<p><strong>Failure two: the creator claim nobody checks.</strong>
+Dream11’s engagement motion is creator-led video. A creator says “Kohli
+has 3 fours in this over, this is a must-watch chase” and 40,000 fans
+repeat it as fact. The platform knows the true ball-by-ball numbers and
+has no way to put them next to the claim at the moment the claim is
+made. And every engagement mechanic that sends a fan to video to find
+one number charges them data they never agreed to spend.</p>
+<p>Both are the same engineering problem wearing two hats: <strong>a
+language model is being asked to describe a live match, and a language
+model is not a scoreboard.</strong> The answer is not a better prompt.
+It is a system where the model’s agency is real but bounded, and every
+fact on the screen is licensed by evidence the code itself can point
+at.</p>
+<hr />
+<h2 id="the-product">2. The product</h2>
+<p>One kernel, two packs, one deployment. A fan opens a link, picks a
+scenario, and watches an agent work; a toggle opens the <strong>jury
+pane</strong> that shows every model turn, tool call, budget line and
+refusal the run produced.</p>
+<p><strong>Pack B — FanCode Gap Receipt</strong>
+(<code>backend/packs/gap/</code>). The fan returns from an interruption.
+The system estimates <em>where they lost the stream</em> from their own
+player heartbeat log, decides (deterministically) whether one question
+to the fan would actually change the answer, reconstructs only the
+missed interval with evidence, and commits a <strong>receipt</strong>:
+the balls, the score change, the required-rate shift, what the
+scoreboard pixels said, an optional 12-second clip that loads only on
+tap — and a hard guarantee that nothing at or after their resume
+position is ever shown. If nothing key was missed, the receipt is an
+explicit no-op. Silence is not an available outcome.</p>
+<p><strong>Pack A — Dream11 Watch Along</strong>
+(<code>backend/packs/creator/</code>). A creator’s Hinglish audio is
+transcribed, resolved (“<em>yeh over</em>”), classified, and each claim
+is checked against the feed the fan has already seen. Verified claims
+become verified cards; contradictions become conflict cards showing both
+the claim and the feed; predictions are logged in a ledger that settles
+only against balls that have actually been bowled.</p>
+<p>The two packs share the kernel, the schemas, the commit gate, the
+cassette store, the trace format and the HTTP surface — they differ in
+epistemics. Pack A verifies a claim that already exists; Pack B has to
+<em>establish what the fan did not see</em> from a player log that may
+be lying.</p>
+<hr />
+<h2 id="architecture">3. Architecture</h2>
+<pre><code>                        ┌──────────────────────────────────────────────┐
+ browser (React/Vite)   │  FastAPI  backend/app/server.py  (1025 LOC)   │
+ /creator  /gap ───────▶│  POST /api/session   GET  .../events   (SSE)  │
+   ▲                    │  POST /api/session/{id}/answer               │
+   │ card frames        │  POST /api/session/{id}/interrupt            │
+   │ trace frames       │  GET  /api/session/{id}/trace                │
+   │ byte graph         │  GET  /api/media/clip/{event_id}  ◀── ByteMeter│
+   └────────────────────┴───────────────┬──────────────────────────────┘
+                                       │ one run thread per session
+                            ┌──────────▼───────────┐
+                            │  GapSession /         │   pack layer
+                            │  CreatorSession       │   (domain, guardrails,
+                            │  + Hooks              │    templates, commit rules)
+                            └──────────┬───────────┘
+                 ┌─────────────────────┼──────────────────────┐
+                 ▼                     ▼                      ▼
+      ┌────────────────────┐ ┌──────────────────┐ ┌───────────────────────┐
+      │ Orchestrator       │ │ ToolRegistry     │ │ commit()              │
+      │ supervisor loop    │ │ capability scoping│ │ digit licensing       │
+      │ 557 LOC            │ │ + clamped feed    │ │ truth label by code   │
+      └─────────┬──────────┘ └──────────────────┘ └───────────────────────┘
+                ▼
+      ┌────────────────────────────────────────────┐
+      │ LLM transport: OpenRouterLLM │ GeminiLLM   │  every turn through a
+      │ content-addressed Cassette (record/replay) │  content-addressed cassette
+      └────────────────────────────────────────────┘</code></pre>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>layer</th>
+<th>files</th>
+<th>responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>kernel</td>
+<td><code>backend/kernel/orchestrator.py</code> (557),
+<code>registry.py</code> (155), <code>commit.py</code> (158),
+<code>llm.py</code> (332), <code>openrouter.py</code> (244),
+<code>schemas.py</code> (386), <code>trace.py</code> (52),
+<code>clamp.py</code> (88)</td>
+<td>agency mechanics, capability scoping, evidence licensing, replay,
+budgeting</td>
+</tr>
+<tr>
+<td>pack B</td>
+<td><code>backend/packs/gap/session.py</code> (528),
+<code>boundary.py</code>, <code>voi.py</code>, <code>receipt.py</code>
+(201), <code>guardrails.py</code>, <code>ocr.py</code> (148),
+<code>rates.py</code>, <code>tools.py</code> (244),
+<code>agents.py</code> (124), <code>domain.py</code></td>
+<td>where the gap is, whether to ask, what the receipt may contain</td>
+</tr>
+<tr>
+<td>pack A</td>
+<td><code>backend/packs/creator/session.py</code> (619),
+<code>verify.py</code> (289), <code>predictions.py</code> (227),
+<code>templates.py</code> (107), <code>tools.py</code> (249),
+<code>agents.py</code> (117)</td>
+<td>what the creator claimed and what the feed says about it</td>
+</tr>
+<tr>
+<td>transport</td>
+<td><code>backend/app/server.py</code> (1025),
+<code>backend/metering/bytes.py</code> (131),
+<code>backend/adapters/asr.py</code></td>
+<td>SSE journal, blocking asks, byte metering, run modes</td>
+</tr>
+<tr>
+<td>evidence</td>
+<td><code>backend/fixtures/</code>,
+<code>backend/packs/*/domain.py</code>,
+<code>tests/cassettes/</code></td>
+<td>fixture feed, player telemetry, scoreboard frames, recorded model
+turns</td>
+</tr>
+</tbody>
+</table>
+<p>The backend is 10,105 lines of Python across 60 files
+(<code>backend/**/*.py</code>); with <code>tests/</code> and
+<code>evals/</code> the repo is 13,868 lines. The full suite runs with
+no network: <strong>252 passed, 1 xfailed in 3.87 s</strong>
+(<code>python -m pytest tests -q --durations=3</code>; the single
+slowest test is 0.45 s, so nothing here waits on a provider — and the
+xfail is the deliberate one described in §6 and §10, not a regression).
+The React front end is built and committed: <code>frontend/dist/</code>
+holds <code>index.html</code> (483 B), one hashed JS/CSS pair and the
+creator WAV set, and FastAPI serves it at <code>/</code>.</p>
+<hr />
+<h2 id="the-central-design-rule-the-model-proposes-code-commits">4. The
+central design rule: the model proposes, code commits</h2>
+<blockquote>
+<p><strong>The LLM decides <em>what to look at</em> and <em>what it
+means</em>. Deterministic code decides <em>what is true</em>, <em>what
+it is called</em>, <em>how it is worded</em> and <em>whether it may be
+shown at all</em>.</strong></p>
+</blockquote>
+<p>This is not a safety slogan; it is a set of concrete seams, each in a
+named file.</p>
+<p><strong>Numbers are licensed, not written.</strong>
+<code>kernel/commit.py</code> refuses a card whose printed digits do not
+appear in the evidence it cites — the cited events, a deterministic
+tally, a verdict, or an evidence note recorded by a tool at the moment
+it ran. A receipt that says “Required rate 8.48 → 11.57” is only
+possible because <code>rates.change()</code> computed those numbers and
+the tally text that licenses them (<code>gap_S3_evt_060_evt_075</code>)
+is on the citation list. A model that hallucinates a rate gets a
+rejection, not a warning.</p>
+<p><strong>Truth labels are never copied from the model.</strong> A
+<code>CardDraft</code> has no authority to declare itself
+<code>VERIFIED</code>. <code>commit()</code> assigns
+<code>TruthLabel</code> from the deterministic verdict through the
+pack’s <code>LabelRule</code>, so the badge on screen is a property of
+the evidence, not of the model’s confidence.</p>
+<p><strong>The wording of the cards that must be right is
+templated.</strong> <code>packs/creator/templates.py</code> is explicit:
+“The LLM still decides <em>whether</em> these happen and <em>what</em>
+the creator meant; it does not get to write the wording of a verified,
+conflict or settlement card.”</p>
+<p><strong>A model cannot reach past the fan’s cursor.</strong>
+<code>registry.py</code> hands each agent only the subset of the feed
+its capabilities allow through <code>ClampedFeed</code>. “No future
+events” is enforced by the clamp, not by a sentence in a prompt.
+<code>guardrails.py validate_receipt</code> then checks it again on the
+way out, per cited event id, plus the window’s end label, and refuses
+with <code>spoiler_beyond_resume_cursor</code>.</p>
+<p><strong>A deterministic decision is <em>performed</em> by code, not
+offered to the model.</strong> This is the most interesting corollary
+and the one that is easiest to get wrong. If the value-of-information
+test says “asking is worth it”, the kernel must be the thing that asks.
+<code>GapSession._kernel_ask</code> runs before the first supervisor
+turn. The docstring states the reason: if asking were only reachable
+through a model tool call, a run where the provider is unavailable would
+silently skip the fan — and the receipt would then be built on a
+boundary the fan never confirmed, which is the exact failure the
+question exists to prevent. The same rule covers “a card is owed”:
+<code>_finish()</code> marks an episode <em>owed</em> when it ends
+<code>EXHAUSTED</code>, <code>FAILED</code>, or <code>SKIPPED</code>
+with the kernel’s own must-commit flag, and only then builds the
+deterministic fallback.</p>
+<p><strong>VOI: asking is a measured property, not a vibe.</strong>
+<code>packs/gap/voi.py</code> computes, for every candidate boundary,
+the set of <em>material</em> events the fan would have missed, and asks
+only when two candidates produce different receipts — it looks for the
+<code>distinguishing_event</code>. Two boundaries that miss the same
+wickets are the same receipt, so the agent stays quiet and
+<code>no_question</code> is recorded with the reason.
+<code>CONFIDENT_ABOVE = 0.80</code> lets a confident telemetry read
+stand alone. Because this is code, the A/B is reproducible:
+<code>tests/test_gap_pack_b.py</code> runs the same scenario with two
+different fan answers and asserts the bodies differ while the headline
+and the cited tally stay identical — i.e. the question bought a real
+difference.</p>
+<p><strong>Grounding rule in Pack A.</strong>
+<code>creator/verify.py</code>: every number the analyst extracts must
+<em>literally appear in the utterance text</em>. If it does not, the
+claim becomes <code>UNVERIFIABLE</code> rather than being checked
+against a number the model invented. The model cannot create a fact by
+mishearing it.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>question</th>
+<th>decided by code</th>
+<th>decided by the model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Where did the fan lose the stream?</td>
+<td><code>boundary.estimate</code> from heartbeat kinds</td>
+<td>reads the candidates, never invents one</td>
+</tr>
+<tr>
+<td>Should we ask the fan?</td>
+<td><code>voi.should_ask</code></td>
+<td>— (and the kernel asks, not the agent)</td>
+</tr>
+<tr>
+<td>Which balls may be shown?</td>
+<td><code>ClampedFeed</code>, <code>validate_receipt</code></td>
+<td>chooses which to <em>narrate</em></td>
+</tr>
+<tr>
+<td>What do these balls mean for the chase?</td>
+<td><code>rates.change</code> computes the numbers</td>
+<td>writes the one causal sentence</td>
+</tr>
+<tr>
+<td>Is the claim true?</td>
+<td><code>verify.py</code> verdict vs feed</td>
+<td>extraction, reference resolution, classification</td>
+</tr>
+<tr>
+<td>What is this card called?</td>
+<td><code>commit()</code> + <code>LabelRule</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Is it worth the fan’s attention now?</td>
+<td>—</td>
+<td><code>strategist</code> modality choice, vetoable</td>
+</tr>
+<tr>
+<td>Which tool next, which specialist?</td>
+<td>bounded by budget + capabilities</td>
+<td>supervisor <code>dispatch</code> / <code>tool</code> /
+<code>commit</code> / <code>skip</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="multi-agent-mechanics">5. Multi-agent mechanics</h2>
+<p><code>orchestrator.py</code> runs a supervisor whose entire output
+surface is one JSON object (<code>SupervisorDecision</code>):</p>
+<pre><code>&quot;action&quot;: &quot;dispatch | tool | ask_user | request_permission | commit | skip | stop&quot;</code></pre>
+<p>with an optional <code>agent</code>, <code>tool</code>,
+<code>args_json</code>, <code>question</code>, <code>options</code> and
+<code>card</code>. Each dispatch starts a <strong>specialist</strong>
+whose scope is enforced, not requested: a <code>SpecialistSpec</code>
+carries a tool name list and a capability set, and the registry refuses
+a call outside it — the refusal is <em>traced</em>, never swallowed.
+Pack B’s roster is <code>reader</code> (playback log → boundary
+hypotheses), <code>investigator</code> (cross-check the window against
+frames and commentary), <code>questioner</code>, <code>strategist</code>
+(modality + the one causal sentence) and <code>critic</code> (“reject a
+receipt that would spoil or mislead the fan”). Pack A’s is
+<code>perceiver</code>, <code>analyst</code>, <code>verifier</code>,
+<code>strategist</code>, <code>critic</code>.</p>
+<p>Pack B supervisors are capped to the capabilities
+<code>{telemetry, past_events, video_evidence, ask_user, permission}</code>
+— the supervisor can look at everything but cannot mint a card; only the
+commit gate can do that.</p>
+<p><code>Hooks</code> is how a pack tells the kernel what its domain
+means, and every hook exists because of a specific failure:</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>hook</th>
+<th>what it does</th>
+<th>why it is a hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>mandatory_check</code></td>
+<td>an unsippable validation on a tool result</td>
+<td>a model can route around optional checks; it cannot route around
+this one</td>
+</tr>
+<tr>
+<td><code>before_commit</code></td>
+<td>rebuilds the receipt from the clamped feed before the draft is
+judged</td>
+<td>the draft the model wrote is not the artifact the fan gets; the
+<em>feed</em> is the authority</td>
+</tr>
+<tr>
+<td><code>build_fallback</code></td>
+<td>deterministic draft when the run produced nothing</td>
+<td>the fan is owed an outcome even at 0 valid model turns</td>
+</tr>
+<tr>
+<td><code>veto_terminal</code></td>
+<td>refuses a pack’s own <code>skip</code> once</td>
+<td>“nothing to do” is a decision a jury must see challenged</td>
+</tr>
+<tr>
+<td><code>wait_for_answer</code></td>
+<td>blocks on a real human answer</td>
+<td>human-in-the-loop over SSE, with a per-session timeout</td>
+</tr>
+<tr>
+<td><code>observation_context</code></td>
+<td>injects domain notes into the prompt</td>
+<td>keeps pack knowledge out of kernel code</td>
+</tr>
+</tbody>
+</table>
+<p><code>require_critic_before_commit=True</code> is the wall: a
+<code>commit</code> action that arrives before the critic specialist has
+run is refused. Budget accounting (<code>Budget</code>:
+<code>max_llm_calls</code>, <code>max_tool_calls</code>,
+<code>max_ms</code>, <code>max_specialist_rounds</code>) is enforced
+<em>before</em> a call is made, and the refusal is recorded as
+<code>budget_block</code>. The recorded live-demo HTTP run of S1
+(<code>tmp/http_S1.jsonl</code>, 30 journal frames,
+<code>run_mode: live-demo</code>) consumed all 14 of its
+<code>max_llm_calls</code>, took one <code>budget_block</code> at
+<code>where: agent:critic</code> at seq 22, ran 102.9 s of wall clock,
+and still committed one card — the budget stopped the model, not the
+product.</p>
+<p><strong>The pack’s promise, implemented.</strong> Pack B’s rule is
+that a fan gets a receipt or an explicit no-op — never silence. Two bugs
+in that promise were found by driving the <em>real HTTP path</em> (a
+browser hits things an in-process runner cannot) and both are now
+closed, each with a named regression test in
+<code>tests/test_gap_pack_b.py</code>:</p>
+<ol type="1">
+<li><em>The double ask.</em> The kernel asked, the fan answered, and
+then the supervisor asked its own second question. Nobody was left on
+the line to answer it, the episode ended <code>awaiting_user</code>, and
+the fan received <strong>nothing</strong>.
+<code>GapSession._wait_for_answer</code> now short-circuits when the
+boundary is already settled — it returns the answer on file and records
+<code>ask_refused</code>, instead of blocking a second time
+(<code>backend/packs/gap/session.py:425-430</code>). The ask tool
+already had this guard; the <em>hook path</em> did not, which is why it
+survived unit testing and only appeared over SSE. Covered by
+<code>test_the_fan_is_never_asked_twice</code> (line 296) and
+<code>test_a_model_question_after_the_kernels_does_not_bother_the_fan</code>
+(line 396), the latter driven by a supervisor stub whose docstring names
+the bug it reproduces: “A supervisor that only ever asks a question -
+the shape of the HTTP bug” (line 370).</li>
+<li><em>The silent end.</em> <code>_episode()</code> now commits the
+deterministic receipt whenever a scenario ends with no card, whatever
+the terminal reason — exhausted, failed, vetoed, or waiting on an answer
+that never came. The receipt it builds cites only the clamped feed, so
+it cannot spoil and cannot invent; the trace says which wall it fell
+back from (<code>note: "deterministic receipt after {reason}"</code>,
+<code>session.py:240</code>). Covered by
+<code>test_an_unanswered_question_still_sends_the_deterministic_receipt</code>
+(line 409) and, off the model entirely,
+<code>test_no_model_still_asks_the_fan_and_commits_a_receipt</code>
+(line 224) and
+<code>test_the_off_layer_commits_a_receipt_without_a_single_model_turn</code>
+(line 244). All three pass in the offline run:
+<code>python -m pytest tests/test_gap_pack_b.py -k "never_asked_twice or does_not_bother_the_fan or unanswered_question" -q</code>
+→ <strong>3 passed, 25 deselected</strong> (1.03-1.24 s across the two
+runs on this machine).</li>
+</ol>
+<p>The ask timeout moved to the pack’s own config
+(<code>GapConfig.ask_timeout_s</code>) because the kernel hard-coding 40
+seconds meant a web session could hold an episode open for a fan who had
+already answered; <code>WebGapSession</code> raises the config value for
+real human patience (90s in the container).</p>
+<hr />
+<h2 id="the-evidence-chain-in-pack-b-step-by-step">6. The evidence chain
+in Pack B, step by step</h2>
+<p>A run of S1, in the order things actually happen:</p>
+<ol type="1">
+<li><strong>Fan returns.</strong> <code>run_scenario("S1")</code> resets
+per-scenario state — the boundary, the released event set, frame checks,
+clip quotes, tallies, evidence notes and the fan’s answer — so scenario
+N cannot inherit scenario N-1’s receipts.</li>
+<li><strong>Boundary from the player, not the feed.</strong>
+<code>boundary.estimate</code> reads the heartbeat log. The kinds
+matter: <code>play</code> is <em>VIEWED</em>,
+<code>ad_start | stall | gap</code> is <em>INTERRUPT</em>,
+<code>ad_end | resume | join</code> is <em>restart</em>. A late joiner
+with no rendered ball at all yields no boundary — the telemetry
+genuinely cannot say, and that is exactly when asking is worth it (S3).
+Output is a <code>Boundary</code>: candidate last-seen balls plus a
+confidence and notes. Measured for S1:
+<code>candidates=['16.2', '16.1', '16.3'] conf=0.65</code>, with the
+notes “last ball the player rendered: 16.2 (play)” and “ad overlay
+covered the screen over ball 16.2: boundary widened by one ball either
+side, confidence -0.3”.</li>
+<li><strong>VOI gate + kernel ask.</strong> <code>voi.should_ask</code>
+compares the receipts each candidate would produce. For S1 the answer
+changes which balls are inside the window, so the kernel poses the
+canonical question — <em>“Did you see the wicket at ball 16.3 (142/4)
+before you left?”</em> with options
+<code>['Yes, I saw ball 16.3', 'No, I left at 16.2']</code> — and blocks
+on the HTTP <code>answer</code> endpoint. <code>_apply_answer</code>
+parses an over label out of the fan’s words with a regex and accepts it
+<strong>only if it is one of the candidates</strong>; a non-candidate
+answer never moves the boundary (tested), and an answer pointing past
+the resume cursor is recorded as uncertainty and ignored. The accepted
+answer becomes evidence (<code>fan:&lt;event_id&gt;</code>), the badge
+source flips to <code>boundary: fan</code>, and the
+<code>boundary_from_fan</code> event lands in the trace.</li>
+<li><strong>Supervisor turn 1.</strong> The prompt it sees contains the
+observation, the domain notes, the settled fan answer and the remaining
+budget — with <strong>no wall-clock in it</strong> (see §8). It
+dispatches <code>investigator</code>.</li>
+<li><strong>Tools.</strong> <code>query_event_feed</code> (clamped),
+<code>search_commentary</code>, <code>inspect_frame</code>,
+<code>offer_clip</code>, <code>ask_fan</code>,
+<code>get_playback_telemetry</code>. Each returns a structured dict and
+records evidence notes at the moment it ran. <code>inspect_frame</code>
+on S1 returned, measured from the trace,
+<code>{"found": true, "frame_id": "frm_16_3", "path": "frames/score_16_3.png", "read_from_pixels": {"score": "142/4", "over": "16.3", "rrr": "9.71", "readable": true}, "feed_score": "142/4", "agrees": true}</code>
+in 54.8 ms, which <code>session.note_frame_check</code> turns into the
+evidence note
+<code>frame:16.3 → "frm_16_3 at 16.3 read from pixels: score 142/4 over 16.3 rrr 9.71; feed says 142/4"</code>.</li>
+<li><strong>Pixels, not a lookup table.</strong> <code>gap/ocr.py</code>
+reads the scoreboard out of the rendered frame’s pixels. The docstring
+is worth quoting because it names the temptation this module resists:
+“<code>frames.json</code> already knows each frame’s true score, so the
+honest version of ‘inspect the frame’ could have returned that string
+and the demo would still pass — while proving nothing. The
+injected-fault frame is the test that separates the two: it is rendered
+with a score that is <em>not</em> in the feed, and a real reader must
+report 143/4 there so the verifier can reject the clip.” When pixels
+disagree with the feed, <code>offer_clip</code> returns
+<code>offerable: False</code> and the trace records
+<code>clip_rejected</code> — the clip is refused <em>because the
+evidence chain broke</em>, which is the whole point of having one.
+Measured today:
+<code>test_clip_is_refused_when_the_pixels_disagree</code> passes, and
+the refusal string it asserts against the fault ball is “frame shows
+<strong>143/4</strong> but the feed says <strong>146/4</strong>”
+(<code>tests/test_gap_pack_b.py:175</code>), while
+<code>test_a_frame_that_agrees_is_a_real_check</code> proves the reader
+pulls <code>142/4</code> out of <code>frm_16_3</code>’s actual pixels. A
+clip is only ever quoted, never pushed:
+<code>quote["bytes_estimate_kb"] == 12 * 200 = 2400</code> KB with
+<code>load_policy: "not fetched until the fan taps it"</code>. One
+honest wrinkle, and the suite names it: the run’s <em>only</em> xfail
+(<code>tests/test_acceptance_gap.py:338-343</code>,
+<code>strict=True</code>, test body at line 344) documents that
+<code>clip_is_offerable</code> reads a top-level <code>readable</code>
+that only <code>GapSession.frame_check_for</code> sets, while
+<code>inspect_frame</code> nests it under <code>read_from_pixels</code>
+(<code>backend/packs/gap/tools.py:142</code>). Consequence in the live
+S1 journal: even though the reader reported <code>142/4 == feed</code>,
+the clip came back
+<code>{"offerable": false, "why": "frame unreadable by the scoreboard reader"}</code>
+and the receipt says “No clip loaded”. The refusal is therefore
+conservative — it never lets an unverified clip through — but it is a
+real defect, not a designed outcome.</li>
+<li><strong>Strategist.</strong> Chooses the modality
+(<code>receipt</code> / no-op / clip) and writes the one causal
+sentence. <code>before_commit</code> rebuilds the receipt from the
+clamped feed regardless of what it asked for; the strategist’s sentence
+is then re-checked by <code>validate_receipt</code>, which refuses a
+causal claim no evidence supports.</li>
+<li><strong>Critic, then commit.</strong>
+<code>require_critic_before_commit</code> is what makes a
+commit-without-review impossible. <code>commit()</code> licenses the
+digits, assigns the label, enforces the caps (headline 90, body 700
+characters), stamps the source badges, and appends the card. A rejection
+is recorded with its violation list so the failure is visible in the
+trace.</li>
+<li><strong>The receipt.</strong> S1 as committed offline by
+<code>python backend/scripts/run_pack_b.py --llm replay --budget 14</code>
+— label <code>VERIFIED vs feed</code>, 36-character headline,
+599-character body, 14 llm calls:</li>
+</ol>
+<pre><code>You missed 16.3-16.6: 142/3 -&gt; 147/5
+- 16.3 WICKET: WICKET! Vikram Naidu bowled through the gate (142/3 -&gt; 142/4)
+- 16.4 BOUNDARY: FOUR! Kabir Menon answers straight away (142/4 -&gt; 146/4)
+- 16.6 WICKET: RUN OUT! Kabir Menon short of the crease. Two... (146/4 -&gt; 147/5)
+Score 142/3 -&gt; 147/5. Required rate 9.27 -&gt; 9.67 (+0.4); 29 needed off 18 balls.
+Other balls in the window: 16.5
+Why it matters: You missed a wicket at 16.3 and a four at 16.4 while you were away.
+Scoreboard frames read from the pixels: 16.3 read 142/4 == feed.
+No clip loaded - this receipt is text.
+Nothing after 16.6 is included.
+cites e=[&#39;evt_068&#39;, &#39;evt_069&#39;, &#39;evt_071&#39;, &#39;evt_070&#39;] t=[&#39;gap_S1_evt_067_evt_071&#39;]</code></pre>
+<p>Every digit above is licensed by <code>gap_S1_evt_067_evt_071</code>
+or by a cited event; the live HTTP run of the same scenario
+(<code>tmp/http_S1.jsonl</code>, 14 llm calls, 102.9 s) committed the
+identical headline and the identical score/rate lines, with the
+strategist’s one causal sentence worded differently — which is the
+division of labour this section exists to describe.</p>
+<p><strong>The fit ladder in <code>receipt.py</code>.</strong> A 15-ball
+window cannot be 15 bullets on a phone, and a receipt that breaks the
+700-character body cap is a <em>rejected commit</em> — meaning the fan
+gets nothing. So the template is designed around that contract:
+<code>CARD_LIMIT = 690</code> (headroom for the joins),
+<code>MAX_BULLETS = 5</code>, <code>key_priority()</code> selects by
+consequence (wickets, then boundaries, then over order) while
+<code>bullet_block()</code> prints in feed order so a collapsed window
+still reads forwards in time, <code>assemble()</code> drops <em>optional
+prose from the bottom up</em> before a key-action line is ever cut, and
+the non-key balls degrade from an explicit list → one digit-free
+sentence → absent, with the tally carrying the arithmetic. Digits only
+ever live in required lines, so the collapse can never corrupt a number.
+S3 (15 balls) commits at 690 or fewer characters.</p>
+<hr />
+<h2 id="ai-tools-and-models">7. AI tools and models</h2>
+<p><strong>Text backend.</strong> Two interchangeable transports behind
+one contract
+(<code>complete(prompt, system, schema, ...) -&gt; (parsed_model, meta)</code>):
+<code>kernel/llm.py</code> (Gemini) and
+<code>kernel/openrouter.py</code>. OpenRouter exists for a specific,
+boring reason stated in its own docstring: the Gemini key this project
+was built against is free-tier and caps <code>generate_content</code> at
+20 requests/day, which is less than one 12-segment episode needs — so
+“the LLM was unavailable” would otherwise become the reason a demo
+cannot show the loop. Structured output is requested as
+<code>json_object</code> plus the schema written into the system prompt
+rather than strict <code>response_format</code>, because the
+pydantic-validated retry in the orchestrator already catches a bad shape
+and a stealth-tier model is free precisely because it is
+under-specified.</p>
+<p><strong>Model chain and resilience.</strong>
+<code>OPENROUTER_MODEL</code> (default
+<code>stealth/crouton-alpha</code>) plus
+<code>OPENROUTER_MODEL_CHAIN</code> — a comma-separated list of
+free-tier models tried in order, with the primary inserted at the head.
+Per call: 45 s timeout; <code>finish_reason == "length"</code> retries
+the <em>same</em> model with 1.8× the output budget (a long
+<code>thought</code> field truncating the JSON is the most common
+failure, and it is a budget problem, not a model problem); an empty
+completion — what a stealth model returns when it spends the whole
+budget on reasoning — gets one retry; HTTP 429 honours
+<code>Retry-After</code> when the delay is sane, 5xx retries with
+backoff. Every failed attempt is kept as a note and the whole chain’s
+story appears in the single error if all of them fail, so the trace says
+<em>which model failed how</em> rather than “LLM error”.</p>
+<p><strong>How the chain was chosen.</strong>
+<code>backend/scripts/bench_models.py</code> sends one realistic
+<code>SUP_CONTRACT</code> supervisor turn to each candidate and prints
+status code, latency, output tokens and whether the reply validated
+against <code>SupervisorDecision</code>. Measured:
+<code>stealth/crouton-alpha</code> VALID 6.1 s;
+<code>nvidia/nemotron-3.5-super-vl:free</code> VALID 2.0 s;
+<code>xingchen-agi/xing4.0-29b-a4b:free</code> INVALID (rejected its own
+<code>thought</code> length);
+<code>nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free</code> INVALID
+(dispatched an agent role that does not exist in the roster); several
+models returned no content at all at a 900-token budget, two hit 429,
+one timed out at 75 s. The chain is ordered by that table, and the
+invalid ones are <em>kept in the chain anyway</em> because an
+unparseable reply costs a retry and a dead provider costs the episode.
+Those latencies are one recorded bench pass, not a reproducible
+measurement — a free tier is variable by definition — so treat the
+VALID/INVALID column as the durable result and re-run the script before
+quoting a number from it. What <em>is</em> reproducible here: the model
+that served every turn of the live probe in §7.1 was
+<code>stealth/crouton-alpha</code>, read back out of the cassette
+payload it wrote.</p>
+<p><strong>Audio.</strong> <code>adapters/asr.py</code>:
+<code>GeminiASR</code> (real audio → text with keyterm boosting) and
+<code>CachedASR</code> (the fixture transcript, badged “ASR: cached”).
+The honest caveat is in the docstring: Gemini emits no acoustic
+confidence, so <code>confidence</code> is the model’s self-reported
+word-level certainty, labelled as such in the UI and used only to gate
+abstention — never to assert a fact.</p>
+<p><strong>Badges, not claims.</strong> Every card carries the source
+badges of the run that produced it:
+<code>llm: live | cassette | unavailable</code>,
+<code>feed: replay_fixture</code>, <code>telemetry: simulated</code>,
+<code>frames: rendered_fixture</code>. <code>mode_used</code> starts at
+<code>"none"</code> and becomes <code>"unavailable"</code> on a cassette
+miss with live disabled. This detail matters: a badge that reports the
+<em>configured</em> backend rather than the one that <em>served the
+call</em> is a lie you tell your own demo, and the UI would then claim
+model turns that never happened. The badge reports what actually served
+each call, read back from the cassette payload.</p>
+<h3 id="proof-that-the-live-path-is-a-model-and-not-a-template">7.1
+Proof that the live path is a model and not a template</h3>
+<p>The obvious objection to a cassetted demo is “your replay is a lookup
+table wearing an LLM”. Segment u02
+(<code>Yeh banda ab reverse sweep try kar sakta hai, field dekho, third man up hai.</code>)
+answers it with two runs of the same input:</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>served by</th>
+<th>command</th>
+<th>badge</th>
+<th>headline the card got</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>the cassette store</td>
+<td><code>python -u backend/scripts/run_pack_a.py --llm replay --only u02</code></td>
+<td><code>llm: cassette</code></td>
+<td>Reverse sweep option <strong>with</strong> third man up</td>
+</tr>
+<tr>
+<td>the provider</td>
+<td><code>LLM_CASSETTE_DIR=&lt;empty dir&gt; python -u backend/scripts/run_pack_a.py --llm live --only u02</code></td>
+<td><code>llm: live</code></td>
+<td>Reverse sweep option <strong>flagged</strong> with third man up</td>
+</tr>
+</tbody>
+</table>
+<p>The live run spent 8 provider calls, all served by
+<code>stealth/crouton-alpha</code>, and 7 of its 8 prompt keys were new
+— never recorded before. What did <em>not</em> change between the two
+runs is the part that matters: <code>TruthLabel.OPINION</code>,
+<code>kind=insight</code>, <code>tmpl=free_text</code>,
+<code>cites u=['u02']</code> and <code>numbers=[]</code> — the kernel
+licensed no digit because no digit was in evidence — 1 card, 8 llm
+calls, 10 trace events. One turn is an even tighter test than the
+headline: prompt key <code>8d6be6ed6ebd2aee44a4463b25a89a5a</code> is
+content-addressed over system+prompt+schema+temperature, so the live and
+stored requests are byte-identical. The stored reply’s
+<code>thought</code> was “…based on field placement, needs
+classification before any card”; the live reply’s was “…based on field
+with third man up, needs classification before any verdict or card”,
+with a different <code>reason</code> — and both returned
+<code>action: dispatch, agent: analyst</code>. The model’s prose moved;
+the decision, the label and the licensing verdict did not.</p>
+<p>There is a trap in here worth naming, because we hit it:
+<code>complete()</code> looks the cassette key up <em>before</em> it
+considers the provider (<code>kernel/openrouter.py:96-110</code>), even
+in <code>record</code> mode. The first <code>--llm live</code> run of
+u02 therefore reported <code>llm: cassette</code> and wrote nothing — a
+“live” demo that was really a replay. Pointing
+<code>LLM_CASSETTE_DIR</code> at an empty directory is what makes a live
+claim honest, and it is also what keeps a live pass from writing over
+the committed store: <code>Cassette.save</code> overwrites
+unconditionally when <code>mode == "record"</code>
+(<code>kernel/llm.py:121-128</code>).</p>
+<hr />
+<h2 id="deterministic-replay-the-cassettes">8. Deterministic replay: the
+cassettes</h2>
+<p>A multi-agent demo whose AI cannot be re-run is a video, not a
+product. Every model turn is therefore recorded in a
+<strong>content-addressed cassette store</strong>
+(<code>tests/cassettes/</code>, committed on purpose; <strong>585
+entries</strong> at the time of writing, and <code>/api/health</code>
+reports the count live so a reviewer can check the number instead of
+trusting this sentence). The count is not a constant: this store held
+440 entries until the <code>record</code> half of the
+<code>compare_runs.py openrouter record replay</code> check below
+appended the 14 turns that were not yet on disk — which is exactly what
+a recording pass is for. A live pass aimed at the committed store can
+also overwrite it (§7.1).</p>
+<p><code>Cassette.key(system, prompt, schema_json, model, temperature)</code>
+→ a hash; <code>complete()</code> looks the key up first. Three rules
+were learned the hard way, and each one is a real bug that is now fixed
+in code:</p>
+<ol type="1">
+<li><strong>Only a reply that parses is worth recording.</strong>
+<code>parse_output</code> runs <em>before</em> <code>save</code>. A
+cassette containing truncated JSON would replay the failure on every
+later run — one bad recording becomes a permanent outage. Symmetrically,
+an entry that fails to parse <em>on replay</em> is
+<code>drop()</code>ped and re-recorded, because a stale entry is worse
+than no entry.</li>
+<li><strong>Prompts must be run-independent.</strong> The supervisor
+prompt used to include the remaining budget, which contained
+<code>ms</code> — a wall-clock number. Every run therefore produced a
+unique cassette key, replay missed 100% of the time, and the offline
+path silently became <code>llm: unavailable</code> with 3 model turns
+instead of 14. Fix: <code>ms</code> is dropped from the
+<code>remaining</code> dict that is rendered into prompts. Proven by a
+record-vs-replay prompt diff: before the fix exactly one line differed;
+after it, prompts are byte-identical.</li>
+<li><strong>A retry records under the base prompt.</strong> When a reply
+fails validation the orchestrator re-asks with a correction nudge
+appended. That second prompt is the model’s answer to the question it
+was actually asked, so
+<code>complete(..., key_text=&lt;base prompt&gt;)</code> records it
+under the original key. Without this, one 502 from a provider
+permanently removes that turn from the offline path.</li>
+</ol>
+<p><code>backend/scripts/compare_runs.py openrouter record replay</code>
+is the machine-proof of all of it: it compares the <code>commit</code>
+events of the two runs and fails if the card bodies, headlines or
+citations differ, if any card came from a deterministic fallback, or if
+the replay shows zero <code>supervisor_decision</code> /
+<code>tool_call</code> events. Result from this checkout (the
+<code>kinds</code> dict is re-wrapped for the page; the script prints it
+on one line, and the replay line is its own copy):</p>
+<pre><code>record: 3 cards | 59 events | kinds={&#39;ask_user&#39;: 2, &#39;auto_answer&#39;: 2, &#39;boundary_from_fan&#39;: 1,
+        &#39;episode_context&#39;: 3, &#39;episode_start&#39;: 3, &#39;supervisor_decision&#39;: 14, &#39;tool_call&#39;: 15,
+        &#39;agent_result&#39;: 5, &#39;budget_block&#39;: 2, &#39;commit&#39;: 3, &#39;episode_end&#39;: 3, &#39;no_question&#39;: 1,
+        &#39;terminal_vetoed&#39;: 1, &#39;modality_overridden&#39;: 3, &#39;agent_no_final&#39;: 1}
+replay: 3 cards | 59 events | kinds={ identical to the line above, key for key }
+  receipt  You missed 16.3-16.6: 142/3 -&gt; 147/5
+  noop     Nothing key missed (147/5 unchanged by any wicket or boundary)
+  receipt  You missed 15.2-17.4: 135/3 -&gt; 149/5
+MATCH: 3 identical cards, 14 model turns, 15 tool calls, 0 fallback commits</code></pre>
+<p>Note that <code>supervisor_decision: 14</code> appears on the
+<em>replay</em> side too: the supervisor’s turns are cassetted exactly
+like the specialists’, so the offline demo is not “real agents, invented
+supervisor” — the whole loop replays.</p>
+<p>The same equivalence is proven one layer higher, over the real HTTP
+surface, with <code>backend/scripts/diff_frames.py</code>: two
+<code>drive_http.py</code> journals of the same scenario — one served
+live (<code>backend/out/http_S1_live2.jsonl</code>:
+<code>llm: live</code>, 28 frames, 14 llm calls, 98.5 s of journal span)
+and one replayed from the cassettes that call recorded
+(<code>backend/out/http_S1_replay2.jsonl</code>:
+<code>llm: cassette</code>, 28 frames, 14 llm calls, 0.6 s) — are
+compared frame by frame after dropping timestamps, ids and the
+provenance badge itself:</p>
+<pre><code>$ python backend/scripts/diff_frames.py backend/out/http_S1_live2.jsonl \
+      backend/out/http_S1_replay2.jsonl
+frames: 28 vs 28 | cards: 1 identical
+MATCH: same trajectory, same cards, only provenance and wall-clock differ</code></pre>
+<p>For scale, the same measurement on the other recorded journals:
+<code>tmp/http_S1.jsonl</code> 30 frames / 102.9 s live,
+<code>tmp/http_S3.jsonl</code> 29 frames / 119.1 s live,
+<code>tmp/http_S2.jsonl</code> 27 frames / 0.2 s cassette — one ask, one
+card, 14 llm calls each.</p>
+<p>Three run modes make the ladder explicit: <code>offline-ci</code> and
+<code>cached-demo</code> replay cassettes and never call out;
+<code>live-demo</code> calls the provider and records what it hears.
+<code>safe-demo</code> is accepted as a mode name but is not a distinct
+code path — <code>backend/app/server.py</code> computes
+<code>live = mode == "live-demo"</code> (line 107), so
+<code>safe-demo</code> behaves exactly like <code>cached-demo</code>. A
+“cassette first, live only to fill a miss” rung is a good idea that this
+build does not implement, and the README says so rather than letting the
+mode table imply otherwise. The replay runner reports <strong>3 cards,
+22 llm calls, 43 trace events</strong> across S1/S2/S3 with zero network
+access; with the provider genuinely dead (<code>--llm off</code>) the
+same three scenarios still commit 3 cards in 19 events with <strong>0
+llm calls</strong> and badge <code>llm: unavailable</code>, because the
+deterministic fallback answers for it.</p>
+<hr />
+<h2 id="product-surface-http-sse-and-bytes-the-server-counts">9. Product
+surface: HTTP, SSE, and bytes the server counts</h2>
+<p><code>backend/app/server.py</code> is one FastAPI app that serves the
+API under <code>/api</code>, the built React app at <code>/</code>, and
+the fixture media under <code>/api/media</code>.
+<code>docs/API_CONTRACT.md</code> is the only place the two halves
+agree.</p>
+<ul>
+<li><strong>One run thread per session, one journal per
+session.</strong> Every kernel event is appended to a journal, and
+<code>GET /api/session/{id}/events</code> <em>replays the journal from
+the beginning</em> before following live. A browser that subscribes late
+— because the reviewer reloaded — still sees the whole run. This is not
+a convenience: an SSE-only design loses the frames emitted before the
+fan’s answer POST landed, which is precisely the moment the run is most
+interesting.</li>
+<li><strong>Blocking human-in-the-loop over HTTP.</strong>
+<code>POST /api/session/{id}/answer</code> sets a
+<code>threading.Event</code> the run thread waits on
+(<code>wait_for_answer</code> hook), bounded by the session’s
+<code>ASK_TIMEOUT_S</code>. An unanswered question no longer ends the
+episode empty: it falls through to §5’s never-silent rule.</li>
+<li><strong><code>Watch</code> vs <code>Quiet</code> is server
+behaviour, not CSS.</strong> <code>mode</code> is sent in
+<code>POST /api/session</code>. In quiet mode
+<code>/api/media/clip/{event_id}</code> refuses with
+<code>403 {"why": "quiet mode never loads clip bytes"}</code>.
+<code>metering/bytes.py</code> counts every byte the media route puts on
+the wire through <code>counted_stream</code>, per session, cumulative,
+never reset by a reload, and keeps both <code>total_bytes</code> (what
+was really served) and <code>would_have_kb</code> (what loading every
+offered clip would have cost). The numbers are code-fixed and
+test-enforced: a clip is quoted at
+<code>CLIP_SECONDS * BYTES_PER_SECOND_KB = 12 * 200 = 2400</code> KB,
+and
+<code>test_quiet_mode_never_pays_a_byte_and_watch_pays_exactly_the_clip</code>
+(<code>tests/test_acceptance_creator_http.py:406</code>, passing in this
+checkout’s run) asserts the quiet refusal answers
+<code>charged_kb 0.0 / would_have_kb 2400</code> with
+<code>bytes_sent == 0</code> and <code>clip_loads == 0</code>, while the
+same fan in watch mode gets exactly <code>2400 * 1024 = 2,457,600</code>
+bytes and an <code>X-Clip-Kb: 2400.0</code> header — so “we only loaded
+what you tapped” is a server measurement, not a marketing claim. The
+clip actually priced in the live S1 run shipped 0 bytes because the clip
+was refused upstream (<code>done.bytes_kb 0.0</code>,
+<code>would_have_kb 0.0</code>, <code>clip_loads 0</code>). The
+docstring names the reason: <em>“the whole ‘we only load the clip the
+fan actually asked for’ claim is worth nothing if the client reports the
+byte count.”</em></li>
+<li><strong>Live interruption telemetry.</strong>
+<code>POST /api/session/{id}/interrupt {kind}</code> appends a heartbeat
+row to the session’s own player log, which the boundary estimator then
+reads — a jury can drag the boundary by stalling the player, and prove
+the boundary tracks the player rather than the feed.</li>
+<li><strong>Everything is observable.</strong>
+<code>GET /api/session/{id}/trace</code> returns the events, badges,
+cards and budget used, and the same events stream to the journal as
+<code>supervisor_decision</code>, <code>tool_call</code>,
+<code>agent_result</code>, <code>guardrail</code>,
+<code>clip_rejected</code>, <code>terminal_vetoed</code>,
+<code>ask_user</code>, <code>boundary_from_fan</code>,
+<code>no_question</code>, <code>ask_refused</code>,
+<code>budget_block</code>, <code>commit</code>, <code>bytes</code>,
+<code>card</code>, <code>status</code>, <code>done</code>. The UI is a
+thin renderer over a journal that already contains the argument for the
+answer.</li>
+</ul>
+<hr />
+<h2 id="evaluation-and-proof">10. Evaluation and proof</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>command</th>
+<th>what it proves</th>
+<th>measured on this checkout</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>python -m pytest tests -q</code></td>
+<td>every deterministic rule, the guardrails, and the two HTTP
+regressions</td>
+<td><strong>252 passed, 1 xfailed in 3.87 s</strong> (slowest single
+test 0.45 s), no network</td>
+</tr>
+<tr>
+<td><code>python -u evals/run_evals.py</code></td>
+<td>the four hard invariants across both packs</td>
+<td><strong>PASS - all four hard invariants hold</strong>: 4 runs, 11
+cards, 36 model turns, 24 tool calls, 0 silence, 0 spoilers, 0
+unlicensed digits, 0 fallbacks, <code>llm_badge=cassette</code> on all
+four rows</td>
+</tr>
+<tr>
+<td><code>python -u evals/run_evals.py --llm off</code></td>
+<td>the provider-day where nothing works</td>
+<td><strong>PASS</strong>: 4 runs, 5 cards, 0 model turns, 0 tool calls,
+0 spoilers, 0 unlicensed, badge <code>llm: unavailable</code> on every
+row</td>
+</tr>
+<tr>
+<td><code>python -u backend/scripts/run_pack_b.py --llm off</code></td>
+<td>a fan still owes a receipt with the model dead</td>
+<td>3 cards (S1/S2/S3), <strong>0 llm calls</strong>, 19 events,
+<code>llm: unavailable</code></td>
+</tr>
+<tr>
+<td><code>python -u backend/scripts/run_pack_b.py --llm replay</code></td>
+<td>the recorded model turns replay</td>
+<td>3 cards, 22 llm calls, 43 events, <code>llm: cassette</code></td>
+</tr>
+<tr>
+<td><code>python -u backend/scripts/run_pack_a.py --llm replay</code></td>
+<td>Pack A’s full agent path offline</td>
+<td>8 cards, 58 llm calls, 23 supervisor decisions, 18 tool calls,
+<code>llm: cassette</code></td>
+</tr>
+<tr>
+<td><code>python -u backend/scripts/compare_runs.py openrouter record replay</code></td>
+<td>replay <em>is</em> the recorded run</td>
+<td>3 identical cards, 14 turns, 15 tool calls, 0 fallback commits</td>
+</tr>
+<tr>
+<td><code>python -u backend/scripts/drive_http.py --base http://… --pack gap --scenario S1 --answer "…" --log backend/out/http_S1_live2.jsonl</code></td>
+<td>the link a reviewer opens</td>
+<td>live: 1 card, <strong>1 ask</strong>, 28 journal frames, 98.5 s,
+<code>llm: live</code>, 14 llm calls</td>
+</tr>
+<tr>
+<td><code>python backend/scripts/diff_frames.py backend/out/http_S1_live2.jsonl backend/out/http_S1_replay2.jsonl</code></td>
+<td>the hosted artifact is the same run</td>
+<td><strong>28 vs 28 frames, 1 card identical</strong> -
+<code>MATCH: same trajectory, same cards, only provenance and wall-clock differ</code>;
+replay side 0.6 s, <code>llm: cassette</code></td>
+</tr>
+<tr>
+<td><code>python backend/scripts/make_space_bundle.py</code></td>
+<td>the deploy directory is self-contained</td>
+<td>staged bundle measured on this checkout: <strong>763 files, 29 MB,
+585 cassettes copied, no <code>.env</code> shipped</strong></td>
+</tr>
+<tr>
+<td><code>python backend/scripts/bench_models.py</code></td>
+<td>which models are in the chain and why</td>
+<td>validity + latency table in §7</td>
+</tr>
+</tbody>
+</table>
+<p><code>evals/run_evals.py</code> writes
+<code>evals/results.json</code>; those four rows, verbatim from the file
+this checkout produced, are the per-run detail behind the totals
+above:</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr>
+<th>pack / run</th>
+<th>outcome</th>
+<th>card kind</th>
+<th>truth label</th>
+<th>body chars</th>
+<th>model turns</th>
+<th>tool calls</th>
+<th>llm calls</th>
+<th>asked / answered</th>
+<th>clip rejects</th>
+<th>fallback</th>
+<th>badge</th>
+<th>s</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>gap S1</td>
+<td>card</td>
+<td><code>receipt</code></td>
+<td>VERIFIED vs feed</td>
+<td>599</td>
+<td>6</td>
+<td>7</td>
+<td>14</td>
+<td>1 / 1</td>
+<td>1</td>
+<td>false</td>
+<td>cassette</td>
+<td>0.12</td>
+</tr>
+<tr>
+<td>gap S2</td>
+<td>card</td>
+<td><code>noop</code></td>
+<td>Evidence-backed</td>
+<td>192</td>
+<td>5</td>
+<td>6</td>
+<td>14</td>
+<td>0 / 0 (<code>no_question</code> 1, <code>terminal_vetoed</code> 1,
+<code>modality_overridden</code> 3)</td>
+<td>0</td>
+<td>false</td>
+<td>cassette</td>
+<td>0.06</td>
+</tr>
+<tr>
+<td>gap S3</td>
+<td>card</td>
+<td><code>receipt</code></td>
+<td>Evidence-backed</td>
+<td>600</td>
+<td>3</td>
+<td>3</td>
+<td>6</td>
+<td>1 / 0</td>
+<td>0</td>
+<td>false</td>
+<td>cassette</td>
+<td>0.03</td>
+</tr>
+<tr>
+<td>creator, 12 segments</td>
+<td>8 cards</td>
+<td>conflict, insight, prediction, settlement</td>
+<td>Opinion 3, VERIFIED 1, Prediction-tracked 1, CONFLICTS 1, Prediction
+HIT 1, Creator-said 1 (9 commits, 1 rejected)</td>
+<td>221 (longest of the 8; the gap rows are single cards, so their one
+body)</td>
+<td>26</td>
+<td>21</td>
+<td>63</td>
+<td>0 / 0</td>
+<td>0</td>
+<td>false</td>
+<td>cassette</td>
+<td>0.28</td>
+</tr>
+</tbody>
+</table>
+<p>Two things that table is designed to make impossible: a card over 700
+characters (the S3 window is 15 balls and lands at 600), and a gap
+scenario that ends without an artifact (<code>asked</code> is 1 for S1
+and S3, and the unanswered S3 still commits).</p>
+<p>The test suite is deliberately written so the <em>model-off</em>
+cases are load-bearing — the file that covers Pack B opens with “every
+assertion here is about a claim the fan can check… the model-off runs
+are the load-bearing ones, because a demo where the provider is down
+still owes the fan a truthful receipt.” Coverage includes: the boundary
+is the last <em>rendered</em> ball and not the last ball the feed knows;
+the fan is never asked twice; a non-candidate answer never moves the
+boundary while a candidate answer does and lands as evidence; the two
+fan answers produce different bodies but identical headlines and
+identical cited tallies; no event past the cursor is ever released to
+any agent (<code>released_events</code> is asserted against the cursor
+index on every run); a receipt for a 15-ball window still fits 700
+characters; a clip is refused when the pixels disagree; and the two HTTP
+bugs of §5 have named regression tests with a supervisor stub that only
+ever asks questions.</p>
+<p>Three gaps I want to name rather than hide. First, the cassette store
+is a <em>recorded trajectory</em>: if a prompt is edited, the recording
+pass must be redone, or replay falls back (and says so in the badge).
+Second, the browser path and the in-process runner path historically
+generated different prompts, so a <code>cached-demo</code> browser
+session could miss turns that the runner had recorded; the recording
+pass is now driven <em>through HTTP</em> (<code>live-demo</code> +
+<code>drive_http.py</code>) so the cassettes cover the trajectory the UI
+actually takes. Third, the suite carries exactly one deliberate failure
+—
+<code>test_a_ball_the_investigator_already_checked_is_still_offerable</code>,
+marked <code>xfail(strict=True)</code> with the defect spelled out in
+its reason (the two writers of the frame cache disagree on where
+<code>readable</code> lives,
+<code>backend/packs/gap/tools.py:142</code>). It is strict, so the day
+someone fixes the shape mismatch the suite fails and forces the marker
+to be removed; it is left failing rather than deleted, because a
+reviewer deserves to know that a clip the investigator has already
+verified is currently refused. The refusal is in the safe direction.</p>
+<hr />
+<h2 id="limits-cost-and-what-changes-in-production">11. Limits, cost,
+and what changes in production</h2>
+<ul>
+<li><strong>Fixtures, not a live feed.</strong> The ball-by-ball feed,
+the player heartbeat log and the scoreboard frames are synthetic and
+rendered by code this repo owns
+(<code>backend/fixtures/build_fixtures.py</code>, 456 LOC). That is the
+right call for a submission — the agent has to be able to be
+<em>wrong</em> about the evidence, which a pre-chosen answer would
+prevent — but in production the same interfaces take the real telemetry
+and stream pipelines, and <code>feed: replay_fixture</code> becomes
+<code>feed: live</code>. The badges exist precisely so this distinction
+is never hidden.</li>
+<li><strong>Free-tier providers are variable.</strong> A 502, an empty
+completion or a truncated reply is routine, not exceptional. The
+mitigations are the chain, the length retry, the parse-before-save rule
+and the fallback ladder; the honest numbers, measured from the recorded
+live-demo HTTP journals, are a live S1 episode of <strong>98.5
+s</strong> (<code>backend/out/http_S1_live2.jsonl</code>) at 14 llm
+calls — the same scenario replayed from the cassettes that call recorded
+takes <strong>0.6 s</strong> — and the two other live journals in
+<code>tmp/</code> span 102.9 s and 119.1 s. So “about 100 s and all 14
+of the budgeted calls” is the number to quote, not the 0.2 s the offline
+demo shows. In production: pin a paid model, cache the tool results per
+over (they are already pure functions of the feed), and run the critic
+in parallel with the strategist rather than in series — in the live S1
+run the critic was the agent that met the wall
+(<code>budget_block</code>, <code>where: agent:critic</code>), and the
+receipt committed anyway.</li>
+<li><strong>Bounded cost per episode is a feature you can
+quote.</strong> <code>Budget</code> caps llm calls, tool calls,
+specialist rounds and wall clock, and the cap is enforced before the
+call, so an episode cannot spiral. The card and the trace both show the
+consumption.</li>
+<li><strong>One match, one interruption per demo scenario.</strong> S1
+(ad over a wicket pair), S2 (a stall during a run chase), S3 (a late
+joiner with no rendered ball at all) exercise three different ways the
+evidence can be missing, not an exhaustive set.</li>
+<li><strong>Abstention is a designed outcome, and it is cheap to
+fake.</strong> A no-op card is a valid result here — but the no-op is
+<em>computed</em> (<code>receipt.no_op</code> with the tally) and traced
+(<code>no_question</code> with the reason), so “the agent declined” is
+auditable rather than a hush.</li>
+</ul>
+<hr />
+<h2 id="running-it">12. Running it</h2>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="at">-r</span> requirements.txt              <span class="co"># fastapi, uvicorn, pydantic, httpx, numpy, Pillow,</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>                                             <span class="co"># python-dotenv (scripts read .env themselves)</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> .env.example .env                         <span class="co"># every value optional for the offline path</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> pytest tests <span class="at">-q</span>                    <span class="co"># 176 passed + 1 xfailed, ~8 s, no network</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-u</span> evals/run_evals.py                 <span class="co"># the four invariants -&gt; evals/results.json, PASS</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-u</span> evals/run_evals.py <span class="at">--llm</span> off       <span class="co"># same invariants with the model dead</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> backend/scripts/run_pack_b.py <span class="at">--llm</span> off           <span class="co"># Pack B with the model dead</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> backend/scripts/run_pack_b.py <span class="at">--llm</span> replay        <span class="co"># recorded model turns, no network</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> backend/scripts/run_pack_a.py <span class="at">--asr</span> cached <span class="at">--llm</span> replay</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> backend/scripts/compare_runs.py openrouter record replay   <span class="co"># spends quota: records, then replays</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="va">RUN_MODE</span><span class="op">=</span>cached-demo <span class="ex">python</span> <span class="at">-m</span> uvicorn backend.app.server:app <span class="at">--port</span> 8123   <span class="co"># the artifact</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="va">RUN_MODE</span><span class="op">=</span>live-demo   <span class="ex">python</span> <span class="at">-m</span> uvicorn backend.app.server:app <span class="at">--port</span> 8127   <span class="co"># records real turns</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> backend/scripts/drive_http.py <span class="at">--base</span> http://127.0.0.1:8127 <span class="at">--pack</span> gap <span class="at">--scenario</span> S1 <span class="dt">\</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">--log</span> backend/out/http_S1_live.jsonl</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> backend/scripts/diff_frames.py backend/out/http_S1_live.jsonl <span class="dt">\</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    backend/out/http_S1_replay.jsonl           <span class="co"># proves the two are the same run</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> install <span class="kw">&amp;&amp;</span> <span class="ex">npm</span> run build                 <span class="co"># frontend/dist, served by FastAPI at /</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> build <span class="at">-t</span> dre-agent . <span class="kw">&amp;&amp;</span> <span class="ex">docker</span> run <span class="at">-p</span> 7860:7860 <span class="at">-e</span> RUN_MODE=cached-demo dre-agent</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> backend/scripts/make_technical_pdf.py <span class="co"># regenerates this .html + .pdf (pandoc + headless Chrome)</span></span></code></pre></div>
+<p><code>RUN_MODE=live-demo</code> is the only mode that talks to a
+provider, and it writes what it hears into
+<code>tests/cassettes/</code>; <code>Cassette.save</code> overwrites on
+a key collision, so point <code>LLM_CASSETTE_DIR</code> at a scratch
+directory if you want a live run that cannot touch the committed store
+(§7.1).</p>
+<p><code>DEPLOY.md</code> covers publishing it to a public no-login link
+(Hugging Face Spaces with this Dockerfile, Render or Fly), which env
+vars a deployed instance needs, and the one command that proves the
+deployed link works (<code>drive_http.py</code> against the public URL —
+it exits non-zero if the fan would have been left with silence).</p>
+<hr />
+<h2 id="what-this-design-is-for">13. What this design is for</h2>
+<p>The interesting property of this system is not that an LLM wrote a
+match summary — any prompt does that. It is that <strong>the summary can
+be audited line by line by someone who does not trust it.</strong> Every
+number on the receipt traces to a feed event or a deterministic tally;
+every badge traces to a verdict computed in code; every boundary traces
+to a heartbeat row or to the fan’s own words; every refusal — a clip
+rejected on a pixel disagreement, a spoiler citation, a skip overruled,
+a budget wall — is an event in a journal the reviewer can read. That is
+what makes the agent safe to put in front of a live match, and it is why
+the same kernel can carry a second, structurally different pack without
+changing a line of it.</p>
+</body>
+</html>

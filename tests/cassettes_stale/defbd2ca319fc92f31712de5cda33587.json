@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify current match state before deciding surfacing vs silent for tactic opinion at 17.3.\",\"tool\":\"get_match_state\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 804,
+    "output_tokens": 45
+  },
+  "t": 1793807470.1656811
+}

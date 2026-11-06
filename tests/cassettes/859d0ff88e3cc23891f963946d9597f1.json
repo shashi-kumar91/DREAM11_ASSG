@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify window vs resume cursor and wicket in cited events before approving noop claim.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"start_over\\\":\\\"16.6\\\",\\\"end_over\\\":\\\"17.2\\\",\\\"only_material\\\":false}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1233,
+    "output_tokens": 67,
+    "finish_reason": "stop"
+  },
+  "t": 1793811963.33715
+}

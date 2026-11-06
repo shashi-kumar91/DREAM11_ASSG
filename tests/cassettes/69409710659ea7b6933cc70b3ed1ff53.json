@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"kind\": \"final\",\n  \"thought\": \"The creator is providing a tactical observation about the current field placement and the potential for a specific shot (reverse sweep) from the striker. This is a tactical insight.\",\n  \"result_json\": \"{\\\"insight_type\\\": \\\"tactic\\\", \\\"headline\\\": \\\"Tactical Read: Reverse Sweep Potential\\\", \\\"body\\\": \\\"Yeh banda ab reverse sweep try kar sakta hai field dekho third man up hai.\\\", \\\"salience\\\": 0.8, \\\"reasoning\\\": \\\"The creator identifies a specific tactical opportunity based on the current field placement, specifically noting the third man is up.\\\"}\"\n}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 866,
+    "output_tokens": 138
+  },
+  "t": 1793893964.835301
+}

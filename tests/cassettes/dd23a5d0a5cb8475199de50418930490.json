@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The receipt cites event IDs evt_069 and evt_070 but fails to include them in the cited_utterance_ids or provide any citations for the causal sentences in the body.\",\"result_json\":\"{\\\"approve\\\":false,\\\"reason\\\":\\\"Causal sentences in the body lack [evt_id] citations.\\\",\\\"must_fix\\\":\\\"Add [evt_id] citations to the body text.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 738,
+    "output_tokens": 95
+  },
+  "t": 1793892324.3232331
+}

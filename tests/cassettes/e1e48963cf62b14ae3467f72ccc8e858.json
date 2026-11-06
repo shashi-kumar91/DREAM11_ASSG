@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed boundary 16.2 and investigator/strategist/critic have run, but no analyst verdict is in scratchpad yet, so commit is not yet allowed.\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"reason\": \"Analyst must classify the missed-window claim so kernel can verify it before any receipt commit.\", \"args_json\": \"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2535,
+    "output_tokens": 82,
+    "finish_reason": "stop"
+  },
+  "t": 1793842130.9071023
+}

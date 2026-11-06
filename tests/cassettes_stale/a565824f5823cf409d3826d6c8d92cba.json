@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify abstention claim against feed up to playback position; no citations provided.\",\"tool\":\"query_event_feed\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 786,
+    "output_tokens": 43
+  },
+  "t": 1793807686.4834003
+}

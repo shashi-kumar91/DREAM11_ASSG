@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Analyst classified u09 as new tactic opinion on Bedi's spread field with no factual claim to verify, so attention-worthiness is the open question.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"reason\": \"Tactic opinion needs strategist assessment before committing to fan timeline.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2137,
+    "output_tokens": 75,
+    "finish_reason": "stop"
+  },
+  "t": 1793817406.9587567
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The creator is explaining the DRS rule regarding ball tracking and edge detection. This is a rule explanation.\",\"result_json\":\"{\\\"insight_type\\\":\\\"rule_explanation\\\",\\\"card_wording\\\":\\\"Review ball tracking pe depend karta hai, 2.5 millimeter se kam edge ho to not out hota hai.\\\",\\\"claim\\\":null,\\\"prediction\\\":null}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 758,
+    "output_tokens": 80
+  },
+  "t": 1793894200.4094343
+}

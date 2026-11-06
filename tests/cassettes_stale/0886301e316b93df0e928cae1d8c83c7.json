@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance states Vikram Naidu out and score 142/4. Match state confirms out_player Vikram Naidu, score 142/4 at 16.3. Classify as factual_claim, quote creator wording, claim grounded in both.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":{\\\"player\\\":\\\"Vikram Naidu\\\",\\\"event\\\":\\\"out\\\",\\\"score\\\":\\\"142/4\\\",\\\"runs\\\":142,\\\"wickets\\\":4},\\\"prediction\\\":null,\\\"quote\\\":\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\",\\\"card_text\\\":\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\",\\\"confidence\\\":0.95,\\\"source\\\":\\\"creator_utterance u04\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1041,
+    "output_tokens": 161
+  },
+  "t": 1793806079.4311345
+}

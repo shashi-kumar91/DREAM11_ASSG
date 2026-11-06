@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is subjective comment on bowler pace with no speed number or checkable fact; classify as opinion, quote verbatim, leave claim/prediction null.\",\"result_json\":\"{\\\"insight_type\\\":\\\"opinion\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator: 'Yeh bowler itna slow phenk raha hai, dadi ki ginti bhi tez hai.'\\\",\\\"attribution\\\":\\\"creator\\\",\\\"confidence\\\":0.9,\\\"is_filler\\\":false}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 866,
+    "output_tokens": 116
+  },
+  "t": 1793807550.3704157
+}

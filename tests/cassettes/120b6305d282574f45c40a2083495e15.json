@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator verified 4 material events before evt_075 and strategist chose receipt with no clip, so the recap is ready to commit.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": null, \"headline\": \"Recap 15.1-17.4: key moments for Chennai Kestrels\", \"body\": \"The recap matters because Chennai Kestrels lost a wicket at [evt_068] and conceded boundaries at [evt_062] and [evt_069] before the run out at [evt_071], changing the score to 147/5 by 16.6.\", \"salience\": 0.7, \"cited_event_ids\": [\"evt_062\", \"evt_068\", \"evt_069\", \"evt_071\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"recap\", \"Chennai Kestrels\"]}, \"reason\": \"Fan requested key-moment recap, evidence is clamped before resume at 17.4, and strategist selected receipt modality.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2314,
+    "output_tokens": 209,
+    "finish_reason": "stop"
+  },
+  "t": 1793811242.1448107
+}

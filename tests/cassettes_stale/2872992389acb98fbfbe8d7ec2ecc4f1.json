@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst found only u08 directly addresses death overs with verbatim quote, sufficient to answer fan query from attributed transcript.\", \"action\": \"commit\", \"reason\": \"Commit query_answer using analyst's verbatim attributed quote; no factual claim requiring verdict.\", \"card\": {\"kind\": \"query_answer\", \"insight_type\": \"tactic\", \"headline\": \"Creator on death bowling\", \"body\": \"Sunny Agarwal (@courtside_sunny) at 02:22: \\\"Death overs mein spin ko medium length par rakhna chahiye\\\"\", \"salience\": 0.5, \"cited_utterance_ids\": [\"u08\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"death_bowling\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2023,
+    "output_tokens": 165
+  },
+  "t": 1793807592.0902033
+}

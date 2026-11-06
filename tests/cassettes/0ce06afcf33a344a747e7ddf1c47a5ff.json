@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Prediction rejected: bowler_not_bowling_next_over Dev Kapoor!=Rohan Bedi, analyst left bowler null despite perceiver resolving Bedi to Rohan Bedi\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"reason\": \"Re-draft structured prediction with correct next-over bowler Rohan Bedi for ledger validation\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2242,
+    "output_tokens": 79,
+    "finish_reason": "stop"
+  },
+  "t": 1793817332.5513215
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u10 as new rule_explanation about 2.5mm DRS threshold with no verdict needed, so commit attributed insight citing u10.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"rule_explanation\", \"headline\": \"DRS ball-tracking threshold explained\", \"body\": \"Creator explains review depends on ball tracking: if edge is less than 2.5 millimeter, it is not out.\", \"salience\": 0.5, \"cited_utterance_ids\": [\"u10\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"DRS\", \"ball tracking\"]}, \"reason\": \"Analyst found new rule explanation; attributed card preserves creator wording without needing verification.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2059,
+    "output_tokens": 175
+  },
+  "t": 1793808311.815746
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator confirmed wicket at 16.3 and four at 16.4 in clamped feed/frame/commentary and strategist chose receipt modality before resume at 16.6.\", \"action\": \"commit\", \"reason\": \"Evidence is cross-checked and fan boundary 16.2 is confirmed, so a receipt for the missed material events is the safest useful recovery.\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Missed wicket and boundary before you resume\", \"body\": \"You missed a wicket at 16.3 [evt_068] and a four at 16.4 [evt_069] before resuming at 16.6.\", \"salience\": 0.85, \"cited_event_ids\": [\"evt_068\", \"evt_069\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"receipt\", \"gap\", \"wicket\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2266,
+    "output_tokens": 191,
+    "finish_reason": "stop"
+  },
+  "t": 1793815774.3114755
+}

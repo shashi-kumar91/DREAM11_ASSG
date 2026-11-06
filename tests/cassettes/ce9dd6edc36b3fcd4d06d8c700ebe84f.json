@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The analyst has identified a prediction about the next over. I will now commit this prediction to the fan's timeline.\", \"action\": \"commit\", \"card\": {\"kind\": \"prediction\", \"insight_type\": \"prediction\", \"headline\": \"Dev Kapoor to bowl two yorkers in the 17th over\", \"body\": \"The creator predicts that Dev Kapoor will bowl at least two yorkers in the upcoming 17th over.\", \"salience\": 0.8, \"cited_utterance_ids\": [\"u05\"], \"tags\": [\"prediction\", \"bowling\"]}, \"question\": null, \"options\": []}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1667,
+    "output_tokens": 138
+  },
+  "t": 1793894534.1594813
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u10 as new rule_explanation with salience 0.5 and no factual verdict, so worthiness for fan attention at 17.4 chase is undecided.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"reason\": \"Strategist should decide if generic DRS threshold explanation is worth interrupting tense chase before any commit.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1983,
+    "output_tokens": 80
+  },
+  "t": 1793807500.920494
+}

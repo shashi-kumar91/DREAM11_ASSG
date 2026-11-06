@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Verifier returned unverifiable with no matched event for u04 wicket claim at 142/4, so no factual commit is allowed yet.\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"reason\": \"Classify u04 as attributed report vs fact and check event feed around 16.3 before any card.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1950,
+    "output_tokens": 68
+  },
+  "t": 1793805385.705789
+}

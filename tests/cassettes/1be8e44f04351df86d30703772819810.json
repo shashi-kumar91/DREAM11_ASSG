@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"kind\": \"tool\",\n  \"thought\": \"I need to check if 'Bedi' is a player in the current match to resolve the reference.\",\n  \"tool\": \"resolve_reference\",\n  \"args_json\": \"{\\\"phrase\\\": \\\"Bedi\\\", \\\"kind_hint\\\": \\\"bowler\\\"}\"\n}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 711,
+    "output_tokens": 73
+  },
+  "t": 1793893973.2459934
+}

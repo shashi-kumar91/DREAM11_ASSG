@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Feed, commentary, and frame checked within clamp before evt_075; frame agrees with feed at 16.6.\",\"result_json\":\"{\\\"sources\\\": [{\\\"tool\\\": \\\"query_event_feed\\\", \\\"found\\\": true, \\\"detail\\\": \\\"4 material events clamped at 17.4 before evt_075: evt_062 15.3 FOUR 139/3, evt_068 16.3 WICKET 142/4, evt_069 16.4 FOUR 146/4, evt_071 16.6 RUN OUT 147/5\\\"}, {\\\"tool\\\": \\\"search_commentary\\\", \\\"found\\\": false, \\\"detail\\\": \\\"0 lines returned for Chennai Kestrels in clamped window\\\"}, {\\\"tool\\\": \\\"inspect_frame\\\", \\\"found\\\": true, \\\"detail\\\": \\\"frm_16_6 pixels read 147/5 at 16.6 RRR 9.67, agrees with feed evt_071\\\"}], \\\"disagreements\\\": [], \\\"coverage_ok\\\": true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1341,
+    "output_tokens": 189,
+    "finish_reason": "stop"
+  },
+  "t": 1793811222.4033372
+}

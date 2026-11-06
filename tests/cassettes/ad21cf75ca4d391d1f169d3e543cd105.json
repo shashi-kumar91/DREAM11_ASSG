@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Boundary conf is 0.65 with candidates 16.1-16.3 and frames checked=0, while material events differ by candidate, so evidence is needed before any receipt.\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"reason\": \"Cross-check the missed window against frames and commentary to resolve which candidate boundary is supported without spoiling the fan.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2429,
+    "output_tokens": 89,
+    "finish_reason": "stop"
+  },
+  "t": 1793880382.5591674
+}

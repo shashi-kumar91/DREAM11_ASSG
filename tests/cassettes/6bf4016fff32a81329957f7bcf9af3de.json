@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"u08 at 17.1 is a death-overs spin tactic suggestion needing classification before any commit.\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"reason\": \"Analyst must classify this tactic utterance and draft the attributed insight; no verdict exists yet.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1929,
+    "output_tokens": 64
+  },
+  "t": 1793808240.4666486
+}

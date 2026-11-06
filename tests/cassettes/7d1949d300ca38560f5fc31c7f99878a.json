@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\":\"Strategist proposed recovery from 4 clamped events before 17.4, but no critic check yet for spoiling or misleading.\",\"action\":\"dispatch\",\"agent\":\"critic\",\"args_json\":\"{}\",\"reason\":\"Verify proposed receipt stays before resume 17.4 and does not mislead before commit.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2499,
+    "output_tokens": 73,
+    "finish_reason": "stop"
+  },
+  "t": 1793845425.22409
+}

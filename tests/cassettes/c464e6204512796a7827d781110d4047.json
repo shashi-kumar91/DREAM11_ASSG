@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify u10 contains 2.5mm claim and attribution\",\"tool\":\"recall_utterance\",\"args_json\":\"{\\\"utterance_id\\\":\\\"u10\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 769,
+    "output_tokens": 45
+  },
+  "t": 1793809241.6298192
+}

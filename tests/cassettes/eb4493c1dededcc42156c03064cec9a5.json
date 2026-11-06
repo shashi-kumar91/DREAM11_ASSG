@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Strategist fix ends receipt at 16.5 on 146/4 citing evt_068/evt_069, removing critic-rejected 16.6 spoiler, with investigator evidence agreeing.\", \"action\": \"commit\", \"reason\": \"Corrected receipt covers missed 16.3 wicket and 16.4 four without showing resume ball, ready for surface policy.\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Missed wicket at 16.3 and four at 16.4\", \"body\": \"You missed the wicket at 16.3 [evt_068] and the four at 16.4 [evt_069], with the receipt ending at 16.5 on 146/4 before your resume position.\", \"salience\": 0.85, \"cited_event_ids\": [\"evt_068\", \"evt_069\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"receipt\", \"wicket\", \"16.3\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2501,
+    "output_tokens": 198
+  },
+  "t": 1793810910.1588953
+}

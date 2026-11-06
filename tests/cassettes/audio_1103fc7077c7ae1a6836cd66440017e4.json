@@ -1,0 +1,6 @@
+{
+  "text": "```json\n{\"text\": \"Wo reverse sweep wala idea, haan wahi dobara, reverse sweep hi aayega.\",\n \"confidence\": 0.95,\n \"uncertain_words\": []}\n```",
+  "model": "gemini-3.5-flash",
+  "usage": {},
+  "t": 1793802409.3613238
+}

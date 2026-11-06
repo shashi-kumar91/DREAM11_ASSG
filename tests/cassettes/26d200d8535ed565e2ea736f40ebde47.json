@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"u05 predicts two yorkers next over from Bedi/Dev Kapoor at 16.5, perceiver resolved reference, needs analyst classification before any verdict or commit.\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"reason\": \"Prediction utterance requires analyst to produce structured claim for kernel verification; verifier before analyst would verify nothing.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1993,
+    "output_tokens": 89
+  },
+  "t": 1793808170.6297023
+}

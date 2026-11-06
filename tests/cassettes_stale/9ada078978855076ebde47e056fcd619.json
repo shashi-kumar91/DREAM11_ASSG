@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u08 as tactic advice, not a factual claim, so no verifier verdict is needed; attention check is next before any card.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"reason\": \"Tactic insight at 17.1 needs salience/attention decision before committing to fan.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1984,
+    "output_tokens": 74
+  },
+  "t": 1793807430.2938106
+}

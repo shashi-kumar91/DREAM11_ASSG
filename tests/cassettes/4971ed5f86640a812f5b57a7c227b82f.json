@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The creator is expressing a subjective opinion about the bowler's speed; I will commit this as an opinion insight.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"opinion\", \"headline\": \"Creator's take on Rohan Bedi's bowling speed\", \"body\": \"The creator feels that Rohan Bedi's bowling speed is quite slow, humorously comparing it to his grandmother's pace.\", \"salience\": 0.3, \"cited_utterance_ids\": [\"u11\"], \"tags\": [\"bowler\", \"opinion\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1431,
+    "output_tokens": 128
+  },
+  "t": 1793894220.2417383
+}

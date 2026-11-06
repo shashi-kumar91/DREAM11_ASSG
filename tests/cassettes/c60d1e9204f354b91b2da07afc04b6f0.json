@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need resolve Bedi against squad/match state before classification; use resolve_reference tool.\",\"tool\":\"resolve_reference\",\"args_json\":\"{\\\"phrase\\\":\\\"Bedi\\\",\\\"kind_hint\\\":\\\"bowler\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 997,
+    "output_tokens": 58
+  },
+  "t": 1793809000.563158
+}

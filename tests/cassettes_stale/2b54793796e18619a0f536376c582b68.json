@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator predicts Bedi will bowl two yorkers next over and is watching his length. This is a future bet, not a checkable current fact, so classify as prediction with bowler Bedi, metric yorkers, threshold two from 'do'. No over number was spoken, leave null.\",\"result_json\":\"{\\\"insight_type\\\":\\\"prediction\\\",\\\"claim\\\":null,\\\"prediction\\\":{\\\"bowler_surname\\\":\\\"Bedi\\\",\\\"over\\\":null,\\\"metric\\\":\\\"yorkers\\\",\\\"threshold\\\":2,\\\"timeframe\\\":\\\"next over\\\"},\\\"card_text\\\":\\\"\\\\\\\"Bedi agle over mein do yorker phenkega, main dekh raha hoon uska length.\\\\\\\"\\\",\\\"confidence\\\":0.94,\\\"attribution\\\":\\\"creator\\\",\\\"utterance_id\\\":\\\"u05\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 872,
+    "output_tokens": 177
+  },
+  "t": 1793807354.620075
+}

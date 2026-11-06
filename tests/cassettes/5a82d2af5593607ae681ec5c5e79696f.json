@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"'Isne' is ambiguous between striker and bowler; need resolve_reference against match state to map to concrete player before analyst claim.\",\"tool\":\"resolve_reference\",\"args_json\":\"{\\\"phrase\\\":\\\"Isne\\\",\\\"kind_hint\\\":\\\"bowler\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 818,
+    "output_tokens": 70
+  },
+  "t": 1793809162.6156673
+}

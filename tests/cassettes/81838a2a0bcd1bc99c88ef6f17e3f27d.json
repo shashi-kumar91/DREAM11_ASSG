@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is a tactical suggestion that batter could try reverse sweep given field (third man up), not a checkable score/count or a bet with metric/threshold. Classify as tactic and quote creator verbatim, no claim/prediction numbers.\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"card_text\\\":\\\"Yeh banda ab reverse sweep try kar sakta hai, field dekho, third man up hai.\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"confidence\\\":0.94,\\\"source_utterance_id\\\":\\\"u02\\\",\\\"attribution\\\":\\\"creator\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 872,
+    "output_tokens": 135,
+    "finish_reason": "stop"
+  },
+  "t": 1793817241.1207826
+}

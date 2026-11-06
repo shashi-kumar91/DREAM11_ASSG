@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is checkable score/wicket claim in creator's Hindi words. Draft as factual_claim quoting verbatim, grounding only 142/4 said by creator, pending verification.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":{\\\"source_quote\\\":\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\",\\\"score\\\":\\\"142/4\\\",\\\"wicket\\\":\\\"Vikram Naidu out\\\"},\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator said: \\\\\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\\\\\"\\\",\\\"confidence\\\":0.94,\\\"needs_verification\\\":true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 865,
+    "output_tokens": 147
+  },
+  "t": 1793805938.9255917
+}

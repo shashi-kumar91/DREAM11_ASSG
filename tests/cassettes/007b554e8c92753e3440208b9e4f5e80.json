@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Boundary uncertain at 16.1/16.2/16.3 conf 0.65 and candidates differ on the 16.3 wicket, with VOI ask=true\", \"action\": \"ask_user\", \"question\": \"Did you see the wicket in over 16.3 before the ad covered the screen?\", \"options\": [\"Yes, I saw the wicket\", \"No, I missed it\", \"Not sure\"], \"reason\": \"Asking changes the receipt and avoids spoiling or repeating the 16.3 wicket if the fan already saw it\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2481,
+    "output_tokens": 104,
+    "finish_reason": "stop"
+  },
+  "t": 1793843423.1672583
+}

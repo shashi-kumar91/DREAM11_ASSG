@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"u05 predicts Bedi will bowl two yorkers in over 17, perceiver resolved Bedi to Rohan Bedi, but analyst returned nothing usable so classification is missing.\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"reason\": \"Analyst is the only role that can classify this prediction and draft a structured claim for verification/logging.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2024,
+    "output_tokens": 82
+  },
+  "t": 1793809029.8221781
+}

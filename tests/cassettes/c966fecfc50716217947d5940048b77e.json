@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Late join at evt_075 with no boundary candidates and fan already scoped to Chennai Kestrels key moments, so evidence from the missed window before 17.4 is needed\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"reason\": \"Investigator can query the clamped feed and commentary for key Chennai moments before the resume cursor without inventing a boundary\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1985,
+    "output_tokens": 90,
+    "finish_reason": "stop"
+  },
+  "t": 1793815891.4798553
+}

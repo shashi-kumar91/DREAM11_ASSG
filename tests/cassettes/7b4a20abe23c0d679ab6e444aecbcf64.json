@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Investigator confirms evt_071 wicket at 16.6 and evt_072 dot at 17.1 before resume 17.2, and critic requires reporting the wicket not a no-op.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Missed interval: run out at 16.6, dot at 17.1\", \"body\": \"The missed window before resume contained a run out at 16.6 [evt_071] and a dot ball at 17.1 [evt_072]; the 16.6 frame confirms the score.\", \"salience\": 0.9, \"cited_event_ids\": [\"evt_071\", \"evt_072\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"gap\", \"receipt\", \"wicket\"]}, \"reason\": \"Kernel must commit a receipt; evidence supports wicket at 16.6 and dot at 17.1, with nothing at or after 17.2 mentioned.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2357,
+    "output_tokens": 200
+  },
+  "t": 1793811019.4067614
+}

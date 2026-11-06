@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Boundary uncertain 16.1-16.3 conf 0.65 and VOI says ask has value, with investigator evidence already gathered\", \"action\": \"dispatch\", \"agent\": \"questioner\", \"args_json\": \"{}\", \"reason\": \"Candidates change which material events were missed, so questioner should decide if asking fan resolves boundary before strategist picks recovery\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2455,
+    "output_tokens": 85,
+    "finish_reason": "stop"
+  },
+  "t": 1793843395.0471048
+}

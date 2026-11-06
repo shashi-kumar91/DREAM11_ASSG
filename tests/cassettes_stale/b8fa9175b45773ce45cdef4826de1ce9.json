@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The creator explicitly mentions Vikram Naidu and the current score. The match state confirms Vikram Naidu is the striker and the score is 142/4.\",\"result_json\":\"{\\\"mentions\\\":[{\\\"phrase\\\":\\\"Vikram Naidu\\\",\\\"kind\\\":\\\"striker\\\",\\\"resolved\\\":\\\"Vikram Naidu\\\",\\\"confidence\\\":1.0},{\\\"phrase\\\":\\\"Score\\\",\\\"kind\\\":\\\"unresolved\\\",\\\"resolved\\\":\\\"142/4\\\",\\\"confidence\\\":1.0}],\\\"ambiguity\\\":\\\"\\\",\\\"summary\\\":\\\"Vikram Naidu is out with the score at 142/4.\\\"}\"}",
+  "model": "gemini-3-flash-preview",
+  "usage": {
+    "prompt_tokens": 744,
+    "output_tokens": 126
+  },
+  "t": 1793804235.2879944
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Late join at evt_075 with boundary_candidates=[] conf=0.0 and telemetry notes no ball rendered, so boundary is ambiguous and cannot be invented.\", \"action\": \"dispatch\", \"agent\": \"reader\", \"args_json\": \"{}\", \"reason\": \"Reader must read playback log and name boundary hypotheses before any recovery, as telemetry cannot bound the window.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1992,
+    "output_tokens": 88
+  },
+  "t": 1793810515.9446373
+}

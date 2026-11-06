@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"kind\": \"final\",\n  \"thought\": \"The creator confirmed the dismissal of Vikram Naidu and the current score, which matches the match state. I will format this as a factual claim.\",\n  \"result_json\": \"{\\\"insight_type\\\": \\\"factual_claim\\\", \\\"claim\\\": {\\\"text\\\": \\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\", \\\"subject\\\": \\\"Vikram Naidu\\\", \\\"metric\\\": \\\"score\\\", \\\"value\\\": \\\"142/4\\\"}}\"\n}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 970,
+    "output_tokens": 118
+  },
+  "t": 1793804339.1974933
+}

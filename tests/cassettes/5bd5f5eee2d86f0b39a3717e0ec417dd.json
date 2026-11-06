@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Card contains no digits and attributes reverse sweep suggestion to creator, matching u02 text about reverse sweep and third man up. No match fact, prediction as fact, or unsupported claim.\",\"result_json\":\"{\\\"approve\\\": true, \\\"reason\\\": \\\"Card accurately paraphrases cited u02 with creator attribution and no unsupported digits or facts.\\\", \\\"must_fix\\\": \\\"\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 897,
+    "output_tokens": 96,
+    "finish_reason": "stop"
+  },
+  "t": 1793817268.7034094
+}

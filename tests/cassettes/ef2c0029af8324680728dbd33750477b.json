@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\": \"final\", \"thought\": \"Late-join receipt is clamped at the join point: the card states nothing after 17.4 and every cited event sits before the cursor.\", \"result_json\": \"{\\\"approve\\\": true, \\\"reason\\\": \\\"Window is clamped at the 17.4 join point, all cited events are pre-cursor, and the digits are the kernel's tally.\\\", \\\"must_fix\\\": \\\"\\\"}\"}",
+  "model": "arena-agent (hand-authored)",
+  "usage": {
+    "prompt_tokens": 0,
+    "output_tokens": 0
+  },
+  "t": 1793900094.6068656
+}

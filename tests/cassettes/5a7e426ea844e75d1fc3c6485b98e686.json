@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The critic identified a factual error in the previous receipt attempt regarding the wicket at 16.6; I must now commit a corrected receipt that acknowledges the wicket event [evt_071] within the gap.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Caught up on the action\", \"body\": \"During the brief network interruption, a wicket fell at 16.6 [evt_071], followed by two dot balls [evt_072, evt_073].\", \"salience\": 0.8, \"cited_utterance_ids\": [], \"cited_event_ids\": [\"evt_071\", \"evt_072\", \"evt_073\"], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"wicket\", \"gap_recovery\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1782,
+    "output_tokens": 205
+  },
+  "t": 1793892397.5234632
+}

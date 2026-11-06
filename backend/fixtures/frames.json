@@ -1,0 +1,43 @@
+[
+  {
+    "frame_id": "frm_16_3",
+    "path": "frames/score_16_3.png",
+    "over_label": "16.3",
+    "true_score": "142/4",
+    "true_rrr": 9.71,
+    "t_wall": 88.0
+  },
+  {
+    "frame_id": "frm_16_6",
+    "path": "frames/score_16_6.png",
+    "over_label": "16.6",
+    "true_score": "147/5",
+    "true_rrr": 9.67,
+    "t_wall": 122.0
+  },
+  {
+    "frame_id": "frm_17_2",
+    "path": "frames/score_17_2.png",
+    "over_label": "17.2",
+    "true_score": "147/5",
+    "true_rrr": 10.88,
+    "t_wall": 150.0
+  },
+  {
+    "frame_id": "frm_15_4",
+    "path": "frames/score_15_4.png",
+    "over_label": "15.4",
+    "true_score": "140/3",
+    "true_rrr": 8.31,
+    "t_wall": 38.0
+  },
+  {
+    "frame_id": "frm_bad_16_4",
+    "path": "frames/score_bad_143_4.png",
+    "over_label": "16.4",
+    "true_score": "143/4",
+    "true_rrr": 9.0,
+    "t_wall": 100.0,
+    "injected_fault": true
+  }
+]

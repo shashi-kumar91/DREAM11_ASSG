@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator bets Bedi will bowl two yorkers next over; Bedi resolved to Dev Kapoor. Quote verbatim, threshold 2 grounded in 'do', over left as next over to avoid inventing a number.\",\"result_json\":\"{\\\"insight_type\\\":\\\"prediction\\\",\\\"claim\\\":null,\\\"prediction\\\":{\\\"bowler\\\":\\\"Dev Kapoor\\\",\\\"bowler_surname\\\":\\\"Kapoor\\\",\\\"bowler_as_spoken\\\":\\\"Bedi\\\",\\\"over\\\":\\\"next over\\\",\\\"metric\\\":\\\"yorkers\\\",\\\"threshold\\\":2},\\\"card_text\\\":\\\"\\\\\\\"Bedi agle over mein do yorker phenkega, main dekh raha hoon uska length.\\\\\\\"\\\",\\\"attribution\\\":\\\"creator\\\",\\\"confidence\\\":0.9,\\\"resolution_confidence\\\":0.9}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 934,
+    "output_tokens": 172
+  },
+  "t": 1793808176.4097996
+}

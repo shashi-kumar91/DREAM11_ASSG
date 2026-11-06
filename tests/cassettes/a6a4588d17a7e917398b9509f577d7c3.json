@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Material wickets/boundaries exist in clamped feed and fan requested recap; no frame check passed so no clip, receipt is safest.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"\\\",\\\"why_it_matters\\\":\\\"The recap covers two wickets and two boundaries that moved the score to 147/5 [evt_062] [evt_068] [evt_069] [evt_071].\\\",\\\"ordering\\\":\\\"receipt recap then resume at evt_075\\\",\\\"reason\\\":\\\"Fan asked for key-moment recap and feed contains material events, with no clip frame check passed.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1271,
+    "output_tokens": 140,
+    "finish_reason": "stop"
+  },
+  "t": 1793842298.7464943
+}

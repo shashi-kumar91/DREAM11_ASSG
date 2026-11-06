@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance u12 at 204.0s contains no 03:24 digits; card introduces unlicensed timestamp digits, matching validator rejection. Attribution is present but digit rule fails.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Digit 03:24 in body is not present in cited utterance u12 evidence, flagged as unlicensed_number.\\\", \\\"must_fix\\\": \\\"Remove unlicensed timestamp digits or cite evidence containing them.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 873,
+    "output_tokens": 111
+  },
+  "t": 1793808390.6352408
+}

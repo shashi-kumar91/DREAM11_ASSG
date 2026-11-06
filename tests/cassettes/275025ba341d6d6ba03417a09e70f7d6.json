@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator found 4 material events clamped before resume 17.4 with no commentary corroboration; fan wants key-moments recap, so recovery modality must be chosen next.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"reason\": \"Evidence is gathered and fan scope is known; strategist should pick safest useful recovery without inventing a boundary or using post-resume events.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2133,
+    "output_tokens": 94,
+    "finish_reason": "stop"
+  },
+  "t": 1793815991.482371
+}

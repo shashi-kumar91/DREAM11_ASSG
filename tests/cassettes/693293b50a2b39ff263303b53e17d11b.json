@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed boundary 16.2 and strategist chose recovery, but receipt must be checked not to mention resume ball 16.6 before committing.\", \"action\": \"dispatch\", \"agent\": \"critic\", \"reason\": \"Critic must verify the proposed receipt does not spoil or mislead, especially the at-resume event evt_071, before any commit.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2510,
+    "output_tokens": 83,
+    "finish_reason": "stop"
+  },
+  "t": 1793842112.0591815
+}

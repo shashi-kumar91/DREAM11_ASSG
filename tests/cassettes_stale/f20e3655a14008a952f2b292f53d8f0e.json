@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Creator says Vikram Naidu out at 142/4 but match_state lists him as striker at 16.3, so factual claim needs verification before any card.\", \"action\": \"dispatch\", \"agent\": \"verifier\", \"args_json\": \"{}\", \"reason\": \"No verdict in scratchpad; verifier must adversarially test out/score claim against feed and match state.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1777,
+    "output_tokens": 85
+  },
+  "t": 1793805315.0661035
+}

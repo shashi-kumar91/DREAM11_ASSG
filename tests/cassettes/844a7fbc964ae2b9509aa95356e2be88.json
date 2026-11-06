@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Wicket at 16.3 and boundary at 16.4 were missed before resume 16.6; frame for 16.3 passed, so check clip eligibility for evt_068 before offering it.\",\"tool\":\"offer_clip\",\"args_json\":\"{\\\"event_id\\\":\\\"evt_068\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1345,
+    "output_tokens": 62,
+    "finish_reason": "stop"
+  },
+  "t": 1793815751.2503946
+}

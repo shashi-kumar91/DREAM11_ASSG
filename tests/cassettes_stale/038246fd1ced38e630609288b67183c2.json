@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator states wicket and score; feed evt_068 at 16.3 and match state confirm Vikram Naidu out, 142/4. Structured as factual_claim with grounded player/score/over.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"is_new_information\\\":true,\\\"claim\\\":{\\\"kind\\\":\\\"wicket\\\",\\\"raw_phrase\\\":\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\",\\\"runs\\\":null,\\\"wickets\\\":4,\\\"player\\\":\\\"Vikram Naidu\\\",\\\"over\\\":\\\"16.3\\\",\\\"count\\\":null,\\\"rate\\\":null},\\\"prediction\\\":{\\\"text\\\":\\\"\\\",\\\"bowler\\\":null,\\\"batter\\\":null,\\\"over\\\":null,\\\"metric\\\":null,\\\"threshold\\\":null},\\\"headline\\\":\\\"Vikram Naidu out ho gaye\\\",\\\"body\\\":\\\"Creator said: 'Vikram Naidu out ho gaye. Score abhi 142/4 hai.'\\\",\\\"salience\\\":0.9,\\\"reasoning\\\":\\\"Checkable wicket/score claim matches feed event evt_068 (16.3, Vikram Naidu out, 142/4) and match state at 16.3.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1303,
+    "output_tokens": 243
+  },
+  "t": 1793805550.3179867
+}

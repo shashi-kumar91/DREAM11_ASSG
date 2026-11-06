@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Investigator confirmed gap after 16.6 contains only dot [evt_072] and kernel requires a receipt/no-op, not skip.\", \"action\": \"commit\", \"reason\": \"No key action was missed; safest useful recovery is an explicit no-op without showing any ball at or after resume.\", \"card\": {\"kind\": \"noop\", \"insight_type\": null, \"headline\": \"Missed interval checked: no key action to recover\", \"body\": \"Reconstructed the stall after the 16.6 boundary from feed, frame, and commentary. The only missed ball was a dot [evt_072]. No clip or replay is needed before resume.\", \"salience\": 0.2, \"cited_event_ids\": [\"evt_071\", \"evt_072\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"S2\", \"buffer\", \"noop\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2218,
+    "output_tokens": 190
+  },
+  "t": 1793810939.9689388
+}

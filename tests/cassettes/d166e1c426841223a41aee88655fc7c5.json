@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The analyst has identified the creator's explanation of the DRS ball-tracking rule as a factual rule explanation; I will now commit this as an insight.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"rule_explanation\", \"headline\": \"DRS Ball Tracking Rule\", \"body\": \"Review ball tracking depends on the edge size; if the edge is less than 2.5 millimeters, it is ruled not out.\", \"salience\": 0.6, \"cited_utterance_ids\": [\"u10\"], \"tags\": [\"rules\", \"DRS\"]}, \"question\": null, \"options\": []}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1448,
+    "output_tokens": 143
+  },
+  "t": 1793894201.4041386
+}

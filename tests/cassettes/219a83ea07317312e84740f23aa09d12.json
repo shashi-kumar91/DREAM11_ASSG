@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed boundary at 16.1 and telemetry lists material events before resume evt_071 at 16.6, so missed window needs evidence cross-check before any receipt.\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"reason\": \"Cross-check the 16.1 to pre-16.6 missed window against frames and commentary to confirm material events without using anything at or after resume.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2471,
+    "output_tokens": 93,
+    "finish_reason": "stop"
+  },
+  "t": 1793866008.291019
+}

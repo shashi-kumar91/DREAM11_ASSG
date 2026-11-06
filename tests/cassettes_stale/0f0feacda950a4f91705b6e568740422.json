@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Speculative reverse-sweep tactic at 15.3 is attributed creator opinion, not a verified fact or high-salience event; preserve it in timeline without interrupting watch mode.\",\"result_json\":\"{\\\"mode\\\": \\\"collapsed\\\", \\\"reason\\\": \\\"Low-salience speculative tactic suggestion not worth interrupting watch mode; collapse to timeline.\\\", \\\"salience\\\": 0.35}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 816,
+    "output_tokens": 98
+  },
+  "t": 1793807217.3682947
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Match state shows Vikram out at 142/4 but need feed to confirm event evt_068 is within playback and is the wicket, not a later/earlier event.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"start_over\\\":\\\"16.0\\\",\\\"end_over\\\":\\\"16.3\\\",\\\"only_material\\\":false}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1004,
+    "output_tokens": 77
+  },
+  "t": 1793805326.2499917
+}

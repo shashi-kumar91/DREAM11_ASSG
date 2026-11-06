@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is advice on spin length in death overs, not a checkable score or future bet. Classify as tactic, quote creator verbatim, no claim/prediction numbers.\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator tactic: \\\\\\\"Death overs mein spin ko medium length par rakhna chahiye, stumps par niche target karke.\\\\\\\"\\\",\\\"confidence\\\":0.94,\\\"utterance_id\\\":\\\"u08\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 880,
+    "output_tokens": 120
+  },
+  "t": 1793808245.1255474
+}

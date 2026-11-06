@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Cross-check gap 16.6-17.2: query event feed clamped to resume cursor first.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"start_over\\\":\\\"16.6\\\",\\\"end_over\\\":\\\"17.2\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 844,
+    "output_tokens": 55
+  },
+  "t": 1793810917.4951203
+}

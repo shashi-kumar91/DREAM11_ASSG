@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Cross-checked 16.6-17.2 window: feed, frame pixels, and commentary all agree on score and events up to resume cursor; no disagreements found.\",\"result_json\":\"{\\\"sources\\\": [{\\\"tool\\\": \\\"query_event_feed\\\", \\\"found\\\": true, \\\"detail\\\": \\\"count=3 clamped_at=17.2 material_count=1; evt_071 16.6 wicket RUN OUT Kabir Menon score 147/5 rrr 9.67; evt_072 17.1 ball dot yorker score 147/5; evt_073 17.2 ball dot yorker score 147/5\\\"}, {\\\"tool\\\": \\\"inspect_frame\\\", \\\"found\\\": true, \\\"detail\\\": \\\"frm_16_6 frames/score_16_6.png read_from_pixels score 147/5 over 16.6 rrr 9.67 readable=true; feed_score 147/5 agrees=true\\\"}, {\\\"tool\\\": \\\"search_commentary\\\", \\\"found\\\": true, \\\"detail\\\": \\\"count=4; evt_073 17.2 dot another yorker blocked 147/5; evt_072 17.1 dot perfect yorker no run 147/5; evt_071 16.6 RUN OUT Kabir Menon 147/5; evt_067 16.2 1 run squeezed out 142/3\\\"}], \\\"disagreements\\\": [], \\\"coverage_ok\\\": true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1316,
+    "output_tokens": 254
+  },
+  "t": 1793810927.523997
+}

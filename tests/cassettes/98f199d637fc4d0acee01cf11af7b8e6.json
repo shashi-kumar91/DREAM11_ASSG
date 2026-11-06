@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Utterance suggests a reverse sweep tactic and mentions third man up; need check match state for field info before treating that as fact, otherwise keep as attributed tactic.\",\"tool\":\"get_match_state\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 869,
+    "output_tokens": 62
+  },
+  "t": 1793808069.42326
+}

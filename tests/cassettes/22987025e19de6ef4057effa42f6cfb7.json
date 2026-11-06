@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Retrieval hit u08 at 02:22 directly answers death bowling query with creator's verbatim tactic\", \"action\": \"commit\", \"reason\": \"Creator attributed transcript contains direct answer; commit query_answer citing u08 without synthesis\", \"card\": {\"kind\": \"query_answer\", \"insight_type\": \"answer\", \"headline\": \"Creator on death bowling: keep spin on medium length\", \"body\": \"Sunny Agarwal (@courtside_sunny) at 02:22: \\\"Death overs mein spin ko medium length par rakhna chahiye\\\"\", \"salience\": 0.85, \"cited_utterance_ids\": [\"u08\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"death bowling\", \"creator\", \"tactic\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2225,
+    "output_tokens": 171
+  },
+  "t": 1793808425.636002
+}

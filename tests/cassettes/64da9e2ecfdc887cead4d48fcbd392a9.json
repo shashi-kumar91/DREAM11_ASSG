@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify utterance u04 text and timestamp 01:32, and event evt_068\",\"tool\":\"recall_utterance\",\"args_json\":\"{\\\"utterance_id\\\":\\\"u04\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 847,
+    "output_tokens": 47
+  },
+  "t": 1793808988.0825665
+}

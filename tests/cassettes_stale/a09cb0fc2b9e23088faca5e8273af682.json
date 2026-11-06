@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Verdict says no checkable claim but utterance states wicket+score; need feed to test matched event and playback limit.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"end_over\\\":\\\"16.3\\\",\\\"only_material\\\":true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1218,
+    "output_tokens": 66
+  },
+  "t": 1793805523.896217
+}

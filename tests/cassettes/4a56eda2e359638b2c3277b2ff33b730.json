@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"u04 reports Vikram Naidu out at 142/4 with a CONFIRMED score verdict ver_180f68b87e, but the out claim itself needs analyst classification before any commit.\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"reason\": \"Analyst is the only role that produces a structured claim; dispatch it to classify the wicket/score utterance and draft an attributed insight without inventing facts.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2037,
+    "output_tokens": 97
+  },
+  "t": 1793808976.1513643
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Tool resolved 'isne' to bowler Rohan Bedi (0.9) using match state striker Arjun Rao / bowler Rohan Bedi; 'field' has no concrete entity in state, mark unresolved.\",\"result_json\":\"{\\\"mentions\\\": [{\\\"phrase\\\": \\\"isne\\\", \\\"kind\\\": \\\"bowler\\\", \\\"resolved\\\": \\\"Rohan Bedi\\\", \\\"confidence\\\": 0.9}, {\\\"phrase\\\": \\\"field\\\", \\\"kind\\\": \\\"unresolved\\\", \\\"resolved\\\": null, \\\"confidence\\\": 0.3}], \\\"ambiguity\\\": \\\"\\\", \\\"summary\\\": \\\"'isne' resolved to bowler Rohan Bedi per match state; 'field' is unresolved tactic opinion with no concrete field entity.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 862,
+    "output_tokens": 153,
+    "finish_reason": "stop"
+  },
+  "t": 1793817387.6411562
+}

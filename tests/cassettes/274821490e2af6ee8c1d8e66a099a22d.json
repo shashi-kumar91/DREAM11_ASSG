@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Late join, no boundary candidates; need telemetry first\", \"action\": \"dispatch\", \"agent\": \"reader\", \"reason\": \"Reader must read playback log and name boundary hypotheses before any recovery\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2051,
+    "output_tokens": 53
+  },
+  "t": 1793811040.2337399
+}

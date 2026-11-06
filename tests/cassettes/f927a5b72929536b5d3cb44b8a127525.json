@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Perceiver resolved 'Isne' to Rohan Bedi; utterance is a tactical opinion needing classification before any verdict or card.\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"reason\": \"Analyst is the only role that can classify this utterance and draft a structured claim for kernel verification.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1984,
+    "output_tokens": 72
+  },
+  "t": 1793809181.7733226
+}

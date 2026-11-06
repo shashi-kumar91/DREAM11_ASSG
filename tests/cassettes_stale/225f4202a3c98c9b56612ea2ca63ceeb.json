@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance matches recall, but verify_claim returned empty claimed/observed, null match, 'no checkable claim' despite explicit wicket/score wording. Feed shows a corresponding event at playback position, yet verifier did not match it. Cannot override authoritative UNVERIFIABLE verdict.\",\"result_json\":\"{\\\"agrees\\\": false, \\\"concerns\\\": [\\\"verify_claim returned empty claimed and observed fields with no matched event, despite utterance containing an explicit wicket and score claim\\\", \\\"matched_over and matched_event_id are null, so the claim was not actually checked against any event\\\", \\\"a feed event at the playback position appears to correspond, but the deterministic verdict did not use it and cannot be treated as confirmed\\\"], \\\"note_for_card\\\": \\\"Creator reported a wicket and score; deterministic check returned unverifiable with no matched event, so do not commit as fact.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1039,
+    "output_tokens": 221
+  },
+  "t": 1793805371.8201716
+}

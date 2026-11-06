@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Verdict says no checkable claim, but recalled utterance names a player out and a score, and match state at same time confirms both. Extraction nulls caused unverifiable.\",\"result_json\":\"{\\\"agrees\\\": false, \\\"concerns\\\": [\\\"Verdict claims no checkable claim, but utterance explicitly states a named player is out and gives the current score\\\", \\\"Analyst extraction left player and wickets null, so verifier had nothing to test despite checkable raw phrase\\\", \\\"Match state at same timestamp lists out_player matching the named player, wicket true, and score matching the stated score\\\", \\\"Striker field still lists the out player, creating ambiguity, but out_player field is explicit\\\"], \\\"note_for_card\\\": \\\"Creator reports a wicket and current score; match state aligns at same clock time.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1225,
+    "output_tokens": 197
+  },
+  "t": 1793805815.8304727
+}

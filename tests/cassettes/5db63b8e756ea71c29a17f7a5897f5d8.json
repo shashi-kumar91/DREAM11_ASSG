@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Feed and frame agree on 16.3 wicket 142/4; need commentary source to complete per-source agreement check within clamped window.\",\"tool\":\"search_commentary\",\"args_json\":\"{\\\"query\\\":\\\"Vikram Naidu wicket 16.3\\\",\\\"limit\\\":5}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1721,
+    "output_tokens": 68,
+    "finish_reason": "stop"
+  },
+  "t": 1793842086.3346064
+}

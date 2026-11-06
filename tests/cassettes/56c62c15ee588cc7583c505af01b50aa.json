@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify squad to re-resolve Bedi to Rohan Bedi, not current bowler Dev Kapoor per rejection note.\",\"tool\":\"get_match_state\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1048,
+    "output_tokens": 47
+  },
+  "t": 1793808203.5594923
+}

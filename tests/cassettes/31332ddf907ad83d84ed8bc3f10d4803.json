@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Feed shows evt_071 16.6 wicket RUN OUT 147/5 in window, but noop card claims 2 balls 17.1-17.2 and nothing missed. That violates no-nothing-happened rule.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Receipt claims nothing happened/no wicket but window includes evt_071 wicket at 16.6 (147/5 RUN OUT)\\\", \\\"must_fix\\\": \\\"Do not issue noop; include 16.6 wicket in recap\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1264,
+    "output_tokens": 107,
+    "finish_reason": "stop"
+  },
+  "t": 1793842240.835762
+}

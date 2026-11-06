@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Event feed evt_068 at 16.3 confirms Vikram Naidu out, 142/4, within playback. UNVERIFIABLE misses checkable claim; striker listing conflicts with out event.\",\"result_json\":\"{\\\"agrees\\\": false, \\\"concerns\\\": [\\\"UNVERIFIABLE verdict misses checkable out and score claim in utterance u04\\\", \\\"matched event evt_068 at 16.3 confirms Vikram Naidu out for 142/4\\\", \\\"match_state lists Vikram Naidu as striker at 16.3 creating out-vs-striker conflict\\\", \\\"event is at clamped playback position 16.3, not beyond fan position\\\"], \\\"note_for_card\\\": \\\"Vikram Naidu out - 142/4 at 16.3\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1196,
+    "output_tokens": 154
+  },
+  "t": 1793805648.6890318
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Fan query at 17.6 has deterministic retrieval hit u08 verbatim on death overs from Sunny Agarwal, analyst classified as tactic with no verdict needed for a quote answer.\", \"action\": \"commit\", \"card\": {\"kind\": \"query_answer\", \"insight_type\": \"answer\", \"headline\": \"Creator on death bowling: keep spin on medium length\", \"body\": \"Sunny Agarwal (@courtside_sunny) at 02:22: \\\"Death overs mein spin ko medium length par rakhna chahiye\\\"\", \"salience\": 0.8, \"cited_utterance_ids\": [\"u08\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"death_bowling\", \"creator_quote\"]}, \"reason\": \"Answer fan only from attributed transcript hit u08, quoting verbatim without synthesis.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2221,
+    "output_tokens": 184
+  },
+  "t": 1793809352.72282
+}

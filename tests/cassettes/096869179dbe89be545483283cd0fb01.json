@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator reverse-sweep suggestion at 15.3 is speculative opinion, not verified fact; useful attributed insight but not urgent to interrupt in quiet mode, so collapse to timeline.\",\"result_json\":\"{\\\"mode\\\":\\\"collapsed\\\",\\\"reason\\\":\\\"Speculative reverse-sweep tactic is attributed creator opinion, useful but not urgent enough to interrupt in quiet mode.\\\",\\\"salience\\\":0.45}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1028,
+    "output_tokens": 102
+  },
+  "t": 1793808911.2180803
+}

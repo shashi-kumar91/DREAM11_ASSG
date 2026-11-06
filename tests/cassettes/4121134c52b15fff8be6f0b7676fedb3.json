@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"u05 predicts Bedi will bowl two yorkers next over but match state lists Dev Kapoor as bowler at 16.5, so reference needs resolving\", \"action\": \"dispatch\", \"agent\": \"perceiver\", \"reason\": \"Resolve Bedi identity before analyst classifies prediction\", \"args_json\": \"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1917,
+    "output_tokens": 71
+  },
+  "t": 1793808993.0662336
+}

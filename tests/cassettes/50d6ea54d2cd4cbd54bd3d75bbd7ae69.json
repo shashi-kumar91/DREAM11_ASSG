@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Late join at evt_075 with empty boundary candidates and conf 0.0, fan already scoped 15.1-17.4, so telemetry must be read before any recovery.\", \"action\": \"dispatch\", \"agent\": \"perceiver\", \"reason\": \"Reader/perceiver must name boundary hypotheses from playback log; no boundary can be invented and no receipt can be built without it.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1974,
+    "output_tokens": 84,
+    "finish_reason": "stop"
+  },
+  "t": 1793845338.6981442
+}

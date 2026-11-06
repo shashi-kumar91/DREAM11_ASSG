@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The critic rejected the previous draft because it lacked event ID citations. I will now provide a corrected receipt that includes the required citations for the key events identified by the investigator.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Chennai Kestrels: Key Moments Recap\", \"body\": \"Between 15.1 and 17.4, the Chennai Kestrels saw two boundaries [evt_062], [evt_069] and two wickets [evt_068], [evt_071]. The breakthrough at [evt_068] shifted the momentum.\", \"salience\": 0.9, \"cited_utterance_ids\": [], \"cited_event_ids\": [\"evt_062\", \"evt_069\", \"evt_068\", \"evt_071\"], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"recap\", \"Chennai Kestrels\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1680,
+    "output_tokens": 231
+  },
+  "t": 1793892678.1154296
+}

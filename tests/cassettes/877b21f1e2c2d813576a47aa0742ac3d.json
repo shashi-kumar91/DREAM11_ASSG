@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Fan confirmed left at 16.1, missed wicket and four before resume 16.6, so receipt excluding resume ball is safest.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"\\\",\\\"why_it_matters\\\":\\\"You missed the wicket at 16.3 [evt_068] and the four at 16.4 [evt_069] before resuming at 16.6.\\\",\\\"ordering\\\":\\\"receipt for evt_068 then evt_069, excluding resume evt_071\\\",\\\"reason\\\":\\\"Fan-resolved boundary 16.1 with material wicket and boundary in gap; no frame check passed for a clip\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1422,
+    "output_tokens": 138,
+    "finish_reason": "stop"
+  },
+  "t": 1793866053.6159647
+}

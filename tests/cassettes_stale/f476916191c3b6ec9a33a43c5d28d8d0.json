@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"kind\": \"tool\",\n  \"thought\": \"Check match state and event feed to verify the claim about Vikram Naidu being out and the current score.\",\n  \"tool\": \"get_match_state\",\n  \"args_json\": \"{}\"\n}",
+  "model": "gemini-3.5-flash",
+  "usage": {
+    "prompt_tokens": 751,
+    "output_tokens": 59
+  },
+  "t": 1793803671.39736
+}

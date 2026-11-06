@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Critic found evt_071 wicket at 16.6 in the 16.6-17.2 gap but no analyst verdict exists in scratchpad to support a factual commit.\", \"action\": \"dispatch\", \"agent\":",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2094,
+    "output_tokens": 42
+  },
+  "t": 1793810512.2035935
+}

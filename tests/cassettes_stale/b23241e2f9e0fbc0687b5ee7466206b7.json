@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u06 as new tactic and strategist recommends card at 15.6 with no prior cards, so commit attributed insight without factual verdict.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Creator backs reverse sweep again at 15.6\", \"body\": \"At 15.6 (141/3, target 176), the creator repeats the reverse sweep idea, saying the reverse sweep will come again. This is the creator's tactic view, not a confirmed outcome.\", \"salience\": 0.65, \"cited_utterance_ids\": [\"u06\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"reverse sweep\", \"tactic\"]}, \"reason\": \"Distinctive high-confidence tactic, new information, worth fan attention per strategist.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2035,
+    "output_tokens": 188
+  },
+  "t": 1793807296.4356194
+}

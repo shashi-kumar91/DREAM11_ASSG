@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Verdict is UNVERIFIABLE with null claim fields despite match_state showing Vikram Naidu as striker at 142/4, so the out claim needs adversarial checking before any card.\", \"action\": \"dispatch\", \"agent\": \"verifier\", \"args_json\": \"{}\", \"reason\": \"Cannot commit on UNVERIFIABLE verdict; verifier can test claim against match state and event feed.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2053,
+    "output_tokens": 88
+  },
+  "t": 1793805799.2121818
+}

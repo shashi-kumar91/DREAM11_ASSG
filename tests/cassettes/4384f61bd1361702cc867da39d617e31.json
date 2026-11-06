@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Fan query about guitar lessons has deterministic retrieval with 0 matches, so per objective commit honest no-answer from transcript only.\", \"action\": \"commit\", \"card\": {\"kind\": \"query_answer\", \"insight_type\": \"answer\", \"headline\": \"No mention of guitar lessons in the transcript\", \"body\": \"I searched the creator's attributed transcript for 'guitar lessons' and found no matches. The creator did not talk about guitar lessons in the segments available.\", \"salience\": 0.6, \"cited_utterance_ids\": [], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"query_answer\", \"no_match\"]}, \"reason\": \"Zero-match deterministic retrieval is settled; answer only from transcript and do not synthesise.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1932,
+    "output_tokens": 187
+  },
+  "t": 1793809374.7141244
+}

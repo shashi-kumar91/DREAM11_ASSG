@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1039,
+    "output_tokens": 7
+  },
+  "t": 1793807627.2343063
+}

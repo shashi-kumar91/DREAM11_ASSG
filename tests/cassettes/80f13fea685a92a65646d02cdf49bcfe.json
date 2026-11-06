@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify 01:32 timestamp and quote in u04, and evt_068 in feed\",\"tool\":\"recall_utterance\",\"args_json\":\"{\\\"utterance_id\\\":\\\"u04\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 843,
+    "output_tokens": 47,
+    "finish_reason": "stop"
+  },
+  "t": 1793817284.5792105
+}

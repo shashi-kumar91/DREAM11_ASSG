@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify utterance u07 timestamp/quote and event evt_067 score/over against card digits.\",\"tool\":\"recall_utterance\",\"args_json\":\"{\\\"utterance_id\\\":\\\"u07\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 760,
+    "output_tokens": 52,
+    "finish_reason": "stop"
+  },
+  "t": 1793817353.8819704
+}

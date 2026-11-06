@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Feed and commentary agree on all 4 clamped events; frame check returned no scoreboard, so pixel cross-check unavailable.\",\"result_json\":\"{\\\"sources\\\": [{\\\"tool\\\": \\\"query_event_feed\\\", \\\"found\\\": true, \\\"detail\\\": \\\"4 material events clamped at 17.4: evt_062 15.3 FOUR 139/3, evt_068 16.3 WICKET 142/4, evt_069 16.4 FOUR 146/4, evt_071 16.6 RUN OUT 147/5\\\"}, {\\\"tool\\\": \\\"inspect_frame\\\", \\\"found\\\": false, \\\"detail\\\": \\\"no scoreboard frame captured at or before t=28.0\\\"}, {\\\"tool\\\": \\\"search_commentary\\\", \\\"found\\\": true, \\\"detail\\\": \\\"4 lines matching feed ids, overs, scores and text for evt_062, evt_068, evt_069, evt_071\\\"}], \\\"disagreements\\\": [], \\\"coverage_ok\\\": false}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1422,
+    "output_tokens": 193,
+    "finish_reason": "stop"
+  },
+  "t": 1793845394.9056823
+}

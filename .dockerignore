@@ -1,0 +1,32 @@
+# Secrets never enter the build context or the image.
+.env
+.env.*
+*.key
+credentials.json
+secrets/
+
+# VCS / tooling noise
+.git
+.gitignore
+.pytest_cache
+.qoder
+.idea
+.vscode
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local run artefacts: the container writes its own traces under backend/out.
+backend/out/
+tmp/
+*.log
+model_ideas.txt
+
+# Node: dependencies and any local build are re-created inside stage 1.
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Generated model output is not source.
+evals/out/

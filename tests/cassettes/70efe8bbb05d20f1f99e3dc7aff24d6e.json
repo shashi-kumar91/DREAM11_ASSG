@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u12 as a new quote about no rain risk; prior commit was rejected for unlicensed timestamp digits, so commit a digit-free version citing u12.\", \"action\": \"commit\", \"reason\": \"Remove unlicensed digits flagged by critic while preserving attributed quote insight for surface policy to demote if not interruption-worthy.\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"quote\", \"headline\": \"Creator says no rain risk today\", \"body\": \"Creator says in Hindi that there is no risk of rain today and the sky is completely clear.\", \"salience\": 0.5, \"cited_utterance_ids\": [\"u12\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"weather\", \"quote\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2197,
+    "output_tokens": 178
+  },
+  "t": 1793808393.6695385
+}

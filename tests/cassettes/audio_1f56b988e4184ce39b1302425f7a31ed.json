@@ -1,0 +1,6 @@
+{
+  "text": "```json\n{\n \"text\": \"Haan bhai aaj rain ka koi risk nahi, poora clear sky hai.\",\n \"confidence\": 0.95,\n \"uncertain_words\": []\n}\n```",
+  "model": "gemini-3.5-flash",
+  "usage": {},
+  "t": 1793802478.9301717
+}

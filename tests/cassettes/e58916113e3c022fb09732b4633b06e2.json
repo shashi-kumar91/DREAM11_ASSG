@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is creator's opinion/jibe about bowler's slow pace, no checkable number or prediction stated. Classify as opinion, quote verbatim, leave claim/prediction null.\",\"result_json\":\"{\\\"insight_type\\\":\\\"opinion\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator's take on the bowler's pace: \\\\\\\"Yeh bowler itna slow phenk raha hai, dadi ki ginti bhi tez hai.\\\\\\\"\\\",\\\"confidence\\\":0.94,\\\"attribution\\\":\\\"creator utterance u11 at 03:10\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 867,
+    "output_tokens": 129
+  },
+  "t": 1793808334.047711
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Feed, frame, and commentary cross-checked for 16.1 to pre-16.6 window; frame agrees on 16.3, commentary omits 16.4, and resume event excluded from missed coverage.\",\"result_json\":\"{\\\"sources\\\": [{\\\"tool\\\": \\\"query_event_feed\\\", \\\"found\\\": true, \\\"detail\\\": \\\"count=3 clamped_at=16.6 material_count=3: evt_068 16.3 wicket 142/4, evt_069 16.4 boundary 146/4, evt_071 16.6 wicket 147/5 at resume cursor\\\"}, {\\\"tool\\\": \\\"inspect_frame\\\", \\\"found\\\": true, \\\"detail\\\": \\\"frm_16_3 frames/score_16_3.png pixels score=142/4 over=16.3 rrr=9.71 readable=true feed_score=142/4 agrees=true\\\"}, {\\\"tool\\\": \\\"search_commentary\\\", \\\"found\\\": true, \\\"detail\\\": \\\"count=2: evt_068 16.3 WICKET 142/4, evt_071 16.6 RUN OUT 147/5; no line for evt_069 16.4\\\"}], \\\"disagreements\\\": [\\\"search_commentary has no line for evt_069 16.4 FOUR 146/4 present in query_event_feed\\\", \\\"query_event_feed and search_commentary include evt_071 16.6 which is at resume cursor evt_071 and not part of pre-resume missed window\\\"], \\\"coverage_ok\\\": false}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1820,
+    "output_tokens": 283,
+    "finish_reason": "stop"
+  },
+  "t": 1793866033.245909
+}

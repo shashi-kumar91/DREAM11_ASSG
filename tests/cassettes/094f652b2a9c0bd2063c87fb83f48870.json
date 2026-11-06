@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator and strategist agree evt_068 wicket was missed before resume and text receipt is safest, with no disagreements.\", \"action\": \"commit\", \"reason\": \"Evidence is cross-checked and strategist selected receipt modality; commit the missed wicket receipt without mentioning resume or later balls.\", \"card\": {\"kind\": \"receipt\", \"insight_type\": null, \"headline\": \"Missed wicket receipt\", \"body\": \"The wicket at 16.3 in [evt_068] was missed before you resumed, so a text receipt is the safest useful recovery.\", \"salience\": 0.85, \"cited_event_ids\": [\"evt_068\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"missed_interval\", \"receipt\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2304,
+    "output_tokens": 179,
+    "finish_reason": "stop"
+  },
+  "t": 1793811894.2139485
+}

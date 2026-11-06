@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"u09 'isne field kyun spread kiya' has ambiguous referent for who spread field at 17.3, needs resolution before classification\", \"action\": \"dispatch\", \"agent\": \"perceiver\", \"reason\": \"Resolve 'isne' and field reference against match state before analyst can draft attributed tactic insight\", \"args_json\": \"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1905,
+    "output_tokens": 81,
+    "finish_reason": "stop"
+  },
+  "t": 1793817378.3347452
+}

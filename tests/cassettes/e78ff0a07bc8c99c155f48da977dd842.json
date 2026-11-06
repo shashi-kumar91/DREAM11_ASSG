@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need commentary cross-check for 16.6-17.2 window before deciding; event feed and frame already show 17.1 dot, need commentary agreement.\",\"tool\":\"search_commentary\",\"args_json\":\"{\\\"query\\\":\\\"yorker dot 17.1\\\",\\\"limit\\\":10}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1179,
+    "output_tokens": 67,
+    "finish_reason": "stop"
+  },
+  "t": 1793842164.7426422
+}

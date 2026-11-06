@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"I have queried the event feed for the interval 15.1 to 17.4 and identified four key events involving Chennai Kestrels: two boundaries and two wickets. All sources (event feed and commentary) are consistent regarding these events.\",\"result_json\":\"{\\\"sources\\\":[{\\\"tool\\\":\\\"query_event_feed\\\",\\\"found\\\":true,\\\"detail\\\":\\\"Identified 4 events: 2 boundaries (15.3, 16.4) and 2 wickets (16.3, 16.6) for Chennai Kestrels.\\\"},{\\\"tool\\\":\\\"search_commentary\\\",\\\"found\\\":true,\\\"detail\\\":\\\"Commentary confirms the boundary at 15.3, wicket at 16.3, boundary at 16.4, and wicket at 16.6.\\\"}],\\\"disagreements\\\":[],\\\"coverage_ok\\\":true}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1179,
+    "output_tokens": 193
+  },
+  "t": 1793893916.900117
+}

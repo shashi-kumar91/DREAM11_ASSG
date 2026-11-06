@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Verdict says no checkable claim but utterance clearly states wicket and score; need check event feed up to playback to see if Vikram dismissal exists and if striker status conflicts.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"only_material\\\": true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 940,
+    "output_tokens": 70
+  },
+  "t": 1793805364.366347
+}

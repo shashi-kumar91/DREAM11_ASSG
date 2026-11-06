@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Clip refused due unreadable frame; wicket and four missed in window, so textual receipt is safest without showing resume ball.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"\\\",\\\"why_it_matters\\\":\\\"You missed a wicket at 16.3 [evt_068] and a four at 16.4 [evt_069] before resuming.\\\",\\\"ordering\\\":\\\"receipt then jump_to_live\\\",\\\"reason\\\":\\\"Clip not offerable as frame unreadable, receipt covers missed wicket and boundary safely\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1192,
+    "output_tokens": 127,
+    "finish_reason": "stop"
+  },
+  "t": 1793812335.4280875
+}

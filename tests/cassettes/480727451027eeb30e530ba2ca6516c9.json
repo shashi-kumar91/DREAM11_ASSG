@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Fan query at 17.6 has 1 verbatim transcript hit u12 from Sunny Agarwal at 03:24 about rain risk, so answer directly from that quote.\", \"action\": \"commit\", \"card\": {\"kind\": \"query_answer\", \"insight_type\": \"quote\", \"headline\": \"On weather: 'aaj rain ka koi risk nahi'\", \"body\": \"Sunny Agarwal (@courtside_sunny) said at 03:24: \\\"aaj rain ka koi risk nahi\\\" \u2014 no risk of rain today.\", \"salience\": 0.8, \"cited_utterance_ids\": [\"u12\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"fan_query\", \"weather\", \"quote\"]}, \"reason\": \"Deterministic retrieval returned one verbatim attributed segment; commit query_answer citing u12 without synthesis beyond the quote.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2102,
+    "output_tokens": 184
+  },
+  "t": 1793808445.0783837
+}

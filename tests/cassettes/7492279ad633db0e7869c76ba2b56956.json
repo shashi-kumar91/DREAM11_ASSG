@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is a weather assertion not checkable via match feed/score, so not factual_claim or prediction. Classify as quote and preserve creator wording without presenting as verified fact.\",\"result_json\":\"{\\\"insight_type\\\":\\\"quote\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator: \\\\\\\"Haan bhai, aaj rain ka koi risk nahi, poora clear sky hai.\\\\\\\"\\\",\\\"confidence\\\":0.94,\\\"source_utterance_id\\\":\\\"u12\\\",\\\"spoken_at\\\":\\\"03:24\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 858,
+    "output_tokens": 127,
+    "finish_reason": "stop"
+  },
+  "t": 1793817482.0217657
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Resume at evt_071 with uncertain boundary candidates 16.1-16.3 conf 0.65 and no frames checked yet, so telemetry must confirm the gap before any recovery.\", \"action\": \"tool\", \"tool\": \"get_playback_telemetry\", \"args_json\": \"{}\", \"reason\": \"Get the player's own log and code boundary estimate to ground hypotheses without inventing a boundary.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1984,
+    "output_tokens": 90,
+    "finish_reason": "stop"
+  },
+  "t": 1793880375.120813
+}

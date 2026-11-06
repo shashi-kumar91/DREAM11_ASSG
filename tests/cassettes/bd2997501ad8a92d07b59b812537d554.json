@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Ledger rejected prediction because Bedi was resolved to Dev Kapoor but next bowler is Rohan Bedi, so reference needs correction\", \"action\": \"tool\", \"tool\": \"resolve_reference\", \"args_json\": \"{\\\"phrase\\\": \\\"Bedi\\\", \\\"kind_hint\\\": \\\"bowler\\\"}\", \"reason\": \"Perceiver mis-resolved Bedi; need deterministic candidate list before re-logging prediction\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2168,
+    "output_tokens": 94,
+    "finish_reason": "stop"
+  },
+  "t": 1793817314.6595564
+}

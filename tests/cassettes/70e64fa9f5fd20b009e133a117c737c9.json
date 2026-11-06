@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Event feed and frame agree on 16.3 wicket 142/4; need commentary cross-check for same window before reporting.\",\"tool\":\"search_commentary\",\"args_json\":\"{\\\"query\\\":\\\"Vikram Naidu wicket 16.3\\\",\\\"limit\\\":5}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1370,
+    "output_tokens": 62,
+    "finish_reason": "stop"
+  },
+  "t": 1793815720.2933402
+}

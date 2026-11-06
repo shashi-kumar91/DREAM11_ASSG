@@ -1,0 +1,135 @@
+{
+  "note": "Simulated player telemetry. No real FanCode data, telemetry or integration.",
+  "scenarios": [
+    {
+      "id": "S1",
+      "name": "Uncertain ad gap",
+      "interruption_type": "ad",
+      "blurb": "mid-over ad overlay covered the player; the last reported position can no longer be trusted to the ball",
+      "resume_t": 122.0,
+      "resume_cursor": "evt_071",
+      "fan_team": "Chennai Kestrels",
+      "heartbeats": [
+        {
+          "t": 68.0,
+          "event_id": "evt_066",
+          "kind": "play",
+          "note": ""
+        },
+        {
+          "t": 78.0,
+          "event_id": "evt_067",
+          "kind": "play",
+          "note": ""
+        },
+        {
+          "t": 80.0,
+          "event_id": "evt_067",
+          "kind": "ad_start",
+          "note": "ad SDK drew over the player surface"
+        },
+        {
+          "t": 122.0,
+          "event_id": "evt_071",
+          "kind": "ad_end",
+          "note": ""
+        },
+        {
+          "t": 123.0,
+          "event_id": "evt_071",
+          "kind": "resume",
+          "note": ""
+        }
+      ],
+      "expected": {
+        "asks": true,
+        "material_must_include": [
+          "evt_068",
+          "evt_069"
+        ],
+        "must_exclude": [
+          "evt_071",
+          "evt_072"
+        ],
+        "boundary": "evt_067"
+      },
+      "fan_answers": {
+        "did you see": "No, I left at 16.2",
+        "recap": "Yes, recap everything"
+      }
+    },
+    {
+      "id": "S2",
+      "name": "Buffer stall with no key action",
+      "interruption_type": "buffer",
+      "blurb": "a 12s network stall over two dot balls - nothing a fan would ask for back",
+      "resume_t": 150.0,
+      "resume_cursor": "evt_073",
+      "fan_team": "Chennai Kestrels",
+      "heartbeats": [
+        {
+          "t": 122.0,
+          "event_id": "evt_071",
+          "kind": "play",
+          "note": ""
+        },
+        {
+          "t": 138.0,
+          "event_id": "evt_072",
+          "kind": "stall",
+          "note": "buffer 12s"
+        },
+        {
+          "t": 150.0,
+          "event_id": "evt_073",
+          "kind": "resume",
+          "note": ""
+        }
+      ],
+      "expected": {
+        "asks": false,
+        "modality": "no_op",
+        "must_exclude": [
+          "evt_074"
+        ]
+      },
+      "fan_answers": {
+        "recap": "No, take me to live"
+      }
+    },
+    {
+      "id": "S3",
+      "name": "Late join with a team to follow",
+      "interruption_type": "late_join",
+      "blurb": "the fan opened the app mid-over; there is no playback history to trust at all",
+      "resume_t": 172.0,
+      "resume_cursor": "evt_075",
+      "fan_team": "Chennai Kestrels",
+      "heartbeats": [
+        {
+          "t": 172.0,
+          "event_id": "evt_075",
+          "kind": "join",
+          "note": "first heartbeat since app open"
+        },
+        {
+          "t": 173.0,
+          "event_id": "evt_075",
+          "kind": "resume",
+          "note": ""
+        }
+      ],
+      "expected": {
+        "asks": true,
+        "ask_about": "preference",
+        "must_exclude": [
+          "evt_076"
+        ]
+      },
+      "fan_answers": {
+        "did you see": "No, I left before the match started",
+        "recap": "Yes, recap everything - just the key moments for Chennai Kestrels"
+      }
+    }
+  ]
+}

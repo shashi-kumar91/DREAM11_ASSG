@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Missed window evt_067-071 includes wicket evt_068 and boundary evt_069, frame check passed for evt_068, so receipt with clip is safest.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"evt_068\\\",\\\"why_it_matters\\\":\\\"The missed interval contains a wicket at [evt_068] and a boundary at [evt_069] before the resume point at [evt_071], so a receipt is needed to recap them.\\\",\\\"ordering\\\":\\\"receipt first, then offer clip for evt_068\\\",\\\"reason\\\":\\\"Wicket and boundary missed since 16.2; frame check passed for evt_068\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1096,
+    "output_tokens": 147,
+    "finish_reason": "stop"
+  },
+  "t": 1793844749.107827
+}

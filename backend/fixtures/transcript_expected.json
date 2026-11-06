@@ -1,0 +1,122 @@
+[
+  {
+    "id": "u01",
+    "speaker": "Sunny Agarwal (@courtside_sunny)",
+    "text": "Kya baat hai doston, courtside Sunny aapke saath live. Comments mein batao kaun kaun dekh raha hai aaj.",
+    "t_start": 4.0,
+    "t_end": 12.88,
+    "noisy": false,
+    "asr_confidence_fixture": 0.94,
+    "wav": "audio/u01.wav"
+  },
+  {
+    "id": "u02",
+    "speaker": "Sunny Agarwal (@courtside_sunny)",
+    "text": "Yeh banda ab reverse sweep try kar sakta hai, field dekho, third man up hai.",
+    "t_start": 24.0,
+    "t_end": 30.672,
+    "noisy": false,
+    "asr_confidence_fixture": 0.94,
+    "wav": "audio/u02.wav"
+  },
+  {
+    "id": "u03",
+    "speaker": "Sunny Agarwal (@courtside_sunny)",
+    "text": "Aur phir ek chhaka, matlab nahi, char, stadium ke bahar gaya hawa mein.",
+    "t_start": 40.0,
+    "t_end": 44.992,
+    "noisy": true,
+    "asr_confidence_fixture": 0.42,
+    "wav": "audio/u03.wav"
+  },
+  {
+    "id": "u06",
+    "speaker": "Sunny Agarwal (@courtside_sunny)",
+    "text": "Woh reverse sweep wala idea, haan, wahi dobara, reverse sweep hi aayega.",
+    "t_start": 56.0,
+    "t_end": 62.744,
+    "noisy": false,
+    "asr_confidence_fixture": 0.94,
+    "wav": "audio/u06.wav"
+  },
+  {
+    "id": "u04",
+    "speaker": "Sunny Agarwal (@courtside_sunny)",
+    "text": "Vikram Naidu out ho gaye. Score abhi 142/4 hai.",
+    "t_start": 92.0,
+    "t_end": 99.056,
+    "noisy": false,
+    "asr_confidence_fixture": 0.94,
+    "wav": "audio/u04.wav"
+  },
+  {
+    "id": "u05",
+    "speaker": "Sunny Agarwal (@courtside_sunny)",
+    "text": "Bedi agle over mein do yorker phenkega, main dekh raha hoon uska length.",
+    "t_start": 108.0,
+    "t_end": 113.856,
+    "noisy": false,
+    "asr_confidence_fixture": 0.94,
+    "wav": "audio/u05.wav"
+  },
+  {
+    "id": "u07",
+    "speaker": "Sunny Agarwal (@courtside_sunny)",
+    "text": "Score 142 hai abhi, 142/3, same as before.",
+    "t_start": 126.0,
+    "t_end": 133.68,
+    "noisy": false,
+    "asr_confidence_fixture": 0.94,
+    "wav": "audio/u07.wav"
+  },
+  {
+    "id": "u08",
+    "speaker": "Sunny Agarwal (@courtside_sunny)",
+    "text": "Death overs mein spin ko medium length par rakhna chahiye, stumps par niche target karke.",
+    "t_start": 142.0,
+    "t_end": 149.128,
+    "noisy": false,
+    "asr_confidence_fixture": 0.94,
+    "wav": "audio/u08.wav"
+  },
+  {
+    "id": "u09",
+    "speaker": "Sunny Agarwal (@courtside_sunny)",
+    "text": "Isne field kyun spread kiya? Seedhi boundaries bharna tha, simple logic.",
+    "t_start": 158.0,
+    "t_end": 164.744,
+    "noisy": false,
+    "asr_confidence_fixture": 0.94,
+    "wav": "audio/u09.wav"
+  },
+  {
+    "id": "u10",
+    "speaker": "Sunny Agarwal (@courtside_sunny)",
+    "text": "Review ball tracking pe depend karta hai, 2.5 millimeter se kam edge ho to not out hota hai.",
+    "t_start": 174.0,
+    "t_end": 181.944,
+    "noisy": false,
+    "asr_confidence_fixture": 0.94,
+    "wav": "audio/u10.wav"
+  },
+  {
+    "id": "u11",
+    "speaker": "Sunny Agarwal (@courtside_sunny)",
+    "text": "Yeh bowler itna slow phenk raha hai, dadi ki ginti bhi tez hai.",
+    "t_start": 190.0,
+    "t_end": 195.712,
+    "noisy": false,
+    "asr_confidence_fixture": 0.94,
+    "wav": "audio/u11.wav"
+  },
+  {
+    "id": "u12",
+    "speaker": "Sunny Agarwal (@courtside_sunny)",
+    "text": "Haan bhai, aaj rain ka koi risk nahi, poora clear sky hai.",
+    "t_start": 204.0,
+    "t_end": 209.688,
+    "noisy": false,
+    "asr_confidence_fixture": 0.94,
+    "wav": "audio/u12.wav"
+  }
+]

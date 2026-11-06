@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Reverse sweep will come is creator tactic view, not checkable under allowed prediction metrics (yorker_count/wicket/runs_lte/boundary_count/dot_balls). Classify as tactic, null claim/prediction, quote verbatim.\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator: \\\\\\\"Woh reverse sweep wala idea, haan, wahi dobara, reverse sweep hi aayega.\\\\\\\"\\\",\\\"text\\\":\\\"Creator: \\\\\\\"Woh reverse sweep wala idea, haan, wahi dobara, reverse sweep hi aayega.\\\\\\\"\\\",\\\"display_text\\\":\\\"Creator: \\\\\\\"Woh reverse sweep wala idea, haan, wahi dobara, reverse sweep hi aayega.\\\\\\\"\\\",\\\"confidence\\\":0.94}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 975,
+    "output_tokens": 176
+  },
+  "t": 1793807261.224541
+}

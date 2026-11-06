@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Weather remark is not checkable via match feed tools, so classify as quote/creator view not factual_claim. Quote verbatim, no numbers invented, preserve attribution.\",\"result_json\":\"{\\\"insight_type\\\":\\\"quote\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator: \\\\\\\"Haan bhai, aaj rain ka koi risk nahi, poora clear sky hai.\\\\\\\"\\\",\\\"text\\\":\\\"Haan bhai, aaj rain ka koi risk nahi, poora clear sky hai.\\\",\\\"translation\\\":\\\"Yes brother, there's no rain risk today, the sky is completely clear.\\\",\\\"confidence\\\":0.94,\\\"attribution\\\":\\\"creator\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 860,
+    "output_tokens": 151
+  },
+  "t": 1793809309.640659
+}

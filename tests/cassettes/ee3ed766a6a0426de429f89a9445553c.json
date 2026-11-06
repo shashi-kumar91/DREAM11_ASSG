@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Feed and one frame agree on 16.3 wicket; need commentary cross-check for missed window before final evidence report.\",\"tool\":\"search_commentary\",\"args_json\":\"{\\\"query\\\":\\\"WICKET Vikram Naidu 16.3\\\",\\\"limit\\\":10}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1888,
+    "output_tokens": 65,
+    "finish_reason": "stop"
+  },
+  "t": 1793843377.89338
+}

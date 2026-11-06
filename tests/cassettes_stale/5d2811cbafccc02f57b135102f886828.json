@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Verdict ver_2a0f451005 already shows CONFLICT for u07: claimed score was at 16.2, now 147/5, so a conflict card can be committed without new numbers.\", \"action\": \"commit\", \"card\": {\"kind\": \"conflict\", \"insight_type\": \"factual_claim\", \"headline\": \"Creator score conflicts with match state\", \"body\": \"Creator stated a score that the deterministic verifier found in conflict with the observed match state, matching an earlier event.\", \"salience\": 0.6, \"cited_utterance_ids\": [\"u07\"], \"cited_event_ids\": [\"evt_067\"], \"cited_verdict_ids\": [\"ver_2a0f451005\"], \"cited_tally_ids\": [], \"tags\": [\"score\", \"conflict\"]}, \"reason\": \"Verified CONFLICT exists in scratchpad; commit citing utterance, event and verdict, with no unlicensed digits in prose.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2129,
+    "output_tokens": 193
+  },
+  "t": 1793806736.2223785
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator and strategist confirm missed wicket at evt_068 and boundary at evt_069 before resume 16.6, so a receipt is the safest recovery.\", \"action\": \"commit\", \"reason\": \"Receipt needed to recap missed material without showing ball at or after resume position.\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Missed wicket and boundary since 16.2\", \"body\": \"The missed interval contains a wicket at [evt_068] and a boundary at [evt_069] before the resume point, so a receipt is needed to recap them.\", \"salience\": 0.9, \"cited_event_ids\": [\"evt_068\", \"evt_069\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"receipt\", \"missed_interval\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2292,
+    "output_tokens": 184,
+    "finish_reason": "stop"
+  },
+  "t": 1793844755.3840551
+}

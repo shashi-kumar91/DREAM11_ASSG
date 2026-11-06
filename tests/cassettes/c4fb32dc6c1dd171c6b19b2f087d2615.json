@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Fixing critique: receipt only, ending at 16.5 146/4, citing evt_068 and evt_069, no 16.6 content.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"\\\",\\\"why_it_matters\\\":\\\"You missed the wicket at 16.3 [evt_068] and the four at 16.4 [evt_069], with the receipt ending at 16.5 on 146/4 before your resume position.\\\",\\\"ordering\\\":\\\"receipt for evt_068 then evt_069, end at 16.5 score 146/4 before resume cursor evt_071\\\",\\\"reason\\\":\\\"Receipt modality only per supervisor fix, covering missed material without showing resume ball content.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1352,
+    "output_tokens": 158
+  },
+  "t": 1793810906.799457
+}

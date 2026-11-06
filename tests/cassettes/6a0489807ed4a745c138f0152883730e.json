@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Cited utterance u10 contains 2.5 millimeter and ball-tracking claim; card attributes it to creator, no event beyond playback, no contradiction shown, and rule explanation is useful.\",\"result_json\":\"{\\\"approve\\\": true, \\\"reason\\\": \\\"Digit 2.5 and claim match cited utterance u10 with creator attribution.\\\", \\\"must_fix\\\": \\\"\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 817,
+    "output_tokens": 91
+  },
+  "t": 1793808325.9393346
+}

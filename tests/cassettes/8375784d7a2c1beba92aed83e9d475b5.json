@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Cross-checked 16.2-16.6 window: feed, frame pixels for 16.3, and commentary all agree on wicket at 142/4; no source disagreement found.\",\"result_json\":\"{\\\"sources\\\": [{\\\"tool\\\": \\\"query_event_feed\\\", \\\"found\\\": true, \\\"detail\\\": \\\"count=5 clamped_at=16.6 material_count=3: evt_067 16.2 1 run 142/3; evt_068 16.3 wicket 142/4 Vikram Naidu bowled; evt_069 16.4 FOUR 146/4; evt_070 16.5 dot 146/4; evt_071 16.6 wicket 147/5 run out Kabir Menon\\\"}, {\\\"tool\\\": \\\"inspect_frame\\\", \\\"found\\\": true, \\\"detail\\\": \\\"frm_16_3 over 16.3 pixels score 142/4 rrr 9.71 readable=true agrees=true with feed_score 142/4 injected_fault=false\\\"}, {\\\"tool\\\": \\\"search_commentary\\\", \\\"found\\\": true, \\\"detail\\\": \\\"count=2: evt_068 16.3 WICKET Vikram Naidu bowled 142/4; evt_071 16.6 RUN OUT Kabir Menon 147/5\\\"}], \\\"disagreements\\\": [], \\\"coverage_ok\\\": true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1443,
+    "output_tokens": 236,
+    "finish_reason": "stop"
+  },
+  "t": 1793811873.0619237
+}

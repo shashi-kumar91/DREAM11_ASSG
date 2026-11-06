@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Strategist collapsed u08 as generic death-overs tactic at 17.1, 147/5, RRR 10.24 - not urgent for watch-mode attention.\", \"action\": \"skip\", \"reason\": \"Tactic is relevant but not time-critical; collapsing to timeline protects fan attention per strategist assessment.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2054,
+    "output_tokens": 71
+  },
+  "t": 1793807453.6122258
+}

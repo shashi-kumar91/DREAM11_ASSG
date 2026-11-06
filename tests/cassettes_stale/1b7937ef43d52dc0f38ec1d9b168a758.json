@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator states a checkable wicket and score, so factual_claim; quote verbatim for kernel verification.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":{\\\"text\\\":\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\",\\\"subject\\\":\\\"Vikram Naidu\\\",\\\"event\\\":\\\"out\\\",\\\"score\\\":\\\"142/4\\\"},\\\"prediction\\\":null,\\\"card_text\\\":\\\"\\\\\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\\\\\"\\\",\\\"attribution\\\":\\\"creator\\\",\\\"confidence\\\":0.94,\\\"needs_verification\\\":true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 856,
+    "output_tokens": 140
+  },
+  "t": 1793805505.3045492
+}

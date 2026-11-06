@@ -1,0 +1,57 @@
+# ---- secrets ---------------------------------------------------------------
+# The live key file. Never commit it, never print it, never template a value into it.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets/
+
+# ---- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+
+# ---- Node / frontend -------------------------------------------------------
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+
+# ---- local run artefacts ---------------------------------------------------
+# Headless drivers and the HTTP server write JSONL traces / logs here.
+backend/out/
+tmp/
+*.log
+evals/out/
+space*
+tmp_probe*
+server_*.log
+
+# ---- editor / OS noise -----------------------------------------------------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.qoder/
+
+# NOTE: tests/cassettes/ is deliberately NOT ignored.
+# Those content-addressed LLM recordings are the offline story: a reviewer with no API
+# key and no network still replays the agent turns from them. Do not add a blanket
+# `*.json` or `tests/` rule. Anything that could carry a secret (.env, *.key,
+# credentials.json) is listed above instead.
+# tests/cassettes_stale/ holds superseded recordings; commit only if you want the diff.

@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Frame check passed for evt_071 per scratchpad and it is a key wicket moment in the clamped window; need permission/frame check before offering clip.\",\"tool\":\"offer_clip\",\"args_json\":\"{\\\"event_id\\\":\\\"evt_071\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1086,
+    "output_tokens": 62,
+    "finish_reason": "stop"
+  },
+  "t": 1793811231.1636388
+}

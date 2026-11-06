@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Gap after already-rendered 16.6 to resume 17.2 contains only dot ball(s) per blurb; no missed wicket/boundary/milestone, so no_op is safest.\",\"result_json\":\"{\\\"modality\\\":\\\"no_op\\\",\\\"offer_clip_event\\\":\\\"\\\",\\\"why_it_matters\\\":\\\"\\\",\\\"ordering\\\":\\\"no_op\\\",\\\"reason\\\":\\\"No wicket, boundary or milestone in missed window; 16.6 was already rendered and stall was over dot ball(s) only.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1006,
+    "output_tokens": 114,
+    "finish_reason": "stop"
+  },
+  "t": 1793815859.964133
+}

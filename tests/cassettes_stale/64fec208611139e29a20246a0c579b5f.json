@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator states a checkable score 142/3; classify as factual_claim for kernel verification against provided match state, quoting creator words without asserting truth.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":{\\\"score\\\":\\\"142/3\\\",\\\"runs\\\":142,\\\"wickets\\\":3,\\\"text\\\":\\\"Score 142 hai abhi, 142/3, same as before.\\\"},\\\"prediction\\\":null,\\\"card_text\\\":\\\"\\\\\\\"Score 142 hai abhi, 142/3, same as before.\\\\\\\"\\\",\\\"card\\\":\\\"\\\\\\\"Score 142 hai abhi, 142/3, same as before.\\\\\\\"\\\",\\\"confidence\\\":0.94,\\\"needs_verification\\\":true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 863,
+    "output_tokens": 159
+  },
+  "t": 1793806551.8559158
+}

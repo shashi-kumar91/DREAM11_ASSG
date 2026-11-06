@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed leaving at 16.2 and asked for recap; telemetry shows material events evt_068 and evt_069 before resume evt_071 at 16.6, and strategist indicated receipt is required.\", \"action\": \"commit\", \"reason\": \"Boundary is fan-confirmed at 16.2, missed interval before 16.6 contains a wicket and four, and no event at or after resume will be mentioned.\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Recap from 16.2 to before your resume at 16.6\", \"body\": \"You left at 16.2. Before you resumed, the missed interval included a wicket at 16.3 [evt_068] and a four at 16.4 [evt_069]. Nothing at or after 16.6 is included.\", \"salience\": 0.9, \"cited_event_ids\": [\"evt_068\", \"evt_069\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"recap\", \"boundary_16.2\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2509,
+    "output_tokens": 215,
+    "finish_reason": "stop"
+  },
+  "t": 1793845899.4567544
+}

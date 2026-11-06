@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Investigator confirmed 16.3 wicket via feed, frame, and commentary with coverage_ok and fan boundary at 16.2, so recovery modality is now needed.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"args_json\": \"{}\", \"reason\": \"Evidence is cross-checked and boundary is fan-confirmed at 16.2; strategist should choose safest useful recovery without showing at/after 16.6.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2212,
+    "output_tokens": 98
+  },
+  "t": 1793810867.3697228
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is a tactical critique of field placement, not a checkable score/count or future bet. No numbers to ground. Classify as tactic, quote creator verbatim as opinion, claim/prediction null.\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator on Rohan Bedi's field: \\\\\\\"Isne field kyun spread kiya? Seedhi boundaries bharna tha, simple logic.\\\\\\\"\\\",\\\"text\\\":\\\"Creator on Rohan Bedi's field: \\\\\\\"Isne field kyun spread kiya? Seedhi boundaries bharna tha, simple logic.\\\\\\\"\\\",\\\"confidence\\\":0.94,\\\"source_utterance_id\\\":\\\"u09\\\",\\\"spoken_at\\\":\\\"02:38\\\",\\\"is_checkable\\\":false}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 917,
+    "output_tokens": 175
+  },
+  "t": 1793809193.4886618
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Verify match state at fan clock before deciding card vs collapsed; observation gives 141/3 at 15.6 but tool is deterministic source.\",\"tool\":\"get_match_state\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 802,
+    "output_tokens": 54
+  },
+  "t": 1793807277.2743037
+}

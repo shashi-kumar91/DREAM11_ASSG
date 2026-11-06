@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The analyst has identified a tactical insight based on the current field placement, which is relevant to the fan's current match state.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Tactical Read: Reverse Sweep Potential\", \"body\": \"Yeh banda ab reverse sweep try kar sakta hai field dekho third man up hai.\", \"salience\": 0.8, \"cited_utterance_ids\": [\"u02\"], \"tags\": [\"tactical\", \"fielding\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1493,
+    "output_tokens": 121
+  },
+  "t": 1793894169.3992083
+}

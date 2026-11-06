@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Investigator confirmed evt_071 wicket at 16.6 and evt_072 dot at 17.1; critic rejected no-wicket claim, so commit corrected receipt citing only pre-resume events.\", \"action\": \"commit\", \"reason\": \"Kernel must commit for S2 gap; corrected card reports the 16.6 wicket and the missed 17.1 dot without mentioning resume position.\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Missed interval: wicket at 16.6, dot at 17.1\", \"body\": \"Boundary 16.6 confirmed by frame and feed. The window includes the run out at 16.6 [evt_071] and the dot ball at 17.1 [evt_072]; no boundary in the missed interval. Safest recovery is a brief receipt for the 17.1 dot, with 16.6 wicket as boundary context.\", \"salience\": 0.7, \"cited_event_ids\": [\"evt_071\", \"evt_072\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"receipt\", \"S2\", \"gap\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2308,
+    "output_tokens": 228
+  },
+  "t": 1793810966.7047973
+}

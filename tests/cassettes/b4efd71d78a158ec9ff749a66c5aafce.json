@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"kind\": \"final\",\n  \"thought\": \"The creator is making a specific prediction about the bowler's strategy for the next over. I will structure this as a prediction card.\",\n  \"result_json\": \"{\\\"insight_type\\\": \\\"prediction\\\", \\\"prediction\\\": {\\\"bowler\\\": \\\"Dev Kapoor\\\", \\\"over\\\": \\\"17\\\", \\\"metric\\\": \\\"yorkers\\\", \\\"threshold\\\": \\\"2\\\"}, \\\"card_wording\\\": \\\"Bedi agle over mein do yorker phenkega, main dekh raha hoon uska length.\\\"}\"\n}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 817,
+    "output_tokens": 121
+  },
+  "t": 1793893976.1080494
+}

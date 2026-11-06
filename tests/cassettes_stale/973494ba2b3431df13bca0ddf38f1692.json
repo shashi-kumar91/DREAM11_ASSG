@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The creator claims Vikram Naidu is out and the score is 142/4. Match state at 16.3 confirms the score is 142/4 but shows Vikram Naidu is still the striker (not out). I have resolved the mentions based on the provided state.\",\"result_json\":\"{\\\"mentions\\\":[{\\\"phrase\\\":\\\"Vikram Naidu\\\",\\\"kind\\\":\\\"striker\\\",\\\"resolved\\\":\\\"Vikram Naidu\\\",\\\"confidence\\\":1.0},{\\\"phrase\\\":\\\"Score\\\",\\\"kind\\\":\\\"unresolved\\\",\\\"resolved\\\":\\\"142/4\\\",\\\"confidence\\\":1.0}],\\\"ambiguity\\\":\\\"\\\",\\\"summary\\\":\\\"The creator mentions Vikram Naidu is out with the score at 142/4; match state confirms the score but shows Naidu still batting.\\\"}\"}",
+  "model": "gemini-3-flash-preview",
+  "usage": {
+    "prompt_tokens": 739,
+    "output_tokens": 168
+  },
+  "t": 1793804164.7493968
+}

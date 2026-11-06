@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Critic rejected prior card for digits not in u02; analyst classified this as new tactic info, so commit a digit-free version citing only u02.\", \"action\": \"commit\", \"reason\": \"Removes unsupported score/over/target digits per critic must_fix while preserving attributed tactic insight.\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Reverse sweep option flagged with third man up\", \"body\": \"Creator suggests the batter could try a reverse sweep, pointing to the field with third man up.\", \"salience\": 0.5, \"cited_utterance_ids\": [\"u02\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"tactic\", \"reverse sweep\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2142,
+    "output_tokens": 171,
+    "finish_reason": "stop"
+  },
+  "t": 1793817261.9795597
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst found new tactic info in u02 but strategist collapsed it as not interruption-worthy in quiet mode, so commit for policy demotion rather than skip.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Creator flags reverse sweep option at 15.3\", \"body\": \"At 15.3 (139/3, target 176), creator suggests Aarav Sen could try a reverse sweep, pointing to the field with third man up. This is attributed creator tactic/opinion, not a verified prediction.\", \"salience\": 0.45, \"cited_utterance_ids\": [\"u02\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"tactic\", \"creator-opinion\"]}, \"reason\": \"Real new tactical observation but strategist says not urgent; commit so surface policy can demote it instead of deleting it.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2114,
+    "output_tokens": 205
+  },
+  "t": 1793808914.1601226
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator predicts Bedi will bowl two yorkers next over; this is a future bet, not a fact. Quote verbatim, ground 'do'=2 and next over after 16.5 as 17.\",\"result_json\":\"{\\\"insight_type\\\":\\\"prediction\\\",\\\"claim\\\":null,\\\"prediction\\\":{\\\"bowler_surname\\\":\\\"Bedi\\\",\\\"bowler\\\":\\\"Rohan Bedi\\\",\\\"over\\\":\\\"17\\\",\\\"metric\\\":\\\"yorkers\\\",\\\"threshold\\\":2},\\\"card_text\\\":\\\"Creator prediction: \\\\\\\"Bedi agle over mein do yorker phenkega, main dekh raha hoon uska length.\\\\\\\" \u2014 Bedi to bowl two yorkers in the next over (17).\\\",\\\"card\\\":\\\"Creator prediction: \\\\\\\"Bedi agle over mein do yorker phenkega, main dekh raha hoon uska length.\\\\\\\" \u2014 Bedi to bowl two yorkers in the next over (17).\\\",\\\"quote\\\":\\\"Bedi agle over",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 951,
+    "output_tokens": 191
+  },
+  "t": 1793809027.276583
+}

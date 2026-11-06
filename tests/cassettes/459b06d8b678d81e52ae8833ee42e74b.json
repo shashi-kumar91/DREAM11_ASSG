@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Fan query on death bowling has 3 attributed transcript hits including u08 at 02:22, so analyst must draft answer strictly from those.\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"args_json\": \"{\\\"query\\\": \\\"Death bowling ke baare mein creator ne kya bola?\\\", \\\"utterance_ids\\\": [\\\"u08\\\", \\\"u05\\\", \\\"u11\\\"]}\", \"reason\": \"Analyst is the only role that produces structured claim/draft; retrieval already found relevant verbatim segments to classify.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2098,
+    "output_tokens": 120
+  },
+  "t": 1793808411.0131702
+}

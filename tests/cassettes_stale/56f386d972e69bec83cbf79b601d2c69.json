@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"I need to identify 'Bedi' from the squads. I will fetch the match state to see the full player list.\",\"tool\":\"get_match_state\",\"args_json\":\"{}\"}",
+  "model": "gemini-3-flash-preview",
+  "usage": {
+    "prompt_tokens": 733,
+    "output_tokens": 48
+  },
+  "t": 1793803902.3499691
+}

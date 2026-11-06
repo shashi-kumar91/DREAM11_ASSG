@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Utterance matches card translation; need check feed for contradiction or beyond-playback event before approving.\",\"tool\":\"query_event_feed\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 816,
+    "output_tokens": 48
+  },
+  "t": 1793809154.0915122
+}

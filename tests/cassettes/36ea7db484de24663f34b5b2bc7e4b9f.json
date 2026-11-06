@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Analyst classified u10 as new rule_explanation about 2.5mm ball-tracking threshold, no factual verdict needed.\", \"action\": \"commit\", \"reason\": \"Real attributed rule information from creator, commit for surface policy to gate.\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"rule_explanation\", \"headline\": \"Review depends on ball tracking: under 2.5mm edge is not out\", \"body\": \"Creator explains the review hinges on ball tracking: if the edge is less than 2.5 millimeter, the batter is not out.\", \"salience\": 0.5, \"cited_utterance_ids\": [\"u10\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"review\", \"ball-tracking\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2050,
+    "output_tokens": 169,
+    "finish_reason": "stop"
+  },
+  "t": 1793817431.7236621
+}

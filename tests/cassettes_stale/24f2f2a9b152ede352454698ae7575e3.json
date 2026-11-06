@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"I need to resolve the mention of 'Vikram Naidu' to a concrete player entity from the match state to confirm his role and identity.\",\"tool\":\"resolve_reference\",\"args_json\":\"{\\\"phrase\\\":\\\"Vikram Naidu\\\",\\\"kind_hint\\\":\\\"player\\\"}\"}",
+  "model": "gemini-3-flash-preview",
+  "usage": {
+    "prompt_tokens": 699,
+    "output_tokens": 63
+  },
+  "t": 1793804231.1773212
+}

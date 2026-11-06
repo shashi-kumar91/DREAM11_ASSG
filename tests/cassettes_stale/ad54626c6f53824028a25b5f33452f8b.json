@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Strategist collapsed generic DRS threshold at 149/5 17.4 with no live review, salience 0.2\", \"action\": \"skip\", \"reason\": \"Not worth fan attention during tense chase; timeline collapse preferred\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2057,
+    "output_tokens": 53
+  },
+  "t": 1793807528.855321
+}

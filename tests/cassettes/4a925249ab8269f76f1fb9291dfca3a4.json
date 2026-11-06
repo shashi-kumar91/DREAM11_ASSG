@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is a subjective joke about bowler's slow pace, not a checkable score/count or future bet. Classify as opinion and quote creator verbatim without adding speed numbers.\",\"result_json\":\"{\\\"insight_type\\\":\\\"opinion\\\",\\\"card_text\\\":\\\"Creator on Rohan Bedi at 17.6: \\\\\\\"Yeh bowler itna slow phenk raha hai, dadi ki ginti bhi tez hai.\\\\\\\"\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"confidence\\\":0.94,\\\"utterance_id\\\":\\\"u11\\\",\\\"attribution\\\":\\\"creator_utterance at 03:10\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 869,
+    "output_tokens": 135
+  },
+  "t": 1793809283.0313823
+}

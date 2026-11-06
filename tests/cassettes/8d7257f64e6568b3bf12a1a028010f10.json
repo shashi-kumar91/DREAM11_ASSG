@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The event feed confirms that at 16.3, a wicket occurred (Vikram Naidu bowled), changing the score to 142/4. This matches the fan's report.\",\"result_json\":\"{\\\"sources\\\":[{\\\"tool\\\":\\\"query_event_feed\\\",\\\"found\\\":true,\\\"detail\\\":\\\"Confirmed wicket at 16.3 (142/4) involving Vikram Naidu.\\\"}],\\\"disagreements\\\":[],\\\"coverage_ok\\\":true}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1004,
+    "output_tokens": 108
+  },
+  "t": 1793890374.6474683
+}

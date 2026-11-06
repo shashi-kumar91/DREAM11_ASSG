@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator made checkable score claim 142/3; kernel verdict already shows CONFLICT vs observed 147/5 at 16.6, matching 142/3 at 16.2 four balls earlier. Classify as factual_claim, quote creator, do not present stale score as current fact.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"type\\\":\\\"factual_claim\\\",\\\"claim\\\":{\\\"claimed\\\":\\\"142/3\\\",\\\"claimed_text\\\":\\\"Score 142 hai abhi, 142/3, same as before.\\\",\\\"observed_score\\\":\\\"147/5\\\",\\\"over_label\\\":\\\"16.6\\\",\\\"matched_over\\\":\\\"16.2\\\",\\\"age_balls\\\":4,\\\"matched_event_id\\\":\\\"evt_067\\\"},\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator said: \\\\\\\"Score 142 hai abhi, 142/3, same as before.\\\\\\\" That was the score at 16.2, 4 balls earlier. Current score is 147/5 at 16.6.\\\",\\\"card\\\":\\\"Creator said: \\\\\\\"Score 142 hai abhi, 142/3, same as before.\\\\\\\" That was the score at 16.2, 4 balls earlier. Current score is 147/5 at 16.6.\\\",\\\"confidence\\\":\\\"high\\\",\\\"verdict_id\\\":\\\"ver_7e3103e72d\\\",\\\"verdict_kind\\\":\\\"CONFLICT\\\",\\\"utterance_id\\\":\\\"u07\\\",\\\"attribution\\\":\\\"creator utterance u07 at 02:06\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 998,
+    "output_tokens": 299
+  },
+  "t": 1793809103.669461
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Tool resolved isne to bowler Rohan Bedi with 0.9 confidence; field is not a player entity.\",\"result_json\":\"{\\\"mentions\\\": [{\\\"phrase\\\": \\\"isne\\\", \\\"kind\\\": \\\"bowler\\\", \\\"resolved\\\": \\\"Rohan Bedi\\\", \\\"confidence\\\": 0.9}, {\\\"phrase\\\": \\\"field\\\", \\\"kind\\\": \\\"unresolved\\\", \\\"resolved\\\": \\\"\\\", \\\"confidence\\\": 0.5}], \\\"ambiguity\\\": \\\"\\\", \\\"summary\\\": \\\"isne refers to bowler Rohan Bedi who spread the field; field itself is not a player entity.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 929,
+    "output_tokens": 130,
+    "finish_reason": "stop"
+  },
+  "t": 1793817394.5416334
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Card cites only u02, whose text contains no digits, yet body asserts 15.3, 139/3 and target 176 with no cited events. Unsupported digits violate critic rule.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Digits 15.3, 139/3, 176 appear in card but not in cited utterance u02 and no events are cited.\\\", \\\"must_fix\\\": \\\"Remove unsupported score/over/target digits or cite event evidence containing them.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 838,
+    "output_tokens": 114,
+    "finish_reason": "stop"
+  },
+  "t": 1793817255.9487982
+}

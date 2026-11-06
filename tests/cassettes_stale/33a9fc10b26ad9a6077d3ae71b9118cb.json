@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator made a checkable score claim 142/3, but observed state is 147/5 at 16.6. Produce structured factual_claim exactly as spoken for kernel verification, quote it as attributed creator words, and flag conflict/low factual confidence rather than presenting as fact.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":{\\\"runs\\\":142,\\\"wickets\\\":3,\\\"score_text\\\":\\\"142/3\\\"},\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator said: \\\\\\\"Score 142 hai abhi, 142/3, same as before.\\\\\\\"\\\",\\\"confidence\\\":0.3,\\\"source_utterance_id\\\":\\\"u07\\\",\\\"source_text\\\":\\\"Score 142 hai abhi, 142/3, same as before.\\\",\\\"observed_state\\\":{\\\"score\\\":\\\"147/5\\\",\\\"over_label\\\":\\\"16.6\\\",\\\"striker\\\":\\\"Kabir Menon\\\",\\\"bowler\\\":\\\"Dev Kapoor\\\"},\\\"note\\\":\\\"Creator claim conflicts with observed match state 147/5; presented as attributed quote for verification, not as verified fact.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1047,
+    "output_tokens": 247
+  },
+  "t": 1793807398.917688
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The creator mentions 'Bedi' and 'agle over' (next over). The match state confirms 'Rohan Bedi' is the 'next_over_bowler'. I will resolve 'Bedi' to 'Rohan Bedi'.\",\"result_json\":\"{\\\"mentions\\\":[{\\\"phrase\\\":\\\"Bedi\\\",\\\"kind\\\":\\\"bowler\\\",\\\"resolved\\\":\\\"Rohan Bedi\\\",\\\"confidence\\\":1.0},{\\\"phrase\\\":\\\"agle over\\\",\\\"kind\\\":\\\"over\\\",\\\"resolved\\\":\\\"17.1-17.6\\\",\\\"confidence\\\":0.9}],\\\"ambiguity\\\":\\\"\\\",\\\"summary\\\":\\\"Creator predicts Rohan Bedi will bowl two yorkers in the next over (17.1-17.6).\\\"}\"}",
+  "model": "gemini-3-flash-preview",
+  "usage": {
+    "prompt_tokens": 972,
+    "output_tokens": 150
+  },
+  "t": 1793803905.9630687
+}

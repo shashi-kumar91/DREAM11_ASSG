@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed leaving at 16.2 and telemetry shows missed material at 16.3-16.4 before resume 16.6, so cross-check that window before choosing recovery.\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"reason\": \"Boundary is fan-confirmed at 16.2; investigator can verify missed events in clamped window without spoiling resume position.\", \"args_json\": \"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2464,
+    "output_tokens": 93,
+    "finish_reason": "stop"
+  },
+  "t": 1793842073.2040699
+}

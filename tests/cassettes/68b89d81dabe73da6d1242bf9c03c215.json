@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Prediction: creator said Bedi will bowl two yorkers next over. Resolved Bedi to Dev Kapoor, current over 16.5 so next over is 17, metric yorker_count threshold 2.\",\"result_json\":\"{\\\"insight_type\\\":\\\"prediction\\\",\\\"prediction\\\":{\\\"bowler\\\":\\\"Kapoor\\\",\\\"over\\\":17,\\\"metric\\\":\\\"yorker_count\\\",\\\"threshold\\\":2},\\\"card_text\\\":\\\"Bedi agle over mein do yorker phenkega, main dekh raha hoon uska length.\\\",\\\"confidence\\\":0.9}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1102,
+    "output_tokens": 120
+  },
+  "t": 1793808193.6509738
+}

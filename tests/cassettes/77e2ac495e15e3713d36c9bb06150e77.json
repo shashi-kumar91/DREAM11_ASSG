@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The receipt claims nothing happened, but the investigation shows a wicket (evt_071) occurred at 16.6 within the gap window. This violates the rule that a receipt must not claim nothing happened when a wicket occurred.\",\"result_json\":\"{\\\"approve\\\":false,\\\"reason\\\":\\\"The receipt incorrectly claims no wicket occurred, but evt_071 was a wicket at 16.6.\\\",\\\"must_fix\\\":\\\"Acknowledge the wicket at 16.6 instead of claiming nothing happened.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 942,
+    "output_tokens": 117
+  },
+  "t": 1793890362.8960574
+}

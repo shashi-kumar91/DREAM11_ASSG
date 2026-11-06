@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan scoped window to 15.1-17.4 and feed returned 4 material events before resume 17.4, but frames checked=0 so evidence is unverified.\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"reason\": \"Cross-check the 4 clamped events against frames/commentary before choosing a safe recovery modality.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2335,
+    "output_tokens": 79,
+    "finish_reason": "stop"
+  },
+  "t": 1793845382.5798626
+}

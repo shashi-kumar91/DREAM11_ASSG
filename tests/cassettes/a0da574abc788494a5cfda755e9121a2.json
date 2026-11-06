@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed leaving at 16.2 and investigator corroborated 16.3 wicket, so boundary is settled and recovery modality is next.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"reason\": \"Boundary confirmed by fan at 16.2 with material events before resume 16.6 corroborated; strategist must choose safest recovery and causal sentence without spoiling resume position.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2486,
+    "output_tokens": 92,
+    "finish_reason": "stop"
+  },
+  "t": 1793842099.2074647
+}

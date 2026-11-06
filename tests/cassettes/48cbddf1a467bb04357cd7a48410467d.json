@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The critic rejected the previous receipt for missing citations and incomplete coverage of the window up to 16.6. I will now draft a corrected receipt that includes all events from 16.3 to 16.6 with proper citations.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"answer\", \"headline\": \"Recap of missed interval (16.3 - 16.6)\", \"body\": \"While you were away, a wicket fell at 16.3 [evt_072], followed by a boundary at 16.4 [evt_073], a dot ball at 16.5 [evt_074], and a run out at 16.6 [evt_075].\", \"salience\": 0.9, \"cited_event_ids\": [\"evt_072\", \"evt_073\", \"evt_074\", \"evt_075\"], \"tags\": [\"recap\", \"wicket\", \"boundary\"]}, \"question\": null, \"options\": []}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1745,
+    "output_tokens": 241
+  },
+  "t": 1793892619.9033291
+}

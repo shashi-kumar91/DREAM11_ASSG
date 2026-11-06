@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Search returned 0 attributed segments for guitar lessons and prior commit was rejected for evidence_required with no citable utterance, so no truthful card can be committed.\", \"action\": \"skip\", \"reason\": \"No creator transcript evidence exists to cite; synthesizing an answer would violate objective.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1994,
+    "output_tokens": 75
+  },
+  "t": 1793807696.1498027
+}

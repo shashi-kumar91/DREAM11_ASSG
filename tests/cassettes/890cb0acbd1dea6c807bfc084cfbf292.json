@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator confirmed coverage and strategist found only dot balls after already-rendered 16.6, so this is real but not interruption-worthy information for a no-op receipt.\", \"action\": \"commit\", \"reason\": \"No wicket, boundary or milestone was missed; committing a low-salience no-op lets policy demote it rather than deleting the verified gap finding.\", \"card\": {\"kind\": \"noop\", \"insight_type\": \"filler\", \"headline\": \"No key action missed during stall\", \"body\": \"Verified gap after the already-rendered 16.6 ball to the resume position contains only dot ball(s). No recovery clip is needed.\", \"salience\": 0.1, \"cited_event_ids\": [], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"no_op\", \"buffer\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2170,
+    "output_tokens": 189,
+    "finish_reason": "stop"
+  },
+  "t": 1793815868.2263896
+}

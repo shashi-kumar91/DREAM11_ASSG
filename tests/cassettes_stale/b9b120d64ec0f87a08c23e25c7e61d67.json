@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator repeats reverse sweep idea as a future bet, not a checkable score. No over, bowler or threshold stated, so leave those null and quote verbatim with attribution from transcript search.\",\"result_json\":\"{\\\"insight_type\\\":\\\"prediction\\\",\\\"claim\\\":null,\\\"prediction\\\":{\\\"bowler_surname\\\":null,\\\"over\\\":null,\\\"metric\\\":\\\"reverse sweep\\\",\\\"threshold\\\":null,\\\"creator_words\\\":\\\"reverse sweep hi aayega\\\"},\\\"card\\\":\\\"Sunny Agarwal (@courtside_sunny): \\\\\\\"Woh reverse sweep wala idea, haan, wahi dobara, reverse sweep hi aayega.\\\\\\\"\\\",\\\"attribution\\\":\\\"Sunny Agarwal (@courtside_sunny)\\\",\\\"confidence\\\":0.94,\\\"grounding\\\":\\\"u06 at 00:56, ASR 0.94; earlier u02 at 00:24 'Yeh banda ab reverse sweep try kar sakta hai'. No number, over or bowler surname stated by creator.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1018,
+    "output_tokens": 215
+  },
+  "t": 1793807254.9514065
+}

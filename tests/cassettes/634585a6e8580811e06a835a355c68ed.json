@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify 2.5mm digit in cited utterance u10 before approving\",\"tool\":\"recall_utterance\",\"args_json\":\"{\\\"utterance_id\\\":\\\"u10\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 777,
+    "output_tokens": 46,
+    "finish_reason": "stop"
+  },
+  "t": 1793817434.1991305
+}

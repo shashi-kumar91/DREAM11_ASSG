@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Prediction redrafted with Rohan Bedi as next-over bowler.\",\"result_json\":\"{\\\"insight_type\\\":\\\"prediction\\\",\\\"is_new_information\\\":true,\\\"claim\\\":{\\\"kind\\\":\\\"other\\\",\\\"raw_phrase\\\":\\\"\\\",\\\"runs\\\":null,\\\"wickets\\\":null,\\\"player\\\":null,\\\"over\\\":null,\\\"count\\\":null,\\\"rate\\\":null},\\\"prediction\\\":{\\\"text\\\":\\\"Bedi agle over mein do yorker phenkega, main dekh raha hoon uska length.\\\",\\\"bowler\\\":\\\"Rohan Bedi\\\",\\\"batter\\\":null,\\\"over\\\":null,\\\"metric\\\":\\\"yorker_count\\\",\\\"threshold\\\":2},\\\"headline\\\":\\\"\\\\\\\"Bedi agle over mein do yorker phenkega\\\\\\\"\\\",\\\"body\\\":\\\"Creator says: \\\\\\\"main dekh raha hoon uska length.\\\\\\\" Prediction attributed to creator, not verified fact.\\\",\\\"salience\\\":0.5,\\\"reasoning\\\":\\\"Creator predicts two yorkers from next-over bowler Rohan Bedi; current bowler Dev Kapoor is not the subject.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1163,
+    "output_tokens": 232,
+    "finish_reason": "stop"
+  },
+  "t": 1793817345.1203969
+}

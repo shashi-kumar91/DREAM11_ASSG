@@ -1,0 +1,6 @@
+{
+  "text": "```json\n{\"text\": \"Death overs mein spin ko medium length par rakhna chahiye, stumps par neeche target karke.\",\n \"confidence\": 1.0,\n \"uncertain_words\": []}\n```",
+  "model": "gemini-3-flash-preview",
+  "usage": {},
+  "t": 1793802451.672726
+}

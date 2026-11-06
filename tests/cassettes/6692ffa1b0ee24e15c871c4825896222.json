@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify resume clamp and events in window before judging spoiler and citation rules.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"start_over\\\":\\\"16.3\\\",\\\"end_over\\\":\\\"16.6\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1126,
+    "output_tokens": 59,
+    "finish_reason": "stop"
+  },
+  "t": 1793844765.160958
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Boundary 16.6 conf 0.9 single candidate and blurb says two dot balls, but frames checked=0 so gap content unverified before deciding no-op.\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"reason\": \"Cross-check missed window 16.6-17.2 against feed/frames to confirm no key action before skip/no-op.\", \"args_json\": \"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1947,
+    "output_tokens": 83
+  },
+  "t": 1793810456.5993211
+}

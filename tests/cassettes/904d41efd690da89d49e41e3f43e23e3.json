@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Analyst classified u12 as a new quote about clear sky/no rain risk at 17.6, not a verifiable match claim\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"quote\", \"headline\": \"Creator: no rain risk, clear sky\", \"body\": \"Creator said at 03:24: 'Haan bhai, aaj rain ka koi risk nahi, poora clear sky hai.' \\u2014 no rain risk today, completely clear sky.\", \"salience\": 0.3, \"cited_utterance_ids\": [\"u12\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"weather\", \"quote\"]}, \"reason\": \"Attributed weather quote is new information but low interruption value; commit for policy to demote if needed\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2026,
+    "output_tokens": 170,
+    "finish_reason": "stop"
+  },
+  "t": 1793817486.1892936
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The perceiver identified 'Bedi' as Dev Kapoor. The creator is making a prediction about the next over. I will dispatch the analyst to structure this as a prediction.\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"tool\": \"get_match_state\", \"args_json\": \"{}\", \"reason\": \"The creator's statement is a prediction about future bowling performance, which needs to be structured for the fan.\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1379,
+    "output_tokens": 97
+  },
+  "t": 1793893975.1848123
+}

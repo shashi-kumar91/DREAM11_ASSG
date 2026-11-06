@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify u12 content, timestamp, digits vs card\",\"tool\":\"recall_utterance\",\"args_json\":\"{\\\"utterance_id\\\":\\\"u12\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 784,
+    "output_tokens": 40,
+    "finish_reason": "stop"
+  },
+  "t": 1793817488.2832518
+}

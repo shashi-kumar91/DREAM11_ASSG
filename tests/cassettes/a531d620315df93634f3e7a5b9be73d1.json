@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is prescriptive bowling advice for death overs, not a checkable score or future bet. Classify as tactic, quote creator verbatim, no numbers to ground.\",\"tool\":null,\"args_json\":\"{}\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"card_text\\\":\\\"Death overs mein spin ko medium length par rakhna chahiye, stumps par niche target karke.\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"confidence\\\":0.94,\\\"filler\\\":false}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 882,
+    "output_tokens": 121
+  },
+  "t": 1793809135.4295344
+}

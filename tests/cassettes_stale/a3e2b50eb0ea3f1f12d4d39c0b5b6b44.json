@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance states Vikram Naidu out and score 142/4. Match state at 16.3 confirms wicket for Vikram Naidu and 142/4, so classify as factual_claim with quoted card.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":{\\\"player\\\":\\\"Vikram Naidu\\\",\\\"event\\\":\\\"out\\\",\\\"score\\\":\\\"142/4\\\",\\\"runs\\\":142,\\\"wickets\\\":4,\\\"over\\\":\\\"16.3\\\",\\\"bowler\\\":\\\"Dev Kapoor\\\"},\\\"prediction\\\":null,\\\"card_text\\\":\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\",\\\"attribution\\\":{\\\"utterance_id\\\":\\\"u04\\\",\\\"spoken_at\\\":\\\"01:32\\\",\\\"asr_confidence\\\":0.94},\\\"confidence\\\":\\\"high\\\",\\\"verification\\\":\\\"get_match_state confirms wicket=true, out_player=Vikram Naidu, score=142/4 at 16.3\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1046,
+    "output_tokens": 202
+  },
+  "t": 1793805634.7682445
+}

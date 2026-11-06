@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Ledger rejected prediction for bowler mismatch Kapoor vs Bedi. Must verify match state/next bowler before correcting or committing any prediction.\",\"tool\":\"get_match_state\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1079,
+    "output_tokens": 55
+  },
+  "t": 1793808222.2751672
+}

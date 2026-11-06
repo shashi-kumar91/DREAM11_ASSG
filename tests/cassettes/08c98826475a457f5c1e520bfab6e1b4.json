@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The receipt includes events 16.3 and 16.4, but the fan's resume position is 16.6. The boundary was ambiguous (candidates 16.1, 16.2, 16.3), and the fan was never asked to clarify, violating the requirement.\",\"result_json\":\"{\\\"approve\\\":false,\\\"reason\\\":\\\"Boundary was ambiguous and fan was never asked; receipt includes events up to 16.5 while resume is 16.6.\\\",\\\"must_fix\\\":\\\"Ask the fan to clarify the boundary or handle the ambiguity correctly.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1335,
+    "output_tokens": 136
+  },
+  "t": 1793893610.3987823
+}

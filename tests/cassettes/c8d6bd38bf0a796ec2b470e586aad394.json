@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is creator tactic suggestion about reverse sweep and field, not a checkable score/count. No field data in match_state to verify third man up, so treat as attributed tactic/opinion, quote original words, no invented numbers.\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"card_text\\\":\\\"Creator at 00:24: 'Yeh banda ab reverse sweep try kar sakta hai, field dekho, third man up hai.' \u2014 suggests a reverse sweep is on, pointing to the field with third man up.\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"confidence\\\":0.9,\\\"attribution\\\":\\\"creator_utterance u02\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1047,
+    "output_tokens": 153
+  },
+  "t": 1793808075.2763925
+}

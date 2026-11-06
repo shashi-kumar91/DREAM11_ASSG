@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u12 as a new quote with no structured factual claim to verify, so it can be committed as an attributed quote at low salience.\", \"action\": \"commit\", \"reason\": \"Weather remark is real attributed creator content but not interruption-worthy; commit for policy demotion rather than skip.\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"quote\", \"headline\": \"Creator: no rain risk, clear sky\", \"body\": \"At 03:24 the creator said: \\\"Haan bhai, aaj rain ka koi risk nahi, poora clear sky hai.\\\" \u2014 no rain risk today, completely clear sky.\", \"salience\": 0.3, \"cited_utterance_ids\": [\"u12\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"weather\", \"quote\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2034,
+    "output_tokens": 180
+  },
+  "t": 1793809321.2011008
+}

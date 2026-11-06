@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Cited utterance u02 contains no digits, score, target, over, or player name, yet card asserts 15.3, 139/3, 176 and Aarav Sen with no cited events. Digit/unsupported-fact rule triggers rejection.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Digits 15.3, 139/3, 176 and name Aarav Sen are not in cited utterance u02 and no events are cited.\\\", \\\"must_fix\\\": \\\"Cite event evidence for score/over/target/player or remove unsupported digits and name.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 838,
+    "output_tokens": 124,
+    "finish_reason": "stop"
+  },
+  "t": 1793852797.529088
+}

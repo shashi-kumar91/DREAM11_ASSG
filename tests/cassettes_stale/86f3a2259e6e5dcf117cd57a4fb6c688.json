@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Test UNVERIFIABLE and out-vs-striker conflict: need event feed up to 16.3 to see if Vikram dismissal exists or striker still active.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"end_over\\\":\\\"16.3\\\",\\\"only_material\\\":true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1023,
+    "output_tokens": 65
+  },
+  "t": 1793805644.0753121
+}

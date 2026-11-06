@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Card claims no transcript matches guitar lessons but cites no utterance; check material-only feed for any supporting segment.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"only_material\\\": true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1117,
+    "output_tokens": 58
+  },
+  "t": 1793809387.8368766
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Analyst classified u11 as opinion with no checkable claim at 17.6, so attention-worthiness needs strategist assessment before commit/skip.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"reason\": \"Opinion about slow bowling may be filler; strategist decides if worth fan attention now.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2030,
+    "output_tokens": 74,
+    "finish_reason": "stop"
+  },
+  "t": 1793817465.7541733
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Analyst classified u09 as new tactic opinion and strategist marked it collapsed at 0.4 salience, so commit for timeline demotion rather than skip.\", \"action\": \"commit\", \"reason\": \"Real tactic insight, not interruption-worthy in watch mode; commit and let surface policy demote it.\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Creator questions Bedi's spread field\", \"body\": \"Creator asks why Rohan Bedi spread the field at 17.3 (148/5, chasing 176), suggesting filling boundaries would have been the simple logic instead.\", \"salience\": 0.4, \"cited_utterance_ids\": [\"u09\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"tactic\", \"fielding\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2202,
+    "output_tokens": 180,
+    "finish_reason": "stop"
+  },
+  "t": 1793817415.7670925
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The card lacks a cited event ID to verify the field placement claim, which is required to validate the tactical insight.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"The card lacks a cited event ID to verify the field placement claim.\\\", \\\"must_fix\\\": \\\"Include a cited_event_id that confirms the field placement.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 852,
+    "output_tokens": 81
+  },
+  "t": 1793894189.5658698
+}

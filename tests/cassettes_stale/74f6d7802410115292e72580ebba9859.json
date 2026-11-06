@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance states a checkable score 142/3, so factual_claim per supervisor. It conflicts with provided match_state 147/5 at 16.6, so no card should be published pending kernel verification.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":\\\"Score 142 hai abhi, 142/3, same as before.\\\",\\\"prediction\\\":null,\\\"card_text\\\":null,\\\"confidence\\\":\\\"low\\\",\\\"note\\\":\\\"Creator claim 142/3 at 02:06 conflicts with match_state 147/5 at 16.6; do not publish as fact before verification\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 860,
+    "output_tokens": 140
+  },
+  "t": 1793806112.564917
+}

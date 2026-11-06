@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Critic rejected noop because window includes evt_071 wicket at 16.6; kernel must commit a recap including it, excluding resume evt_073.\", \"action\": \"commit\", \"reason\": \"Investigator cross-checked feed, frame and commentary agreeing on wicket at 16.6 and dot at 17.1; commit receipt recap, not noop.\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Missed interval recap: wicket at 16.6\", \"body\": \"You missed 16.6 to 17.1: a wicket fell at 16.6 [evt_071], followed by a dot ball at 17.1 [evt_072].\", \"salience\": 0.8, \"cited_event_ids\": [\"evt_071\", \"evt_072\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"recap\", \"wicket\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2261,
+    "output_tokens": 186,
+    "finish_reason": "stop"
+  },
+  "t": 1793842227.8759077
+}

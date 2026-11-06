@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need verify cited utterance u02 supports digits and claim; recall it first.\",\"tool\":\"recall_utterance\",\"args_json\":\"{\\\"utterance_id\\\":\\\"u02\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 789,
+    "output_tokens": 46,
+    "finish_reason": "stop"
+  },
+  "t": 1793817250.6028066
+}

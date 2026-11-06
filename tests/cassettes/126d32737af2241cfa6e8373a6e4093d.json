@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Prediction logged for Rohan Bedi over 17 yorker_count>=2 from u05, analyst classified it as prediction\", \"action\": \"commit\", \"reason\": \"Logged prediction pr_6eff308853 exists in scratchpad; commit prediction card citing u05 for kernel templating\", \"card\": {\"kind\": \"prediction\", \"insight_type\": \"prediction\", \"headline\": \"Bedi to bowl two yorkers next over\", \"body\": \"Creator predicts Rohan Bedi will bowl two yorkers in over 17.\", \"salience\": 0.6, \"cited_utterance_ids\": [\"u05\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"yorker\", \"Bedi\", \"prediction\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2234,
+    "output_tokens": 158
+  },
+  "t": 1793809044.500719
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Supervisor says Bedi should be Rohan Bedi not current bowler Dev Kapoor; need verify via match state/resolve tool before final.\",\"tool\":\"resolve_reference\",\"args_json\":\"{\\\"phrase\\\":\\\"Bedi\\\",\\\"kind_hint\\\":\\\"bowler\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1011,
+    "output_tokens": 65
+  },
+  "t": 1793808201.4555724
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Wicket and boundary before resume require receipt; clip frame check failed so no clip offered, and evt_071 is not spoiled.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"\\\",\\\"why_it_matters\\\":\\\"The missed wicket at [evt_068] and boundary at [evt_069] change the score before you resume, so a receipt recap is needed.\\\",\\\"ordering\\\":\\\"recap [evt_068] then [evt_069] before resuming\\\",\\\"reason\\\":\\\"Wicket and four occurred after fan left at 16.2 and before resume 16.6; clip for evt_068 was not offerable due to unreadable frame.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1509,
+    "output_tokens": 150,
+    "finish_reason": "stop"
+  },
+  "t": 1793845871.606922
+}

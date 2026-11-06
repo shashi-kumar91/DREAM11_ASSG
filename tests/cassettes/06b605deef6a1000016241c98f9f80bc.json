@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"kind\": \"final\",\n  \"thought\": \"The creator explains the technical dependency of DRS reviews on ball tracking and edge detection thresholds. I have removed the specific digit '2.5' to comply with the critic's requirement while maintaining the core message.\",\n  \"result_json\": \"{\\\"insight_type\\\": \\\"rule_explanation\\\", \\\"headline\\\": \\\"How DRS Edge Detection Works\\\", \\\"body\\\": \\\"Review ball tracking pe depend karta hai, edge ho to not out hota hai.\\\", \\\"salience\\\": 0.5}\"\n}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1002,
+    "output_tokens": 117
+  },
+  "t": 1793894215.093735
+}

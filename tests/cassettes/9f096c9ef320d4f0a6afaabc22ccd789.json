@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u08 as new tactic advice on death-overs spin length with no factual claim to verify, so it is ready to commit for surface policy to gate.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Death overs: keep spin on medium length, low at stumps\", \"body\": \"Creator advises that in death overs spin should be kept on a medium length, targeting low at the stumps.\", \"salience\": 0.5, \"cited_utterance_ids\": [\"u08\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"tactic\", \"death-overs\", \"spin\"]}, \"reason\": \"Tactic insight is new and attributed to u08; no verdict required for non-factual advice.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2058,
+    "output_tokens": 175
+  },
+  "t": 1793809146.0692182
+}

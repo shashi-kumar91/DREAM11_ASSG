@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Supervisor says re-resolve Bedi; prior mapping to current bowler Dev Kapoor conflicted with next-over bowler Rohan Bedi. Need squad/match state to verify.\",\"tool\":\"get_match_state\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1082,
+    "output_tokens": 59,
+    "finish_reason": "stop"
+  },
+  "t": 1793817323.0755339
+}

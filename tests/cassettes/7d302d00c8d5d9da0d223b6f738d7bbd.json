@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The investigator confirmed the wicket at 16.3, which matches the fan's report; I will now commit the receipt to finalize the gap recovery.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Wicket at 16.3\", \"body\": \"The missed interval included a wicket at 16.3 involving Vikram Naidu, which was confirmed by the event feed.\", \"salience\": 0.9, \"cited_event_ids\": [\"evt_071\"], \"tags\": [\"wicket\", \"16.3\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1459,
+    "output_tokens": 139
+  },
+  "t": 1793890375.837949
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Analyst classified u02 as new tactic info with no factual claim to verify, so a card can be committed citing the utterance.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Creator flags reverse sweep option with third man up\", \"body\": \"At 15.3 (139/3, target 176), the creator suggests Aarav Sen could try a reverse sweep, pointing to the field with third man up. This is presented as the creator's tactical read, not a verified fielding fact.\", \"salience\": 0.4, \"cited_utterance_ids\": [\"u02\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"tactic\", \"field\", \"reverse sweep\"]}, \"reason\": \"Tactic observation is new and attributed; no verdict exists or is needed for a non-factual suggestion.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2033,
+    "output_tokens": 196,
+    "finish_reason": "stop"
+  },
+  "t": 1793852789.5851665
+}

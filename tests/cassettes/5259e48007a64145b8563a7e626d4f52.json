@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The creator is questioning the fielding strategy at 17.3 overs; I will commit this as an opinion insight.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"opinion\", \"headline\": \"Fielding strategy questioned\", \"body\": \"The creator questions the decision to spread the field, suggesting a tighter boundary defense was needed.\", \"salience\": 0.4, \"cited_utterance_ids\": [\"u09\"], \"tags\": [\"strategy\", \"fielding\"]}, \"question\": null, \"options\": []}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1425,
+    "output_tokens": 124
+  },
+  "t": 1793894197.412328
+}

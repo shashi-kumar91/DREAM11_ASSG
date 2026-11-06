@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The analyst has identified a tactical suggestion from the creator regarding bowling strategy in the death overs, which is relevant to the current match state (17.1 overs).\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Bowling strategy for the death overs\", \"body\": \"The creator suggests that spinners should bowl at a medium length, targeting the stumps low, during the death overs.\", \"salience\": 0.6, \"cited_utterance_ids\": [\"u08\"], \"tags\": [\"strategy\", \"bowling\", \"death overs\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1445,
+    "output_tokens": 136
+  },
+  "t": 1793893984.512086
+}

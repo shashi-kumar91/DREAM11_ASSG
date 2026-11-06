@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Wicket and boundary in window, but clip for evt_068 refused as frame unreadable, so receipt covering pre-resume events is safest.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"\\\",\\\"why_it_matters\\\":\\\"You missed the wicket at 16.3 [evt_068] and the four at 16.4 [evt_069] before resuming at 16.6, so a text receipt covers both without showing the resume ball.\\\",\\\"ordering\\\":\\\"receipt for evt_068 then evt_069, stop before evt_071 at 16.6\\\",\\\"reason\\\":\\\"Clip for evt_068 was refused as frame unreadable, so receipt is the safest useful recovery.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1479,
+    "output_tokens": 153
+  },
+  "t": 1793810887.0170329
+}

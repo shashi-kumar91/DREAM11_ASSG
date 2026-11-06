@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need resolve 'isne' against match state; previous final failed because resolved was null not string. Call resolve_reference to get candidates.\",\"tool\":\"resolve_reference\",\"args_json\":\"{\\\"phrase\\\":\\\"isne\\\",\\\"kind_hint\\\":\\\"bowler\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 891,
+    "output_tokens": 69,
+    "finish_reason": "stop"
+  },
+  "t": 1793817390.458981
+}

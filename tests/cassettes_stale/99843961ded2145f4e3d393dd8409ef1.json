@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Strategist collapsed the 17.3 field-spread tactic opinion (salience 0.4, no claim or prediction) as not worth interrupting watch mode.\", \"action\": \"skip\", \"reason\": \"Low-urgency attributed opinion with no verifiable claim; staying silent preserves fan attention per objective.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2037,
+    "output_tokens": 71
+  },
+  "t": 1793807481.6988585
+}

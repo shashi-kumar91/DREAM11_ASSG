@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is creator's subjective jab at bowler's slow pace, no checkable score/count or future bet stated. Classify as opinion, quote verbatim, leave claim/prediction null.\",\"result_json\":\"{\\\"insight_type\\\":\\\"opinion\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator on Rohan Bedi: \\\\\\\"Yeh bowler itna slow phenk raha hai, dadi ki ginti bhi tez hai.\\\\\\\"\\\",\\\"confidence\\\":0.9}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 865,
+    "output_tokens": 108,
+    "finish_reason": "stop"
+  },
+  "t": 1793852822.7618816
+}

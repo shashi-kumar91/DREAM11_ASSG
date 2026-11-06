@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator line is opinion/filler about slow bowling with no verifiable new fact or speed data; surfacing would waste attention. Silent is appropriate.\",\"result_json\":\"{\\\"mode\\\":\\\"silent\\\",\\\"reason\\\":\\\"Opinion/filler about slow bowling with no verifiable new information; not worth interrupting fan.\\\",\\\"salience\\\":0.1}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 837,
+    "output_tokens": 90,
+    "finish_reason": "stop"
+  },
+  "t": 1793817471.228633
+}

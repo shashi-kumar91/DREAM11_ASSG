@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Fan scoped window 15.1-17.4, resume evt_075 at 17.4. Query clamped feed for material events in that window only.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"start_over\\\":\\\"15.1\\\",\\\"end_over\\\":\\\"17.4\\\",\\\"only_material\\\":true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 909,
+    "output_tokens": 72,
+    "finish_reason": "stop"
+  },
+  "t": 1793811209.2354245
+}

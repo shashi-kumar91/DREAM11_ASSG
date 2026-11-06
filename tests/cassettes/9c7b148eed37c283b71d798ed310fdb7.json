@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The fan missed a wicket at 16.3 and a boundary at 16.4 during the ad break. I will provide a receipt for these events to ensure they are caught up.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"evt_068\\\",\\\"why_it_matters\\\":\\\"You missed the crucial wicket of Vikram Naidu at [evt_068] and a subsequent boundary at [evt_069] while the ad was playing.\\\",\\\"ordering\\\":\\\"evt_068, evt_069\\\",\\\"reason\\\":\\\"The fan missed a wicket and a boundary during the ad break, necessitating a recap.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1463,
+    "output_tokens": 149
+  },
+  "t": 1793892755.0485778
+}

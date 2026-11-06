@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed 16.2 boundary; need missed window evidence\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"reason\": \"Reconstruct 16.2-16.6 interval before choosing recovery\", \"args_json\": \"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2014,
+    "output_tokens": 54,
+    "finish_reason": "stop"
+  },
+  "t": 1793812268.5447984
+}

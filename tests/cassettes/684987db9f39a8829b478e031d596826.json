@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Cross-check gap 16.6-17.2: event feed shows 17.1 dot at 147/5; need frame scoreboard to verify before any recovery decision.\",\"tool\":\"inspect_frame\",\"args_json\":\"{\\\"over_label\\\":\\\"17.1\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1088,
+    "output_tokens": 62,
+    "finish_reason": "stop"
+  },
+  "t": 1793842160.3330765
+}

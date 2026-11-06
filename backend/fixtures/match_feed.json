@@ -1,0 +1,490 @@
+[
+  {
+    "id": "evt_060",
+    "t_wall": 8.0,
+    "over_label": "15.1",
+    "kind": "ball",
+    "runs": 1,
+    "wicket": false,
+    "text": "1 run, pushed to cover",
+    "actors": [
+      "Aarav Sen",
+      "Rohan Bedi"
+    ],
+    "striker": "Aarav Sen",
+    "non_striker": "Vikram Naidu",
+    "bowler": "Rohan Bedi",
+    "out": null,
+    "score": "135/3",
+    "balls_faced": 91,
+    "innos_runs": 135,
+    "innos_balls": 91,
+    "rrr": 8.48,
+    "crr": 8.9,
+    "ball_type": "good_length",
+    "tags": [
+      "good_length"
+    ]
+  },
+  {
+    "id": "evt_061",
+    "t_wall": 18.0,
+    "over_label": "15.2",
+    "kind": "ball",
+    "runs": 0,
+    "wicket": false,
+    "text": "ducked, dot ball",
+    "actors": [
+      "Aarav Sen",
+      "Rohan Bedi"
+    ],
+    "striker": "Aarav Sen",
+    "non_striker": "Vikram Naidu",
+    "bowler": "Rohan Bedi",
+    "out": null,
+    "score": "135/3",
+    "balls_faced": 92,
+    "innos_runs": 135,
+    "innos_balls": 92,
+    "rrr": 8.79,
+    "crr": 8.8,
+    "ball_type": "bouncer",
+    "tags": [
+      "bouncer"
+    ]
+  },
+  {
+    "id": "evt_062",
+    "t_wall": 28.0,
+    "over_label": "15.3",
+    "kind": "boundary",
+    "runs": 4,
+    "wicket": false,
+    "text": "FOUR, pulled off the middle stump",
+    "actors": [
+      "Aarav Sen",
+      "Rohan Bedi"
+    ],
+    "striker": "Aarav Sen",
+    "non_striker": "Vikram Naidu",
+    "bowler": "Rohan Bedi",
+    "out": null,
+    "score": "139/3",
+    "balls_faced": 93,
+    "innos_runs": 139,
+    "innos_balls": 93,
+    "rrr": 8.22,
+    "crr": 8.97,
+    "ball_type": "short",
+    "tags": [
+      "short"
+    ]
+  },
+  {
+    "id": "evt_063",
+    "t_wall": 38.0,
+    "over_label": "15.4",
+    "kind": "ball",
+    "runs": 1,
+    "wicket": false,
+    "text": "1 run, deep square saves the boundary",
+    "actors": [
+      "Aarav Sen",
+      "Rohan Bedi"
+    ],
+    "striker": "Aarav Sen",
+    "non_striker": "Vikram Naidu",
+    "bowler": "Rohan Bedi",
+    "out": null,
+    "score": "140/3",
+    "balls_faced": 94,
+    "innos_runs": 140,
+    "innos_balls": 94,
+    "rrr": 8.31,
+    "crr": 8.94,
+    "ball_type": "good_length",
+    "tags": [
+      "good_length"
+    ]
+  },
+  {
+    "id": "evt_064",
+    "t_wall": 48.0,
+    "over_label": "15.5",
+    "kind": "ball",
+    "runs": 0,
+    "wicket": false,
+    "text": "dipped short, no run",
+    "actors": [
+      "Aarav Sen",
+      "Rohan Bedi"
+    ],
+    "striker": "Aarav Sen",
+    "non_striker": "Vikram Naidu",
+    "bowler": "Rohan Bedi",
+    "out": null,
+    "score": "140/3",
+    "balls_faced": 95,
+    "innos_runs": 140,
+    "innos_balls": 95,
+    "rrr": 8.64,
+    "crr": 8.84,
+    "ball_type": "slower",
+    "tags": [
+      "slower"
+    ]
+  },
+  {
+    "id": "evt_065",
+    "t_wall": 58.0,
+    "over_label": "15.6",
+    "kind": "interval",
+    "runs": 1,
+    "wicket": false,
+    "text": "1 run to long-on, end of over",
+    "actors": [
+      "Aarav Sen",
+      "Rohan Bedi"
+    ],
+    "striker": "Aarav Sen",
+    "non_striker": "Vikram Naidu",
+    "bowler": "Rohan Bedi",
+    "out": null,
+    "score": "141/3",
+    "balls_faced": 96,
+    "innos_runs": 141,
+    "innos_balls": 96,
+    "rrr": 8.75,
+    "crr": 8.81,
+    "ball_type": "good_length",
+    "tags": [
+      "good_length"
+    ]
+  },
+  {
+    "id": "evt_066",
+    "t_wall": 68.0,
+    "over_label": "16.1",
+    "kind": "ball",
+    "runs": 0,
+    "wicket": false,
+    "text": "dot, defended to mid-off",
+    "actors": [
+      "Vikram Naidu",
+      "Dev Kapoor"
+    ],
+    "striker": "Vikram Naidu",
+    "non_striker": "Aarav Sen",
+    "bowler": "Dev Kapoor",
+    "out": null,
+    "score": "141/3",
+    "balls_faced": 97,
+    "innos_runs": 141,
+    "innos_balls": 97,
+    "rrr": 9.13,
+    "crr": 8.72,
+    "ball_type": "good_length",
+    "tags": [
+      "good_length"
+    ]
+  },
+  {
+    "id": "evt_067",
+    "t_wall": 78.0,
+    "over_label": "16.2",
+    "kind": "ball",
+    "runs": 1,
+    "wicket": false,
+    "text": "1 run, squeezed out",
+    "actors": [
+      "Vikram Naidu",
+      "Dev Kapoor"
+    ],
+    "striker": "Vikram Naidu",
+    "non_striker": "Aarav Sen",
+    "bowler": "Dev Kapoor",
+    "out": null,
+    "score": "142/3",
+    "balls_faced": 98,
+    "innos_runs": 142,
+    "innos_balls": 98,
+    "rrr": 9.27,
+    "crr": 8.69,
+    "ball_type": "yorker",
+    "tags": [
+      "yorker"
+    ]
+  },
+  {
+    "id": "evt_068",
+    "t_wall": 88.0,
+    "over_label": "16.3",
+    "kind": "wicket",
+    "runs": 0,
+    "wicket": true,
+    "text": "WICKET! Vikram Naidu bowled through the gate",
+    "actors": [
+      "Vikram Naidu",
+      "Dev Kapoor"
+    ],
+    "striker": "Vikram Naidu",
+    "non_striker": "Aarav Sen",
+    "bowler": "Dev Kapoor",
+    "out": "Vikram Naidu",
+    "score": "142/4",
+    "balls_faced": 99,
+    "innos_runs": 142,
+    "innos_balls": 99,
+    "rrr": 9.71,
+    "crr": 8.61,
+    "ball_type": "good_length",
+    "tags": [
+      "good_length",
+      "wicket"
+    ]
+  },
+  {
+    "id": "evt_069",
+    "t_wall": 100.0,
+    "over_label": "16.4",
+    "kind": "boundary",
+    "runs": 4,
+    "wicket": false,
+    "text": "FOUR! Kabir Menon answers straight away",
+    "actors": [
+      "Kabir Menon",
+      "Dev Kapoor"
+    ],
+    "striker": "Kabir Menon",
+    "non_striker": "Aarav Sen",
+    "bowler": "Dev Kapoor",
+    "out": null,
+    "score": "146/4",
+    "balls_faced": 100,
+    "innos_runs": 146,
+    "innos_balls": 100,
+    "rrr": 9.0,
+    "crr": 8.76,
+    "ball_type": "short",
+    "tags": [
+      "short"
+    ]
+  },
+  {
+    "id": "evt_070",
+    "t_wall": 110.0,
+    "over_label": "16.5",
+    "kind": "ball",
+    "runs": 0,
+    "wicket": false,
+    "text": "dot, beaten outside off",
+    "actors": [
+      "Kabir Menon",
+      "Dev Kapoor"
+    ],
+    "striker": "Kabir Menon",
+    "non_striker": "Aarav Sen",
+    "bowler": "Dev Kapoor",
+    "out": null,
+    "score": "146/4",
+    "balls_faced": 101,
+    "innos_runs": 146,
+    "innos_balls": 101,
+    "rrr": 9.47,
+    "crr": 8.67,
+    "ball_type": "good_length",
+    "tags": [
+      "good_length"
+    ]
+  },
+  {
+    "id": "evt_071",
+    "t_wall": 122.0,
+    "over_label": "16.6",
+    "kind": "wicket",
+    "runs": 1,
+    "wicket": true,
+    "text": "RUN OUT! Kabir Menon short of the crease. Two wickets in four balls",
+    "actors": [
+      "Kabir Menon",
+      "Dev Kapoor"
+    ],
+    "striker": "Kabir Menon",
+    "non_striker": "Arjun Rao",
+    "bowler": "Dev Kapoor",
+    "out": "Kabir Menon",
+    "score": "147/5",
+    "balls_faced": 102,
+    "innos_runs": 147,
+    "innos_balls": 102,
+    "rrr": 9.67,
+    "crr": 8.65,
+    "ball_type": "yorker",
+    "tags": [
+      "yorker",
+      "wicket"
+    ]
+  },
+  {
+    "id": "evt_072",
+    "t_wall": 138.0,
+    "over_label": "17.1",
+    "kind": "ball",
+    "runs": 0,
+    "wicket": false,
+    "text": "dot, perfect yorker, no run",
+    "actors": [
+      "Arjun Rao",
+      "Rohan Bedi"
+    ],
+    "striker": "Arjun Rao",
+    "non_striker": "Aarav Sen",
+    "bowler": "Rohan Bedi",
+    "out": null,
+    "score": "147/5",
+    "balls_faced": 103,
+    "innos_runs": 147,
+    "innos_balls": 103,
+    "rrr": 10.24,
+    "crr": 8.56,
+    "ball_type": "yorker",
+    "tags": [
+      "yorker"
+    ]
+  },
+  {
+    "id": "evt_073",
+    "t_wall": 150.0,
+    "over_label": "17.2",
+    "kind": "ball",
+    "runs": 0,
+    "wicket": false,
+    "text": "dot, another yorker, blocked",
+    "actors": [
+      "Arjun Rao",
+      "Rohan Bedi"
+    ],
+    "striker": "Arjun Rao",
+    "non_striker": "Aarav Sen",
+    "bowler": "Rohan Bedi",
+    "out": null,
+    "score": "147/5",
+    "balls_faced": 104,
+    "innos_runs": 147,
+    "innos_balls": 104,
+    "rrr": 10.88,
+    "crr": 8.48,
+    "ball_type": "yorker",
+    "tags": [
+      "yorker"
+    ]
+  },
+  {
+    "id": "evt_074",
+    "t_wall": 162.0,
+    "over_label": "17.3",
+    "kind": "ball",
+    "runs": 1,
+    "wicket": false,
+    "text": "1 run, change of pace found the gap",
+    "actors": [
+      "Arjun Rao",
+      "Rohan Bedi"
+    ],
+    "striker": "Arjun Rao",
+    "non_striker": "Aarav Sen",
+    "bowler": "Rohan Bedi",
+    "out": null,
+    "score": "148/5",
+    "balls_faced": 105,
+    "innos_runs": 148,
+    "innos_balls": 105,
+    "rrr": 11.2,
+    "crr": 8.46,
+    "ball_type": "slower",
+    "tags": [
+      "slower"
+    ]
+  },
+  {
+    "id": "evt_075",
+    "t_wall": 172.0,
+    "over_label": "17.4",
+    "kind": "ball",
+    "runs": 1,
+    "wicket": false,
+    "text": "1 run to midwicket",
+    "actors": [
+      "Arjun Rao",
+      "Rohan Bedi"
+    ],
+    "striker": "Arjun Rao",
+    "non_striker": "Aarav Sen",
+    "bowler": "Rohan Bedi",
+    "out": null,
+    "score": "149/5",
+    "balls_faced": 106,
+    "innos_runs": 149,
+    "innos_balls": 106,
+    "rrr": 11.57,
+    "crr": 8.43,
+    "ball_type": "good_length",
+    "tags": [
+      "good_length"
+    ]
+  },
+  {
+    "id": "evt_076",
+    "t_wall": 182.0,
+    "over_label": "17.5",
+    "kind": "ball",
+    "runs": 0,
+    "wicket": false,
+    "text": "dot, solid defence",
+    "actors": [
+      "Arjun Rao",
+      "Rohan Bedi"
+    ],
+    "striker": "Arjun Rao",
+    "non_striker": "Aarav Sen",
+    "bowler": "Rohan Bedi",
+    "out": null,
+    "score": "149/5",
+    "balls_faced": 107,
+    "innos_runs": 149,
+    "innos_balls": 107,
+    "rrr": 12.46,
+    "crr": 8.36,
+    "ball_type": "good_length",
+    "tags": [
+      "good_length"
+    ]
+  },
+  {
+    "id": "evt_077",
+    "t_wall": 194.0,
+    "over_label": "17.6",
+    "kind": "interval",
+    "runs": 2,
+    "wicket": false,
+    "text": "2 runs, clipped behind square, end of over",
+    "actors": [
+      "Arjun Rao",
+      "Rohan Bedi"
+    ],
+    "striker": "Arjun Rao",
+    "non_striker": "Aarav Sen",
+    "bowler": "Rohan Bedi",
+    "out": null,
+    "score": "151/5",
+    "balls_faced": 108,
+    "innos_runs": 151,
+    "innos_balls": 108,
+    "rrr": 12.5,
+    "crr": 8.39,
+    "ball_type": "short",
+    "tags": [
+      "short"
+    ]
+  }
+]

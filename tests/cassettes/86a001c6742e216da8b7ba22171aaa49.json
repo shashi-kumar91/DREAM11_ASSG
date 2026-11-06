@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The receipt claims no wicket occurred, but the investigator notes confirm a wicket (evt_071) occurred at 16.6. This violates the rule that the receipt must not claim nothing happened when a wicket occurred.\",\"result_json\":\"{\\\"approve\\\":false,\\\"reason\\\":\\\"The receipt incorrectly claims no wicket occurred, but a wicket (evt_071) happened at 16.6.\\\",\\\"must_fix\\\":\\\"Correct the claim that no wicket occurred.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1056,
+    "output_tokens": 108
+  },
+  "t": 1793892402.691988
+}

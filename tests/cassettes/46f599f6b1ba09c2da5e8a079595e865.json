@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Telemetry already chose 16.2 as the last trusted ball and the fan never answered, so the missed window stands on evidence in hand.\", \"action\": \"commit\", \"reason\": \"Boundary settled by telemetry; commit the receipt instead of asking a fan who is not there.\", \"card\": {\"kind\": \"receipt\", \"headline\": \"Missed events during ad break\", \"body\": \"While you were away, Vikram Naidu was bowled [evt_068] and Kabir Menon hit a four [evt_069].\", \"salience\": 1.0, \"cited_event_ids\": [\"evt_068\", \"evt_069\"], \"tags\": [\"wicket\", \"boundary\"]}}",
+  "model": "arena-agent (hand-authored)",
+  "usage": {
+    "prompt_tokens": 0,
+    "output_tokens": 0
+  },
+  "t": 1793899765.8265922
+}

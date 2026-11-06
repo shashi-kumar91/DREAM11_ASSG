@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed leaving at 16.2 and investigator cross-checked 16.2-16.6, so boundary is settled and recovery modality is next.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"reason\": \"Choose safest useful recovery modality and causal sentence citing events before resume 16.6, without spoiling evt_071.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2491,
+    "output_tokens": 78,
+    "finish_reason": "stop"
+  },
+  "t": 1793845862.3797922
+}

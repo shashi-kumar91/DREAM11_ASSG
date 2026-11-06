@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The critic rejected the previous draft for missing event ID citations in the causal sentence; I will now commit the corrected receipt confirming the wicket at 16.3.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Wicket at 16.3\", \"body\": \"The match resumed after the ad break at 16.6, but the event feed confirms a wicket occurred at 16.3 [evt_070] involving Vikram Naidu, which was missed during the overlay.\", \"salience\": 0.9, \"cited_utterance_ids\": [], \"cited_event_ids\": [\"evt_070\"], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"wicket\", \"reconstruction\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1549,
+    "output_tokens": 187
+  },
+  "t": 1793892325.5165143
+}

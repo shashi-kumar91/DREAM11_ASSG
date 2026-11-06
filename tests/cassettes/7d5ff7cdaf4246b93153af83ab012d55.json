@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Fan confirmed left at 16.2 matching chosen boundary, resume is 16.6, so missed interval 16.3-16.5 needs evidence before any recovery.\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"reason\": \"Boundary is fan-confirmed at 16.2; investigator should cross-check events between 16.2 and resume 16.6 against frames/commentary to reconstruct what was missed without inventing a boundary.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1984,
+    "output_tokens": 99
+  },
+  "t": 1793810851.3379822
+}

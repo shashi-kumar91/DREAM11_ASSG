@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Creator states a wicket and score that are checkable; need to verify against feed up to playback position before drafting card.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"end_over\\\":\\\"16.3\\\",\\\"only_material\\\":true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1134,
+    "output_tokens": 66
+  },
+  "t": 1793805543.9701645
+}

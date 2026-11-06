@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator confirmed only a 17.1 dot was missed before resume 17.2, frame at 16.6 agrees, and no commentary exists, so recovery modality still needs choosing.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"args_json\": \"{\\\"task\\\": \\\"Choose safest useful recovery for S2 gap 16.6-17.2 given only dot ball 17.1 missed and no key action; do not offer clip for dot, do not mention anything at or after 17.2\\\"}\", \"reason\": \"Strategist must pick no-op vs clip modality before any receipt can be committed.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2086,
+    "output_tokens": 129,
+    "finish_reason": "stop"
+  },
+  "t": 1793815836.9489284
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Verify current match state before deciding if speculative tactic note warrants interruption.\",\"tool\":\"get_match_state\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 847,
+    "output_tokens": 46
+  },
+  "t": 1793808091.0052085
+}

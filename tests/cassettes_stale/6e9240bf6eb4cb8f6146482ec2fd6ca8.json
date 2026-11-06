@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator states Vikram Naidu out and score 142/4; match_state confirms wicket for Vikram Naidu at 142/4, 16.3. This is a checkable factual_claim, quote creator wording.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":{\\\"out_player\\\":\\\"Vikram Naidu\\\",\\\"score\\\":\\\"142/4\\\",\\\"over\\\":\\\"16.3\\\"},\\\"prediction\\\":null,\\\"card_text\\\":\\\"\\\\\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\\\\\"\\\",\\\"attribution\\\":{\\\"utterance_id\\\":\\\"u04\\\",\\\"spoken_at\\\":\\\"01:32\\\",\\\"asr_confidence\\\":0.94},\\\"confidence\\\":\\\"high\\\",\\\"evidence\\\":\\\"get_match_state confirms wicket=true, out_player=Vikram Naidu, score=142/4 at 16.3\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1049,
+    "output_tokens": 186
+  },
+  "t": 1793807331.4013062
+}

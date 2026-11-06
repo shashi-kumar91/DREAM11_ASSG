@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u05 as prediction and kernel logged pr_ec9c951760 for Bedi yorker_count>=2 in over 17, so prediction card can be committed from logged state.\", \"action\": \"commit\", \"reason\": \"Prediction is logged and attributed to u05; committing surfaces it without inventing a verdict.\", \"card\": {\"kind\": \"prediction\", \"insight_type\": \"prediction\", \"headline\": \"Bedi to bowl two yorkers in over 17\", \"body\": \"Creator predicts Bedi will bowl two yorkers in the next over.\", \"salience\": 0.5, \"cited_utterance_ids\": [\"u05\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"prediction\", \"yorker\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2066,
+    "output_tokens": 166
+  },
+  "t": 1793807366.914742
+}

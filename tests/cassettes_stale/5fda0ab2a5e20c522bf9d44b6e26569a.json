@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator states a checkable score 142/3. Classify as factual_claim with claim grounded in his exact words, quote him verbatim, and flag mismatch vs match_state 147/5 for kernel verification before any card.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":\\\"142/3\\\",\\\"prediction\\\":null,\\\"card_text\\\":\\\"Score 142 hai abhi, 142/3, same as before.\\\",\\\"confidence\\\":0.94,\\\"note\\\":\\\"Creator claim 142/3 differs from match_state 147/5 at 16.6; kernel to verify before committing\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1042,
+    "output_tokens": 139
+  },
+  "t": 1793807107.6071262
+}

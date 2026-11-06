@@ -1,0 +1,6 @@
+{
+  "text": "```json\n{\"text\": \"Ye bowler itna slow phenk raha hai, dadi ki gilli bhi tez hai.\",\n \"confidence\": 0.95,\n \"uncertain_words\": []}\n```",
+  "model": "gemini-3.5-flash",
+  "usage": {},
+  "t": 1793802468.9157844
+}

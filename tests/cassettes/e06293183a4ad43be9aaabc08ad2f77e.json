@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Clamped feed shows wickets and boundaries in 15.1-17.4, so receipt recap is warranted; no frame check passed, so no clip.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"\\\",\\\"why_it_matters\\\":\\\"The missed interval includes a wicket at [evt_068], a boundary at [evt_069], and a run out at [evt_071], so a receipt recap is warranted.\\\",\\\"ordering\\\":\\\"receipt recap for 15.1-17.4, then jump to live at evt_075\\\",\\\"reason\\\":\\\"Material wickets and boundaries verified in clamped feed; no frame check passed for a clip.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1406,
+    "output_tokens": 145,
+    "finish_reason": "stop"
+  },
+  "t": 1793845405.9471688
+}

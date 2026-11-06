@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Verified 141/3 at 15.6, target 176, no cards yet. High-confidence attributed reverse-sweep tactic is distinctive new insight worth surfacing in watch mode.\",\"result_json\":\"{\\\"mode\\\": \\\"card\\\", \\\"reason\\\": \\\"Attributed reverse-sweep tactic at 15.6 is distinctive, high-confidence and new with no prior cards\\\", \\\"salience\\\": 0.65}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 985,
+    "output_tokens": 92
+  },
+  "t": 1793807282.4190745
+}

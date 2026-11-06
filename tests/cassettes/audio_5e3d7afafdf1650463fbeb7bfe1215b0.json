@@ -1,0 +1,6 @@
+{
+  "text": "```json\n{\"text\": \"\",\n \"confidence\": 0.0,\n \"uncertain_words\": []}\n```",
+  "model": "gemini-3.5-flash",
+  "usage": {},
+  "t": 1793802396.8884664
+}

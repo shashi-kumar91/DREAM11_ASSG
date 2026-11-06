@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Bedi does not match current bowler Dev Kapoor or striker Kabir Menon in observation; need resolve_reference to check candidates before finalizing.\",\"tool\":\"resolve_reference\",\"args_json\":\"{\\\"phrase\\\":\\\"Bedi\\\",\\\"kind_hint\\\":\\\"bowler\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 824,
+    "output_tokens": 71
+  },
+  "t": 1793808164.203194
+}

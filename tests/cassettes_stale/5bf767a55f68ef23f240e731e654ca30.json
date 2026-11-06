@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Card cites u12 but quotes only 'Haan bhai', omitting the actual weather answer in the recalled utterance ('rain ka koi risk nahi, poora clear sky hai'). It therefore fails the query and adds nothing useful, despite timestamp/digits being present.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Card quotes only 'Haan bhai' and omits the weather answer in cited u12, adding no useful information.\\\", \\\"must_fix\\\": \\\"Quote full u12 weather statement with speaker attribution\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 973,
+    "output_tokens": 125
+  },
+  "t": 1793807649.7363858
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Strategist collapsed the speculative reverse-sweep tactic at 15.3 as low-salience for watch mode\", \"action\": \"skip\", \"reason\": \"No verified factual claim and strategist judged it not worth fan attention; silence preserves budget\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2035,
+    "output_tokens": 61
+  },
+  "t": 1793807220.0848012
+}

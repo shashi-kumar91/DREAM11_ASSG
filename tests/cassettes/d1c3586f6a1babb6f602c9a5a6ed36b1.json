@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The receipt fails because it did not ask the fan to resolve the ambiguous boundary (as indicated by the strategist's notes), and the causal sentences in the body lack the required [evt_id] citations.\",\"result_json\":\"{\\\"approve\\\":false,\\\"reason\\\":\\\"Boundary was left ambiguous without asking the fan, and causal sentences lack [evt_id] citations.\\\",\\\"must_fix\\\":\\\"Ask the fan to resolve the boundary and add [evt_id] citations to causal sentences.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1402,
+    "output_tokens": 109
+  },
+  "t": 1793892781.1748583
+}

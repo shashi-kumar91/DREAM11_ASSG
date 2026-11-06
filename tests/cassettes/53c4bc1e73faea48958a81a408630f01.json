@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Boundary 16.6 conf 0.9 single candidate, resume 17.2, but no frames/events checked yet to confirm gap is empty\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"reason\": \"Cross-check missed window 16.6-17.2 against feed/frames before deciding no-op vs recovery\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1945,
+    "output_tokens": 69
+  },
+  "t": 1793810913.5819771
+}

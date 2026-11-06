@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need resolve 'isne' against match state; striker Arjun Rao and bowler Rohan Bedi are candidates, field spread is bowling side decision.\",\"tool\":\"resolve_reference\",\"args_json\":\"{\\\"phrase\\\":\\\"isne\\\",\\\"kind_hint\\\":\\\"bowler\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 825,
+    "output_tokens": 66,
+    "finish_reason": "stop"
+  },
+  "t": 1793817380.8954086
+}

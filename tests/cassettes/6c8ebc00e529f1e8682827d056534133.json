@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Gap contains wicket and boundary before resume; clip for evt_068 was refused on frame check, so receipt without clip is safest.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"\\\",\\\"why_it_matters\\\":\\\"You missed a wicket at 16.3 [evt_068] and a four at 16.4 [evt_069] before resuming at 16.6.\\\",\\\"ordering\\\":\\\"receipt first, then resume at 16.6\\\",\\\"reason\\\":\\\"Wicket and boundary in gap require receipt; clip not offerable as frame check failed for evt_068.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1430,
+    "output_tokens": 133,
+    "finish_reason": "stop"
+  },
+  "t": 1793815759.6058176
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Fan confirmed left at 16.2 and telemetry lists wicket at 16.3 in missed window, need cross-check before recovery\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"args_json\": \"{}\", \"reason\": \"Verify material events between 16.2 and resume 16.6 against frames/commentary before choosing recovery\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2472,
+    "output_tokens": 78
+  },
+  "t": 1793810397.9477203
+}

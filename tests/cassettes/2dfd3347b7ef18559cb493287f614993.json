@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Kernel verdict ver_d40545180d already in scratchpad shows creator's 142/3 conflicts with observed 147/5 at 16.6, matching 16.2 score 4 balls earlier.\", \"action\": \"commit\", \"card\": {\"kind\": \"conflict\", \"insight_type\": \"factual_claim\", \"headline\": \"Creator score stale: said 142/3, actual 147/5\", \"body\": \"Creator said 'Score 142 hai abhi, 142/3, same as before' at 02:06. Match state at 16.6 is 147/5. Verdict ver_d40545180d: claimed 142/3 was the score at 16.2 (evt_067), 4 balls earlier.\", \"salience\": 0.6, \"cited_utterance_ids\": [\"u07\"], \"cited_event_ids\": [\"evt_067\"], \"cited_verdict_ids\": [\"ver_d40545180d\"], \"cited_tally_ids\": [], \"tags\": [\"score\", \"stale\", \"conflict\"]}, \"reason\": \"Verdict already exists in scratchpad, so commit conflict card citing utterance, event and verdict; let surface policy decide salience.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2034,
+    "output_tokens": 221,
+    "finish_reason": "stop"
+  },
+  "t": 1793817351.0041409
+}

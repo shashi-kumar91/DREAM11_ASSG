@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u04 as factual_claim and verdict ver_fc326cae60 is CONFIRMED for 142/4 at 16.3 matching evt_068.\", \"action\": \"commit\", \"reason\": \"Verified wicket is new information worth surfacing with attribution.\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"factual_claim\", \"headline\": \"Vikram Naidu out - 142/4 at 16.3\", \"body\": \"Creator said Vikram Naidu is out with score 142/4. Verifier confirmed 142/4 matches live feed at 16.3.\", \"salience\": 0.7, \"cited_utterance_ids\": [\"u04\"], \"cited_event_ids\": [\"evt_068\"], \"cited_verdict_ids\": [\"ver_fc326cae60\"], \"cited_tally_ids\": [], \"tags\": [\"wicket\", \"score\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2041,
+    "output_tokens": 168
+  },
+  "t": 1793806084.5892138
+}

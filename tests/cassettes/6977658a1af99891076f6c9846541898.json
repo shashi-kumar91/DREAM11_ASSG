@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"A late join gives telemetry no boundary to estimate and the fan did not scope the window, so the replayable history up to the join point is the honest window.\", \"action\": \"commit\", \"reason\": \"Fan did not answer the scoping question; commit the code-built full-window receipt instead of asking twice.\", \"card\": {\"kind\": \"receipt\", \"headline\": \"What happened before you joined\", \"body\": \"You joined mid-innings; this is everything the replay can show up to your join point.\", \"salience\": 0.9, \"tags\": [\"late join\"]}}",
+  "model": "arena-agent (hand-authored)",
+  "usage": {
+    "prompt_tokens": 0,
+    "output_tokens": 0
+  },
+  "t": 1793899765.8271205
+}

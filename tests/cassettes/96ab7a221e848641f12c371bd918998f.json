@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Tool resolved Bedi via bowler role hint to current bowler Dev Kapoor with 0.9 confidence; no other candidate in match state.\",\"result_json\":\"{\\\"mentions\\\": [{\\\"phrase\\\": \\\"Bedi\\\", \\\"kind\\\": \\\"bowler\\\", \\\"resolved\\\": \\\"Dev Kapoor\\\", \\\"confidence\\\": 0.9}], \\\"ambiguity\\\": \\\"\\\", \\\"summary\\\": \\\"Bedi refers to current bowler Dev Kapoor.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 863,
+    "output_tokens": 98,
+    "finish_reason": "stop"
+  },
+  "t": 1793817296.7702272
+}

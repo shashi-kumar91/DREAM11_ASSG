@@ -1,0 +1,52 @@
+/* Print styling for the technical document: the ASCII architecture diagram has to survive the
+   page width, and the guardrail tables have to stay readable in a PDF a reviewer skims. */
+@page {
+  size: A4;
+  margin: 16mm 14mm;
+}
+
+body {
+  max-width: none;
+  font-size: 10.5pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+}
+
+h1 { font-size: 19pt; }
+h2 { font-size: 14pt; border-bottom: 1px solid #d8d8d8; page-break-after: avoid; }
+h3 { font-size: 11.5pt; page-break-after: avoid; }
+
+pre, code {
+  font-family: "Cascadia Mono", Consolas, "DejaVu Sans Mono", monospace;
+  font-size: 8.6pt;
+}
+
+pre {
+  white-space: pre-wrap;          /* a 100-column diagram must not be clipped by the page */
+  overflow-wrap: break-word;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  padding: 8px 10px;
+  background: #fbfbfb;
+  page-break-inside: avoid;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 9.2pt;
+  page-break-inside: avoid;
+}
+
+th, td {
+  border: 1px solid #cfcfcf;
+  padding: 4px 7px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th { background: #f1f1f1; }
+
+blockquote { border-left: 3px solid #d8d8d8; margin-left: 0; padding-left: 14px; color: #444; }
+a { color: #1a1a1a; text-decoration: none; }
+hr { border: none; border-top: 1px solid #d8d8d8; }

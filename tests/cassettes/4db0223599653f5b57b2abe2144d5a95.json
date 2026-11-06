@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Cross-check clamped events: start with frame for evt_062 to verify scoreboard vs feed.\",\"tool\":\"inspect_frame\",\"args_json\":\"{\\\"event_id\\\":\\\"evt_062\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1242,
+    "output_tokens": 48,
+    "finish_reason": "stop"
+  },
+  "t": 1793845386.026414
+}

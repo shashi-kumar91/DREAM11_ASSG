@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Late join at evt_075 with no telemetry boundary, but fan already scoped recap to 15.1-17.4 for Chennai Kestrels key moments, so reader must confirm log and hypotheses before any recovery.\", \"action\": \"dispatch\", \"agent\": \"perceiver\", \"reason\": \"Reader needs to read playback log and name boundary hypotheses from telemetry without inventing a boundary.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1994,
+    "output_tokens": 91
+  },
+  "t": 1793811032.900456
+}

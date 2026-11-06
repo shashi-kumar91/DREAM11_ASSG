@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Utterance u07 repeats stale 142/3 vs match_state 147/5 at 16.6 and verdict is UNVERIFIABLE with no checkable claim extracted.\", \"action\": \"skip\", \"reason\": \"Stale, unverifiable score repeat offers no new attributed insight and committing would mislead vs current 147/5.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2052,
+    "output_tokens": 69
+  },
+  "t": 1793806117.0703435
+}

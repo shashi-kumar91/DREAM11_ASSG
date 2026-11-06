@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator confirmed 16.3 wicket, 16.4 FOUR, 16.5 dot with frame agreement and fan left at 16.2, so recovery modality is now needed.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"reason\": \"Evidence is complete for missed 16.3-16.5 interval; strategist must pick safest useful recovery without showing resume ball 16.6.\", \"args_json\": \"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2171,
+    "output_tokens": 90,
+    "finish_reason": "stop"
+  },
+  "t": 1793812315.6823459
+}

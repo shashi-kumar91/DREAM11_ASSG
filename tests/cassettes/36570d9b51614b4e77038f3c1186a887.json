@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Weather assertion is not checkable via match feed tools, so not a factual_claim. Present as attributed quote, not fact, with claim/prediction null.\",\"result_json\":\"{\\\"insight_type\\\":\\\"quote\\\",\\\"card_text\\\":\\\"Creator says: \\\\\\\"Haan bhai, aaj rain ka koi risk nahi, poora clear sky hai.\\\\\\\"\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"confidence\\\":0.94,\\\"attribution\\\":\\\"creator utterance u12 at 03:24\\\",\\\"reason\\\":\\\"No rain risk / clear sky is creator's unverified weather statement; feed cannot check it, so quote it rather than assert as fact.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 867,
+    "output_tokens": 152
+  },
+  "t": 1793808366.2635968
+}

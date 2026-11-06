@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Critic rejected prior draft for digits/name not in u02; corrected tactic card cites only u02 with no unsupported numbers.\", \"action\": \"commit\", \"reason\": \"Utterance is a new field-based tactic suggestion; removing unsupported score/name fixes critic rejection while preserving attributed insight.\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Reverse sweep option with third man up\", \"body\": \"Creator suggests the batter could try a reverse sweep, pointing to the field with third man up.\", \"salience\": 0.5, \"cited_utterance_ids\": [\"u02\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"tactic\", \"field\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2147,
+    "output_tokens": 173,
+    "finish_reason": "stop"
+  },
+  "t": 1793852806.0591743
+}

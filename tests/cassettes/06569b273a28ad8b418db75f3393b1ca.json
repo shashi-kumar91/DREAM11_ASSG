@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance explains DRS ball-tracking threshold as creator's rule explanation, not a checkable match fact or future prediction. Quote creator wording, keep claim/prediction null.\",\"result_json\":\"{\\\"insight_type\\\":\\\"rule_explanation\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator ke anusar: 'Review ball tracking pe depend karta hai, 2.5 millimeter se kam edge ho to not out hota hai.'\\\",\\\"card\\\":\\\"Creator ke anusar: 'Review ball tracking pe depend karta hai, 2.5 millimeter se kam edge ho to not out hota hai.'\\\",\\\"quote\\\":\\\"Review ball tracking pe depend karta hai, 2.5 millimeter se kam edge ho to not out hota hai.\\\",\\\"confidence\\\":0.94,\\\"checkable\\\":false}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 888,
+    "output_tokens": 180
+  },
+  "t": 1793808307.3061495
+}

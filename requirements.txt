@@ -1,0 +1,21 @@
+# Runtime dependencies of `backend.app.server` + both product packs.
+# Everything here is actually imported by the code (checked with grep before pinning).
+
+# HTTP layer (backend/app/server.py)
+fastapi==0.141.1
+starlette==1.7.0
+uvicorn[standard]==0.54.0
+python-dotenv==1.1.0
+pydantic==2.12.4
+
+# Kernel transports: OpenRouter over httpx, Gemini via google-genai (ASR has no other path).
+# Both are imported at boot by backend/kernel, so a deploy that flips LLM_BACKEND must not 500.
+httpx==0.28.1
+google-genai==2.8.0
+
+# Pack B scoreboard reader (backend/packs/gap/ocr.py) runs inside the receipt path.
+numpy==2.3.5
+pillow==12.0.0
+
+# Test suite only (python -m pytest tests -q); harmless in the image, needed by CI.
+pytest==8.4.2

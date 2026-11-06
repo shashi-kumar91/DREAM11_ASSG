@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The creator is expressing an opinion on the fielding strategy employed by the bowler. I will categorize this as an opinion and use the creator's exact words.\",\"result_json\":\"{\\\"insight_type\\\":\\\"opinion\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_wording\\\":\\\"Isne field kyu spread kiya? Seedhi boundaries bharna tha. Simple logic.\\\",\\\"confidence\\\":\\\"high\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 739,
+    "output_tokens": 89
+  },
+  "t": 1793894196.271973
+}

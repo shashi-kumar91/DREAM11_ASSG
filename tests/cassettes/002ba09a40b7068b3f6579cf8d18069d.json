@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The creator is suggesting a tactical possibility based on the current field placement. This is a tactic insight.\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"card_text\\\":\\\"Yeh banda ab reverse sweep try kar sakta hai field dekho third man up hai.\\\",\\\"tactic\\\":\\\"reverse sweep\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 740,
+    "output_tokens": 71
+  },
+  "t": 1793893961.0815089
+}

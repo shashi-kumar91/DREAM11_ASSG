@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need full feed to check resume position, citations, and material events; truncated output missing evt_069-075\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"start_over\\\":\\\"15.2\\\",\\\"end_over\\\":\\\"17.4\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1671,
+    "output_tokens": 64,
+    "finish_reason": "stop"
+  },
+  "t": 1793816123.3621714
+}

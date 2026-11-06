@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Wicket at 16.3 and FOUR at 16.4 were missed; frame check for evt_068 passed in scratchpad, so verify clip offer before choosing receipt.\",\"tool\":\"offer_clip\",\"args_json\":\"{\\\"event_id\\\":\\\"evt_068\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1108,
+    "output_tokens": 60,
+    "finish_reason": "stop"
+  },
+  "t": 1793812330.337332
+}

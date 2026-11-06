@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The fan confirmed they left at 16.2, which aligns with the telemetry boundary candidate 16.2 (evt_067). I will now commit a receipt for the missed events between 16.2 and 16.6.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Missed events during ad break\", \"body\": \"While you were away, Vikram Naidu was bowled [evt_068] and Kabir Menon hit a four [evt_069].\", \"salience\": 1.0, \"cited_event_ids\": [\"evt_068\", \"evt_069\"], \"tags\": [\"wicket\", \"boundary\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1991,
+    "output_tokens": 169
+  },
+  "t": 1793893608.023011
+}

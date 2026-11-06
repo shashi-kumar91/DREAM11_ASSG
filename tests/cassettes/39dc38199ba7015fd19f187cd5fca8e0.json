@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Window has wicket and boundaries before 17.4, so receipt not no_op; clip for evt_071 was refused as frame unreadable, so offer no clip.\",\"result_json\":\"{\\\"modality\\\":\\\"receipt\\\",\\\"offer_clip_event\\\":\\\"\\\",\\\"why_it_matters\\\":\\\"The recap matters because Chennai Kestrels lost a wicket at [evt_068] and conceded boundaries at [evt_062] and [evt_069] before the run out at [evt_071], changing the score to 147/5 by 16.6.\\\",\\\"ordering\\\":\\\"chronological: evt_062, evt_068, evt_069, evt_071\\\",\\\"reason\\\":\\\"Material wicket and boundaries before resume at 17.4 justify receipt; offer_clip for evt_071 returned offerable false due unreadable frame, so no clip.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1171,
+    "output_tokens": 179,
+    "finish_reason": "stop"
+  },
+  "t": 1793811236.8278542
+}

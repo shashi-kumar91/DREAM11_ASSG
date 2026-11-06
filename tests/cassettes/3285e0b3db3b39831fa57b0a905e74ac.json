@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Tool resolved 'Isne' to bowler Rohan Bedi with 0.9 confidence; no ambiguity reported. Field is not a resolvable player entity in match state.\",\"result_json\":\"{\\\"mentions\\\": [{\\\"phrase\\\": \\\"Isne\\\", \\\"kind\\\": \\\"bowler\\\", \\\"resolved\\\": \\\"Rohan Bedi\\\", \\\"confidence\\\": 0.9}], \\\"ambiguity\\\": \\\"\\\", \\\"summary\\\": \\\"'Isne' refers to bowler Rohan Bedi.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 853,
+    "output_tokens": 101
+  },
+  "t": 1793809172.3269815
+}

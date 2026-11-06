@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The creator is expressing a subjective opinion about the bowler's speed using a humorous comparison. This is not a factual claim that can be verified by match data.\",\"result_json\":\"{\\\"insight_type\\\":\\\"opinion\\\",\\\"card_wording\\\":\\\"Ye bowler itna slow phenk raha hai, dadi ki gilli bhi tez hai.\\\",\\\"claim\\\":null,\\\"prediction\\\":null}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 745,
+    "output_tokens": 86
+  },
+  "t": 1793894219.179696
+}

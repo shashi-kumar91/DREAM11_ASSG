@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Verdict ver_2a0f451005 already records CONFLICT for u07 142/3 vs observed 147/5, so a conflict card can be committed without new numbers.\", \"action\": \"commit\", \"card\": {\"kind\": \"conflict\", \"insight_type\": \"factual_claim\", \"headline\": \"Creator score lags match state\", \"body\": \"Creator stated score does not match current match state; verdict records conflict with earlier over.\", \"salience\": 0.6, \"cited_utterance_ids\": [\"u07\"], \"cited_event_ids\": [\"evt_067\"], \"cited_verdict_ids\": [\"ver_2a0f451005\"], \"cited_tally_ids\": [], \"tags\": [\"score\"]}, \"reason\": \"Analyst classified factual_claim and deterministic verdict exists; commit conflict card citing utterance, event and verdict, avoiding unlicensed digits.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2103,
+    "output_tokens": 188
+  },
+  "t": 1793806622.319107
+}

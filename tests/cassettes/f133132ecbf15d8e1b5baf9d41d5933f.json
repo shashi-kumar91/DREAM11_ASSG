@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator cross-checked 16.6-17.2 with no disagreements and kernel requires a receipt/no-op for this computed gap with only dot balls missed.\", \"action\": \"commit\", \"reason\": \"Boundary 16.6 is confident, gap contains no key action, and kernel vetoes silence, so commit a low-salience no-op receipt citing only pre-resume events.\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"No key action missed during the stall\", \"body\": \"The missed interval contains only a dot ball at 17.1 [evt_072] after the last rendered ball at 16.6 [evt_071], so there is nothing material to recover.\", \"salience\": 0.2, \"cited_event_ids\": [\"evt_071\", \"evt_072\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"buffer\", \"no-op\", \"S2\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2156,
+    "output_tokens": 205,
+    "finish_reason": "stop"
+  },
+  "t": 1793842194.076298
+}

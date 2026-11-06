@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need event feed between candidate overs 16.1-16.6 clamped to resume evt_071 to see material events per boundary.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"start_over\\\":\\\"16.1\\\",\\\"end_over\\\":\\\"16.6\\\",\\\"only_material\\\":true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1343,
+    "output_tokens": 72,
+    "finish_reason": "stop"
+  },
+  "t": 1793880385.459533
+}

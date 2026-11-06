@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The critic rejected the previous draft for missing event citations in the causal sentence; I will now provide a corrected receipt.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Recap: Chennai Kestrels (15.1-17.4)\", \"body\": \"The Kestrels saw a turbulent period with Aarav Sen hitting a four [evt_062], followed by Vikram Naidu's dismissal [evt_068], a boundary from Kabir Menon [evt_069], and finally Menon's run out [evt_071].\", \"salience\": 0.9, \"cited_utterance_ids\": [], \"cited_event_ids\": [\"evt_062\", \"evt_068\", \"evt_069\", \"evt_071\"], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"recap\", \"Chennai Kestrels\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 2020,
+    "output_tokens": 227
+  },
+  "t": 1793892796.3932242
+}

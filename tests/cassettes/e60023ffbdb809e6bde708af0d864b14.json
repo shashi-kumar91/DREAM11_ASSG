@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Boundary 16.6 conf 0.9 with resume 17.2 and blurb says only dot balls, but frames checked=0 so gap not yet evidenced.\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"reason\": \"Cross-check missed window 16.6-17.2 against frames/commentary to confirm no key action before choosing no-op.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1936,
+    "output_tokens": 74,
+    "finish_reason": "stop"
+  },
+  "t": 1793815784.4126403
+}

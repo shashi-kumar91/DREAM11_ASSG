@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"u12 text matches quote and t_start is 204.0, which does not literally contain digits 03:24 (3 absent). Per unlicensed_number rule, timestamp digits in body are not in cited evidence.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Digit 03:24 in body is not present in cited utterance u12 evidence (t_start 204.0), flagged as unlicensed_number.\\\", \\\"must_fix\\\": \\\"Remove unlicensed timestamp digits or cite evidence containing them.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 958,
+    "output_tokens": 121
+  },
+  "t": 1793808404.8489947
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Test wicket claim vs match state: striker still Vikram suggests conflict; need current state\",\"tool\":\"get_match_state\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1033,
+    "output_tokens": 42
+  },
+  "t": 1793805520.5306861
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The receipt fails because the boundary was left ambiguous (the fan was never asked to confirm the start point) and the causal sentences in the 'Why it matters' section lack the required [evt_id] citations.\",\"result_json\":\"{\\\"approve\\\":false,\\\"reason\\\":\\\"Boundary was left ambiguous without asking the fan, and causal sentences lack [evt_id] citations.\\\",\\\"must_fix\\\":\\\"Ask the fan to confirm the start of the gap and include [evt_id] citations in the 'Why it matters' section.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1418,
+    "output_tokens": 118
+  },
+  "t": 1793892771.3241751
+}

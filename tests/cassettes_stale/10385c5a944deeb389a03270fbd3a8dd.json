@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Fan asked what creator said about death bowling. Search returned 3 creator-attributed segments; only u08 directly matches death overs. It is a tactic/view, not checkable, so quote verbatim and do not synthesise.\",\"tool\":null,\"args_json\":\"{}\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator Sunny Agarwal (@courtside_sunny) ne kaha: \\\\\\\"Death overs mein spin ko medium length par rakhna chahiye\\\\\\\"\\\",\\\"quote\\\":\\\"Death overs mein spin ko medium length par rakhna chahiye\\\",\\\"speaker\\\":\\\"Sunny Agarwal (@courtside_sunny)\\\",\\\"timestamp\\\":\\\"02:22\\\",\\\"segment_id\\\":\\\"u08\\\",\\\"confidence\\\":\\\"high\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1054,
+    "output_tokens": 183
+  },
+  "t": 1793807576.2625203
+}

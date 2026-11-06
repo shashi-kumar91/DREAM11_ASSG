@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Creator predicts reverse sweep will come again; need prior context to ground any bowler/over/metric before making a checkable prediction card.\",\"tool\":\"search_transcript\",\"args_json\":\"{\\\"query\\\":\\\"reverse sweep\\\",\\\"limit\\\":5}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 865,
+    "output_tokens": 68
+  },
+  "t": 1793807248.1296432
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Telemetry shows candidates 16.1/16.2/16.3 differ on whether the 16.3 wicket was missed, so asking resolves the receipt.\",\"result_json\":\"{\\\"ask\\\": true, \\\"question\\\": \\\"What was the last ball you saw before the ad overlay: 16.1, 16.2, or 16.3?\\\", \\\"options\\\": [\\\"16.1\\\", \\\"16.2\\\", \\\"16.3\\\"], \\\"expected_info_gain\\\": 0.9, \\\"why\\\": \\\"Candidates change whether the 16.3 wicket is included in the missed interval.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1343,
+    "output_tokens": 122,
+    "finish_reason": "stop"
+  },
+  "t": 1793843402.6681216
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator tactic opinion on Bedi's spread field at 17.3, 148/5 chasing 176, is attributed insight not urgent fact; watch mode and 5 cards so far argue against interrupting, but preserve in timeline.\",\"result_json\":\"{\\\"mode\\\":\\\"collapsed\\\",\\\"reason\\\":\\\"Non-urgent tactic opinion in watch mode; collapse to timeline without interrupting.\\\",\\\"salience\\\":0.4}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 919,
+    "output_tokens": 101,
+    "finish_reason": "stop"
+  },
+  "t": 1793817412.4033208
+}

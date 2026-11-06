@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Fan confirmed left at 16.2 and telemetry lists material events at 16.3-16.4 before resume 16.6, but investigator returned nothing usable so missed window still lacks frame/commentary evidence.\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"args_json\": \"{\\\"start_over\\\": \\\"16.2\\\", \\\"end_over\\\": \\\"16.6\\\", \\\"resume_cursor\\\": \\\"evt_071\\\", \\\"exclude_at_or_after_resume\\\": true}\", \"reason\": \"Cross-check 16.3-16.5 events against frames and commentary before choosing recovery, excluding evt_071 at resume position.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2467,
+    "output_tokens": 140
+  },
+  "t": 1793810421.220057
+}

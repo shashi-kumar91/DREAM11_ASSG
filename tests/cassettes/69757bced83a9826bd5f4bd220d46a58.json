@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is a future bet: Bedi to bowl two yorkers next over. At 16.5 next over is 17, 'do'=2 grounded in creator words. Classify as prediction, quote verbatim, do not state as fact.\",\"result_json\":\"{\\\"insight_type\\\":\\\"prediction\\\",\\\"prediction\\\":{\\\"bowler_surname\\\":\\\"Bedi\\\",\\\"bowler_resolved\\\":\\\"Rohan Bedi\\\",\\\"over\\\":17,\\\"metric\\\":\\\"yorkers\\\",\\\"threshold\\\":2},\\\"claim\\\":null,\\\"card_text\\\":\\\"Creator prediction: \\\\\\\"Bedi agle over mein do yorker phenkega, main dekh raha hoon uska length.\\\\\\\"\\\",\\\"quote\\\":\\\"Bedi agle over mein do yorker phenkega, main dekh raha hoon uska length.\\\",\\\"confidence\\\":0.94,\\\"grounding\\\":\\\"'do' = 2 yorkers said by creator; 'agle over' after 16.5 = over 17 from given match state; Bedi resolved to Rohan Bedi by perceiver\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 956,
+    "output_tokens": 210
+  },
+  "t": 1793809034.4822462
+}

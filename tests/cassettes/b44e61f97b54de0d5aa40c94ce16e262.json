@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"u11 is a Hindi jibe that the bowler is slow, analyst classified as opinion with no speed, prediction or verifiable fact\", \"action\": \"skip\", \"reason\": \"Filler opinion carries no useful attributed insight worth fan attention\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2040,
+    "output_tokens": 59
+  },
+  "t": 1793808339.7481008
+}

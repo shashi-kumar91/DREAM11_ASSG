@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Late join with no boundary candidates and conf 0.0, fan answer does not supply a telemetry boundary, so need playback log read first\", \"action\": \"dispatch\", \"agent\": \"perceiver\", \"reason\": \"Reader must name boundary hypotheses from telemetry before any recovery; no ball rendered so boundary cannot be invented\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1992,
+    "output_tokens": 77,
+    "finish_reason": "stop"
+  },
+  "t": 1793811968.704235
+}

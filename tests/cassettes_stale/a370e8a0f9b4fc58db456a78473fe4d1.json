@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Searched attributed transcript for 'guitar lessons'; tool returned 0 segments. Creator never said it in stored material, so report absence without synthesising.\",\"result_json\":\"{\\\"insight_type\\\":\\\"filler\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"No mention of guitar lessons in the creator's attributed transcript.\\\",\\\"answer\\\":\\\"The creator did not talk about guitar lessons in the stored transcript (search returned 0 segments).\\\",\\\"confidence\\\":\\\"high\\\",\\\"source\\\":\\\"search_transcript query 'guitar lessons' count 0\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 878,
+    "output_tokens": 149
+  },
+  "t": 1793807680.1740353
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Feed shows evt_071 at 16.6 equals resume cursor evt_071/16.6; including it spoils resume ball. Fan boundary resolved at 16.2, but at-resume event must be excluded.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Window includes evt_071 at 16.6 which is at fan resume position, a spoiler.\\\", \\\"must_fix\\\": \\\"Exclude evt_071 and any ball at/after 16.6 from receipt.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1669,
+    "output_tokens": 106,
+    "finish_reason": "stop"
+  },
+  "t": 1793842124.163921
+}

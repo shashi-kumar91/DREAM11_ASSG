@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is a checkable score/wicket claim, not opinion or prediction. Draft claim quoting creator verbatim with score 142/4 he stated, for kernel verification.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":{\\\"text\\\":\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\",\\\"subject\\\":\\\"Vikram Naidu\\\",\\\"score\\\":\\\"142/4\\\",\\\"wicket_claim\\\":true},\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator at 01:32: \\\\\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\\\\\"\\\",\\\"confidence\\\":0.9,\\\"utterance_id\\\":\\\"u04\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 874,
+    "output_tokens": 151
+  },
+  "t": 1793806377.6541593
+}

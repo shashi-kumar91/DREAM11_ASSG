@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\": \"final\", \"thought\": \"The card quotes the creator, labels the claim a prediction, and cites utterance u05; no match-fact wording and no digit outside the evidence.\", \"result_json\": \"{\\\"approve\\\": true, \\\"reason\\\": \\\"Prediction is clearly labelled as the creator's claim, attributed to u05, with no match-fact wording.\\\", \\\"must_fix\\\": \\\"\\\"}\"}",
+  "model": "arena-agent (hand-authored)",
+  "usage": {
+    "prompt_tokens": 0,
+    "output_tokens": 0
+  },
+  "t": 1793899765.8274248
+}

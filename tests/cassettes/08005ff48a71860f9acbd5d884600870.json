@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is a field-based suggestion, not a checkable score/count or a bet with metric/threshold. Treat as tactic, quote creator verbatim, leave claim/prediction null to avoid inventing field facts.\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"card_text\\\":\\\"Creator: 'Yeh banda ab reverse sweep try kar sakta hai, field dekho, third man up hai.'\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"confidence\\\":0.94,\\\"attribution\\\":\\\"creator utterance u02 at 00:24\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 867,
+    "output_tokens": 130,
+    "finish_reason": "stop"
+  },
+  "t": 1793852784.202975
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The receipt fails to cite event IDs in the body and omits the event at 16.6 which is within the window.\",\"result_json\":\"{\\\"approve\\\":false,\\\"reason\\\":\\\"The receipt fails to cite event IDs in the body and omits the event at 16.6 which is within the window.\\\",\\\"must_fix\\\":\\\"Include citations for all events and ensure all events in the window are summarized.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1015,
+    "output_tokens": 97
+  },
+  "t": 1793892621.63166
+}

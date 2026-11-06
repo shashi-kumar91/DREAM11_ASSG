@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Fan asked what creator said about weather. Deterministic retrieval found 1 match u12 from Sunny Agarwal at 03:24 with verbatim excerpt. Draft quote card from that only, no synthesis.\",\"result_json\":\"{\\\"insight_type\\\":\\\"quote\\\",\\\"card_text\\\":\\\"Sunny Agarwal (@courtside_sunny) said at 03:24: \\\\\\\"aaj rain ka koi risk nahi\\\\\\\"\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"source_id\\\":\\\"u12\\\",\\\"speaker\\\":\\\"Sunny Agarwal (@courtside_sunny)\\\",\\\"timestamp\\\":\\\"03:24\\\",\\\"excerpt\\\":\\\"aaj rain ka koi risk nahi\\\",\\\"confidence\\\":\\\"high\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 926,
+    "output_tokens": 150
+  },
+  "t": 1793808441.2562025
+}

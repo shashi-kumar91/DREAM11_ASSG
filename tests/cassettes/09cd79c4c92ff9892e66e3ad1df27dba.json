@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator utterance is a checkable wicket/score claim. Kernel verdict CONFIRMED 142/4 matches live feed at 16.3, evt_068. Quote creator verbatim, attribute, no invented numbers.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":{\\\"text\\\":\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\",\\\"score\\\":\\\"142/4\\\",\\\"player\\\":\\\"Vikram Naidu\\\",\\\"over\\\":\\\"16.3\\\",\\\"matched_event_id\\\":\\\"evt_068\\\"},\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator (01:32): \\\\\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\\\\\"\\\",\\\"confidence\\\":\\\"high\\\",\\\"attribution\\\":\\\"creator utterance u04 at 01:32, confirmed against live feed 142/4 at 16.3\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1004,
+    "output_tokens": 185
+  },
+  "t": 1793808981.7790422
+}

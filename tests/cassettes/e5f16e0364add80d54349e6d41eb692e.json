@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The creator explains the DRS rule regarding edge detection. I have removed the specific measurement to ensure compliance with the provided evidence while maintaining the core insight.\",\"result_json\":\"{\\\"insight_type\\\":\\\"rule_explanation\\\",\\\"headline\\\":\\\"How DRS Edge Detection Works\\\",\\\"body\\\":\\\"Review ball tracking pe depend karta hai, edge ho to not out hota hai.\\\",\\\"salience\\\":0.5}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 990,
+    "output_tokens": 86
+  },
+  "t": 1793894216.8684723
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u04 as factual_claim and scratchpad shows CONFIRMED verdict ver_382d6f75d6 matching evt_068 at 142/4, so a verified card can be committed.\", \"action\": \"commit\", \"reason\": \"Verified wicket/score claim is new, material, and attributed; verdict already exists so commit is appropriate.\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"factual_claim\", \"headline\": \"Vikram Naidu out \u2014 142/4 at 16.3\", \"body\": \"Creator reported Vikram Naidu out with score 142/4 at 16.3, confirmed against the live feed.\", \"salience\": 0.85, \"cited_utterance_ids\": [\"u04\"], \"cited_event_ids\": [\"evt_068\"], \"cited_verdict_ids\": [\"ver_382d6f75d6\"], \"cited_tally_ids\": [], \"tags\": [\"wicket\", \"score\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2047,
+    "output_tokens": 184
+  },
+  "t": 1793807074.2719502
+}

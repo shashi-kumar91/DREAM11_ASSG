@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The critic identified that the previous receipt was misleading by omitting the wicket at 16.6; I must now commit a corrected receipt that acknowledges the wicket at 16.6 while noting the subsequent buffer stall.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Caught up to live play\", \"body\": \"During the 12s buffer stall, a wicket fell at 16.6 [evt_071], followed by two dot balls [evt_072, evt_073].\", \"salience\": 0.8, \"cited_utterance_ids\": [], \"cited_event_ids\": [\"evt_071\", \"evt_072\", \"evt_073\"], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"wicket\", \"buffer_recovery\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1787,
+    "output_tokens": 207
+  },
+  "t": 1793890364.0085397
+}

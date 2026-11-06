@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance explains review rule in creator's words, not a checkable match fact or future bet. Classify as rule_explanation and quote verbatim to avoid turning opinion into fact.\",\"result_json\":\"{\\\"insight_type\\\":\\\"rule_explanation\\\",\\\"card_text\\\":\\\"Creator: \\\\\\\"Review ball tracking pe depend karta hai, 2.5 millimeter se kam edge ho to not out hota hai.\\\\\\\"\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"confidence\\\":0.94,\\\"utterance_id\\\":\\\"u10\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 882,
+    "output_tokens": 124,
+    "finish_reason": "stop"
+  },
+  "t": 1793817427.774406
+}

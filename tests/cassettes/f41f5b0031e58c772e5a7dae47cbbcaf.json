@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The fan confirmed they left at 16.2, which resolves the boundary ambiguity; I will now commit a receipt for the missed events 16.3 and 16.4.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Missed events during ad break\", \"body\": \"While you were away, Vikram Naidu was bowled at 16.3 [evt_068], and Kabir Menon hit a four at 16.4 [evt_069].\", \"salience\": 1.0, \"cited_utterance_ids\": [], \"cited_event_ids\": [\"evt_068\", \"evt_069\"], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"wicket\", \"boundary\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 2066,
+    "output_tokens": 195
+  },
+  "t": 1793893611.4964013
+}

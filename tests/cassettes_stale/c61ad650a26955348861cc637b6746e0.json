@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u04 as factual wicket/score claim with salience 0.9, verdict ver_e0f6edc19f exists in scratchpad, and match state confirms 142/4 at 16.3, so attributed insight is ready to commit.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"quote\", \"headline\": \"Vikram Naidu out ho gaye\", \"body\": \"Creator said: 'Vikram Naidu out ho gaye. Score abhi 142/4 hai.'\", \"salience\": 0.9, \"cited_utterance_ids\": [\"u04\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [\"ver_e0f6edc19f\"], \"cited_tally_ids\": [], \"tags\": [\"wicket\", \"score\"]}, \"reason\": \"Wicket and score are material at 142/4 chasing 176, attributed quote avoids overstating unverifiable verdict.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2235,
+    "output_tokens": 178
+  },
+  "t": 1793805556.9756567
+}

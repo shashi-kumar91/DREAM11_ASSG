@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The card correctly cites the utterance and event, uses the provided evidence, and accurately reflects the feed data.\",\"result_json\":\"{\\\"approve\\\": true, \\\"reason\\\": \\\"The card accurately reflects the feed and utterance data provided in the scratchpad.\\\", \\\"must_fix\\\": \\\"none\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 600,
+    "output_tokens": 68
+  },
+  "t": 1793893971.4769762
+}

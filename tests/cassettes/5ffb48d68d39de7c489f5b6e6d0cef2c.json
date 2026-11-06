@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Match state shows current bowler Dev Kapoor but next_over_bowler Rohan Bedi; utterance says 'agle over mein', so Bedi maps to Rohan Bedi, not current bowler.\",\"result_json\":\"{\\\"mentions\\\": [{\\\"phrase\\\": \\\"Bedi\\\", \\\"kind\\\": \\\"bowler\\\", \\\"resolved\\\": \\\"Rohan Bedi\\\", \\\"confidence\\\": 0.95}, {\\\"phrase\\\": \\\"agle over\\\", \\\"kind\\\": \\\"over\\\", \\\"resolved\\\": \\\"17\\\", \\\"confidence\\\": 0.9}], \\\"ambiguity\\\": \\\"\\\", \\\"summary\\\": \\\"Bedi resolved to Rohan Bedi, next-over bowler, not current bowler Dev Kapoor.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1225,
+    "output_tokens": 146
+  },
+  "t": 1793808208.5916433
+}

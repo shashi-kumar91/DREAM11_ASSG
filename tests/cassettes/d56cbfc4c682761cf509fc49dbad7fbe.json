@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\": \"final\", \"thought\": \"Code-built receipt: every digit traces to the cited clamped events, all before the 16.6 resume, and the tally is the kernel's own.\", \"result_json\": \"{\\\"approve\\\": true, \\\"reason\\\": \\\"Receipt cites only pre-resume events evt_068-evt_070 and its digits come from the kernel tally; nothing is spoiled or invented.\\\", \\\"must_fix\\\": \\\"\\\"}\"}",
+  "model": "arena-agent (hand-authored)",
+  "usage": {
+    "prompt_tokens": 0,
+    "output_tokens": 0
+  },
+  "t": 1793900094.606162
+}

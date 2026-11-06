@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Wicket at 16.3 [evt_068] and four at 16.4 [evt_069] are before resume evt_071, so receipt is needed; check clip frame for the wicket before offering it.\",\"tool\":\"offer_clip\",\"args_json\":\"{\\\"event_id\\\":\\\"evt_068\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1424,
+    "output_tokens": 66,
+    "finish_reason": "stop"
+  },
+  "t": 1793845867.3393764
+}

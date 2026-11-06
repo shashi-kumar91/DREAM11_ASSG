@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Card correctly attributes reverse sweep as creator opinion from u02, no digits or factual prediction, no event beyond playback, and adds useful tactic context.\",\"result_json\":\"{\\\"approve\\\": true, \\\"reason\\\": \\\"Attributed creator opinion matches u02 with no unlicensed digits or fact-worded prediction.\\\", \\\"must_fix\\\": \\\"none\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 926,
+    "output_tokens": 91
+  },
+  "t": 1793808959.8388424
+}

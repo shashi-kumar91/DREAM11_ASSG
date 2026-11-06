@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Prediction pr_e9afed1060 settled hit in scratchpad with tally tal_0dd0aaad93 and events evt_072-077 at 17.6, ready to commit settlement.\", \"action\": \"commit\", \"card\": {\"kind\": \"settlement\", \"insight_type\": \"factual_claim\", \"headline\": \"Creator prediction hit: 2 yorkers in over 17\", \"body\": \"Bedi agle over mein do yorker phenkega \u2014 settled hit. Tally: 2 yorkers, 1 slower ball in over 17 (Rohan Bedi).\", \"salience\": 0.7, \"cited_utterance_ids\": [\"u05\"], \"cited_event_ids\": [\"evt_072\", \"evt_073\", \"evt_074\", \"evt_075\", \"evt_076\", \"evt_077\"], \"cited_verdict_ids\": [], \"cited_tally_ids\": [\"tal_0dd0aaad93\"], \"tags\": [\"prediction_settled\", \"yorker\", \"Rohan Bedi\"]}, \"reason\": \"Settlement already computed by code and in scratchpad; commit so surface policy can decide interruption.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2114,
+    "output_tokens": 209,
+    "finish_reason": "stop"
+  },
+  "t": 1793817446.6141531
+}

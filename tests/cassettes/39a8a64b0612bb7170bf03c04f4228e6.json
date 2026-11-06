@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed boundary 16.2 and resume is 16.6, with wicket at 16.3 before resume; receipt must be checked not to spoil at/after 16.6 before committing.\", \"action\": \"dispatch\", \"agent\": \"critic\", \"reason\": \"Strategist indicated receipt needed; critic must verify proposed recap excludes evt_071 at resume 16.6 and does not mislead on uncertain boundary.\", \"args_json\": \"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2514,
+    "output_tokens": 95,
+    "finish_reason": "stop"
+  },
+  "t": 1793845876.8617625
+}

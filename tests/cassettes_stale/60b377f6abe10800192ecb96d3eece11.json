@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Verify match state and bowler context before deciding salience for death-overs spin tactic at 17.1.\",\"tool\":\"get_match_state\",\"args_json\":\"{}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 817,
+    "output_tokens": 46
+  },
+  "t": 1793807442.385635
+}

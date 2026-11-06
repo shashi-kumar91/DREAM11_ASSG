@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"The creator claims Vikram Naidu is out and the score is 142/4. I need to verify if a wicket actually occurred at this point in the match feed to confirm the factual claim.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"start_over\\\":\\\"16.0\\\",\\\"end_over\\\":\\\"16.3\\\",\\\"only_material\\\":true}\"}",
+  "model": "gemini-3-flash-preview",
+  "usage": {
+    "prompt_tokens": 852,
+    "output_tokens": 87
+  },
+  "t": 1793804242.5000231
+}

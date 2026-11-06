@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"u09 at 17.3 questions field spread vs straight boundaries, needs classification before any verdict or card\", \"action\": \"dispatch\", \"agent\": \"analyst\", \"reason\": \"Analyst is the only role that produces a structured claim and triggers kernel verification; reference and tactic need classification first\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1912,
+    "output_tokens": 75
+  },
+  "t": 1793808281.469221
+}

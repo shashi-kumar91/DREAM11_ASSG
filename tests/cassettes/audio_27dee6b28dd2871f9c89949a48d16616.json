@@ -1,0 +1,6 @@
+{
+  "text": "```json\n{\"text\": \"Review ball tracking pe depend karta hai, 2.5 millimeter se kam edge ho to not out hota hai.\",\n \"confidence\": 0.98,\n \"uncertain_words\": []}\n```",
+  "model": "gemini-3.5-flash",
+  "usage": {},
+  "t": 1793802463.2539968
+}

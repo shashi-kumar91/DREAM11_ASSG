@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed boundary 16.1, investigator/strategist/critic steps done, and evt_071 at resume must be excluded, leaving evt_068 and evt_069 as missed material events.\", \"action\": \"commit\", \"reason\": \"Evidence cross-checked and spoil risk flagged by critic; commit receipt for pre-resume missed events only, excluding resume cursor.\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"answer\", \"headline\": \"You missed a wicket and a four before you returned\", \"body\": \"From your confirmed position at 16.1, the missed material events were [evt_068] and [evt_069].\", \"salience\": 0.85, \"cited_event_ids\": [\"evt_068\", \"evt_069\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"missed_interval\", \"boundary_16.1\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2539,
+    "output_tokens": 195,
+    "finish_reason": "stop"
+  },
+  "t": 1793866089.7619898
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The creator makes a factual claim about Vikram Naidu being out and the score being 142/4. The event feed confirms this occurred at over 16.3.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"card_wording\\\":\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\",\\\"claim\\\":{\\\"metric\\\":\\\"wicket\\\",\\\"value\\\":\\\"Vikram Naidu\\\",\\\"over\\\":\\\"16.3\\\",\\\"score\\\":\\\"142/4\\\"},\\\"confidence\\\":1.0}\"}",
+  "model": "gemini-3-flash-preview",
+  "usage": {
+    "prompt_tokens": 994,
+    "output_tokens": 122
+  },
+  "t": 1793804246.839878
+}

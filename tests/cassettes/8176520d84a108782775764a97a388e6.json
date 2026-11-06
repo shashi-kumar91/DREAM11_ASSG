@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance questions bowler's spread field and suggests filling boundaries - tactical opinion, not checkable fact or prediction, so quote as creator view.\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator on Rohan Bedi's field: 'Isne field kyun spread kiya? Seedhi boundaries bharna tha, simple logic.'\\\",\\\"attribution\\\":\\\"creator utterance u09 at 02:38\\\",\\\"confidence\\\":0.9,\\\"is_checkable\\\":false}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 951,
+    "output_tokens": 126,
+    "finish_reason": "stop"
+  },
+  "t": 1793817402.195071
+}

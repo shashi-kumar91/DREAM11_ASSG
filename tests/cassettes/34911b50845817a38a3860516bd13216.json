@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The strategist must now provide the receipt with the required event ID citations as mandated by the critic.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Chennai Kestrels: Wickets and Boundaries (15.1-17.4)\", \"body\": \"During the missed interval, Chennai Kestrels hit a boundary at [evt_068], lost a wicket at [evt_069], hit another boundary at [evt_070], and lost a second wicket at [evt_071].\", \"salience\": 0.9, \"cited_event_ids\": [\"evt_068\", \"evt_069\", \"evt_070\", \"evt_071\"], \"tags\": [\"Chennai Kestrels\", \"recap\"]}, \"question\": null, \"options\": []}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1698,
+    "output_tokens": 199
+  },
+  "t": 1793893927.0191655
+}

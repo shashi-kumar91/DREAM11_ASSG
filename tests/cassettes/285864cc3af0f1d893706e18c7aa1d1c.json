@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Kernel verdict ver_7e3103e72d already conflicts creator's 142/3 with observed 147/5 at 16.6, matching 16.2 score 4 balls earlier.\", \"action\": \"commit\", \"reason\": \"Verdict exists and analyst classified as new factual claim; commit conflict for policy to surface or demote.\", \"card\": {\"kind\": \"conflict\", \"insight_type\": \"factual_claim\", \"headline\": \"Score check: creator said 142/3, match is 147/5\", \"body\": \"Creator said 142/3 at 02:06, but match state at 16.6 is 147/5. Kernel matched 142/3 to over 16.2, 4 balls earlier.\", \"salience\": 0.6, \"cited_utterance_ids\": [\"u07\"], \"cited_event_ids\": [\"evt_067\"], \"cited_verdict_ids\": [\"ver_7e3103e72d\"], \"cited_tally_ids\": [], \"tags\": [\"score\", \"conflict\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2170,
+    "output_tokens": 192
+  },
+  "t": 1793809107.9984932
+}

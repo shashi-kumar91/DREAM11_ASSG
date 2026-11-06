@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Only u08 directly addresses death overs; quote verbatim, exclude unrelated segments.\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"is_new_information\\\":true,\\\"claim\\\":{\\\"kind\\\":\\\"other\\\",\\\"raw_phrase\\\":\\\"\\\",\\\"runs\\\":null,\\\"wickets\\\":null,\\\"player\\\":null,\\\"over\\\":null,\\\"count\\\":null,\\\"rate\\\":null},\\\"prediction\\\":{\\\"text\\\":\\\"\\\",\\\"bowler\\\":null,\\\"batter\\\":null,\\\"over\\\":null,\\\"metric\\\":null,\\\"threshold\\\":null},\\\"headline\\\":\\\"Creator on death bowling\\\",\\\"body\\\":\\\"Sunny Agarwal (@courtside_sunny) at 02:22: \\\\\\\"Death overs mein spin ko medium length par rakhna chahiye\\\\\\\"\\\",\\\"salience\\\":0.5,\\\"reasoning\\\":\\\"Search returned 3 segments; only u08 mentions death overs. Quoted verbatim; other segments do not address death bowling and were not used.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1157,
+    "output_tokens": 218
+  },
+  "t": 1793807588.955116
+}

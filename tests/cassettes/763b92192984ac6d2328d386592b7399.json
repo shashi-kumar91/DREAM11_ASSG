@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The card accurately reflects the creator's opinion expressed in the cited utterance and includes the required attribution.\",\"result_json\":\"{\\\"approve\\\": true, \\\"reason\\\": \\\"The card accurately reflects the creator's opinion and includes the required attribution.\\\", \\\"must_fix\\\": \\\"none\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 647,
+    "output_tokens": 67
+  },
+  "t": 1793894198.6072896
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan scoped 15.1-17.4 and investigator found 4 clamped events up to 17.4, but no critic check yet before committing a receipt.\", \"action\": \"dispatch\", \"agent\": \"critic\", \"reason\": \"Verify strategist's proposed receipt cites only clamped events before 17.4 and does not spoil or mislead.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2496,
+    "output_tokens": 75,
+    "finish_reason": "stop"
+  },
+  "t": 1793845410.822815
+}

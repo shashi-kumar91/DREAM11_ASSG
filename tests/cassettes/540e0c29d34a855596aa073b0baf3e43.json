@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator found 4 clamped material events before 17.4 and fan scoped window to 15.1-17.4, so recovery modality must now be chosen.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"args_json\": \"{}\", \"reason\": \"Strategist chooses safest useful recovery and causal sentence from verified clamped feed without inventing boundary.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2471,
+    "output_tokens": 84,
+    "finish_reason": "stop"
+  },
+  "t": 1793845400.5580823
+}

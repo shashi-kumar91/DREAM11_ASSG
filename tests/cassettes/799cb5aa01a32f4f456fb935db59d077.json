@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The creator's statement was accurate at 16.2, but the match state has since progressed with two wickets falling. I will present this as a factual correction to keep the fan updated.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":\\\"142/3\\\",\\\"card_wording\\\":\\\"The score was 142/3 at 16.2, but following two wickets in the last four balls, it is now 147/5.\\\",\\\"confidence\\\":\\\"high\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1510,
+    "output_tokens": 118
+  },
+  "t": 1793893979.1039069
+}

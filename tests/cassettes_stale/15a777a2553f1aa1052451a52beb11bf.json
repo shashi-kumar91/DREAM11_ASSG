@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst classified u07 as factual_claim and scratchpad holds CONFLICT verdict ver_acb548a460 (142/3 claimed vs 147/5 observed at 16.6), so a conflict card can be committed.\", \"action\": \"commit\", \"card\": {\"kind\": \"conflict\", \"insight_type\": \"factual_claim\", \"headline\": \"Creator score lags: 142/3 vs 147/5 at 16.6\", \"body\": \"Creator said 142/3 at 02:06. Match state at 16.6 is 147/5. Verdict: 142/3 was the score at 16.2, 4 balls earlier.\", \"salience\": 0.6, \"cited_utterance_ids\": [\"u07\"], \"cited_event_ids\": [\"evt_067\"], \"cited_verdict_ids\": [\"ver_acb548a460\"], \"cited_tally_ids\": [], \"tags\": [\"score\", \"conflict\"]}, \"reason\": \"Verified CONFLICT exists in scratchpad; committing attributed correction without inventing facts.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2042,
+    "output_tokens": 198
+  },
+  "t": 1793807117.0216672
+}

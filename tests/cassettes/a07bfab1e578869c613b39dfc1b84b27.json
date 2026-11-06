@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Verify scoreboard frame for first missed ball 16.3 before concluding; need per-source evidence.\",\"tool\":\"inspect_frame\",\"args_json\":\"{\\\"event_id\\\":\\\"evt_068\\\",\\\"over_label\\\":\\\"16.3\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1629,
+    "output_tokens": 60,
+    "finish_reason": "stop"
+  },
+  "t": 1793842082.692509
+}

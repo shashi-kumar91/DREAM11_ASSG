@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need exact event IDs in 16.2-16.6 window before offering clip; scratchpad lists balls but only evt_071 ID. Query feed to confirm wicket ID.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"start_over\\\":\\\"16.2\\\",\\\"end_over\\\":\\\"16.6\\\",\\\"only_material\\\":true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1143,
+    "output_tokens": 77
+  },
+  "t": 1793810877.0563216
+}

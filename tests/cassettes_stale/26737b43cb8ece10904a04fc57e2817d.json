@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Re-extracting u04 as factual_claim with player Vikram Naidu and score 142/4 from creator words, so kernel can verify against match state.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"is_new_information\\\":true,\\\"claim\\\":{\\\"kind\\\":\\\"wicket\\\",\\\"raw_phrase\\\":\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\",\\\"runs\\\":null,\\\"wickets\\\":4,\\\"player\\\":\\\"Vikram Naidu\\\",\\\"over\\\":null,\\\"count\\\":142,\\\"rate\\\":null},\\\"prediction\\\":{\\\"text\\\":\\\"\\\",\\\"bowler\\\":null,\\\"batter\\\":null,\\\"over\\\":null,\\\"metric\\\":null,\\\"threshold\\\":null},\\\"headline\\\":\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\",\\\"body\\\":\\\"Creator says: \\\\\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\\\\\"\\\",\\\"salience\\\":0.85,\\\"reasoning\\\":\\\"Creator explicitly names Vikram Naidu as out and states score 142/4; match state at 16.3 lists 142/4 with out_player Vikram Naidu.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1208,
+    "output_tokens": 243
+  },
+  "t": 1793805828.0047338
+}

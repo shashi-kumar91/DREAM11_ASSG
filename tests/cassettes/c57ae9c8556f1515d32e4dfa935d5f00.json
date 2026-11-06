@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed leaving at 16.2 with resume at 16.6, so boundary is settled and the missed window needs evidence before recovery.\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"reason\": \"Cross-check events between 16.2 and resume 16.6 against frames and commentary to reconstruct the gap without inventing a boundary.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1979,
+    "output_tokens": 80,
+    "finish_reason": "stop"
+  },
+  "t": 1793844705.2046115
+}

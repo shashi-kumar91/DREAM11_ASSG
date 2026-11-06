@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed left at 16.2, feed shows missed wicket evt_068 and four evt_069 before resume evt_071, critic flagged excluding resume event.\", \"action\": \"commit\", \"reason\": \"Safe receipt covers only pre-resume missed events evt_068 and evt_069, with no mention of resume position.\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"factual_claim\", \"headline\": \"Missed wicket and four before you left at 16.2\", \"body\": \"After you left at 16.2, you missed the wicket [evt_068] and the four [evt_069]. A short clip of those balls is the safest recovery.\", \"salience\": 0.9, \"cited_event_ids\": [\"evt_068\", \"evt_069\"], \"cited_utterance_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"wicket\", \"recovery\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2534,
+    "output_tokens": 190,
+    "finish_reason": "stop"
+  },
+  "t": 1793842139.335324
+}

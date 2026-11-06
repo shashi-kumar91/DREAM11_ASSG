@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"The creator mentions 'Bedi' and predicts he will bowl yorkers in the next over. I need to identify 'Bedi' from the match state or squads to ground this mention.\",\"tool\":\"resolve_reference\",\"args_json\":\"{\\\"phrase\\\":\\\"Bedi\\\",\\\"kind_hint\\\":\\\"bowler\\\"}\"}",
+  "model": "gemini-3-flash-preview",
+  "usage": {
+    "prompt_tokens": 701,
+    "output_tokens": 71
+  },
+  "t": 1793803898.7740867
+}

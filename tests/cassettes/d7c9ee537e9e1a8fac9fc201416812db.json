@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"log_prediction rejected: Bedi resolved to current bowler Dev Kapoor but ledger says next bowler is Rohan Bedi\", \"action\": \"dispatch\", \"agent\": \"perceiver\", \"reason\": \"Re-resolve Bedi against squad and next-over bowler before any prediction card can be committed\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2212,
+    "output_tokens": 67,
+    "finish_reason": "stop"
+  },
+  "t": 1793817319.4794445
+}

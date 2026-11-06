@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance states a wicket and score 142/4, kernel verdict CONFIRMED against live feed evt_068 at 16.3. This is a checkable factual_claim, not prediction/opinion. Quote creator verbatim for card.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":{\\\"text\\\":\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\",\\\"player_out\\\":\\\"Vikram Naidu\\\",\\\"score\\\":\\\"142/4\\\",\\\"over\\\":\\\"16.3\\\",\\\"verdict_id\\\":\\\"ver_7b753ff98d\\\",\\\"matched_event_id\\\":\\\"evt_068\\\"},\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator at 01:32: \\\\\\\"Vikram Naidu out ho gaye. Score abhi 142/4 hai.\\\\\\\"\\\",\\\"confidence\\\":0.95,\\\"attribution\\\":\\\"creator_utterance u04\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 986,
+    "output_tokens": 187,
+    "finish_reason": "stop"
+  },
+  "t": 1793817276.9480507
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Telemetry shows boundary 16.6 conf 0.9 with material_events_by_candidate evt_071 empty, but missed window 16.6-17.2 needs independent cross-check before declaring no-op.\", \"action\": \"dispatch\", \"agent\": \"investigator\", \"args_json\": \"{}\", \"reason\": \"Verify clamped missed window has no material events before committing a no-op recovery.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2176,
+    "output_tokens": 90,
+    "finish_reason": "stop"
+  },
+  "t": 1793811909.6893811
+}

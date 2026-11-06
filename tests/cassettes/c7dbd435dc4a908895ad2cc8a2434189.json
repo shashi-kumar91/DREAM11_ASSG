@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Feed, commentary and frame checked for 16.2 to resume 16.6. Frame and feed agree on 16.3; commentary omits 16.4, so coverage incomplete.\",\"result_json\":\"{\\\"sources\\\": [{\\\"tool\\\": \\\"query_event_feed\\\", \\\"found\\\": true, \\\"detail\\\": \\\"3 events clamped at 16.6: evt_068 16.3 WICKET 142/4, evt_069 16.4 FOUR 146/4, evt_071 16.6 RUN OUT 147/5 at resume cursor evt_071\\\"}, {\\\"tool\\\": \\\"search_commentary\\\", \\\"found\\\": true, \\\"detail\\\": \\\"2 lines: evt_068 16.3 WICKET 142/4, evt_071 16.6 RUN OUT 147/5; no line for evt_069 16.4\\\"}, {\\\"tool\\\": \\\"inspect_frame\\\", \\\"found\\\": true, \\\"detail\\\": \\\"frm_16_3 pixels read score 142/4 over 16.3 rrr 9.71, agrees=true with feed_score 142/4\\\"}], \\\"disagreements\\\": [\\\"search_commentary missing evt_069 16.4 FOUR 146/4 present in query_event_feed\\\", \\\"query_event_feed and search_commentary agree on evt_068 16.3 and evt_071 16.6; inspect_frame agrees with feed on 16.3\\\"], \\\"coverage_ok\\\": false}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1801,
+    "output_tokens": 260
+  },
+  "t": 1793810413.8167527
+}

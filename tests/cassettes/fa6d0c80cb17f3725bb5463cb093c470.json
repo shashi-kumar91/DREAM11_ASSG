@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Cross-check feed events against commentary for Chennai Kestrels key moments within clamped window before evt_075.\",\"tool\":\"search_commentary\",\"args_json\":\"{\\\"query\\\":\\\"Chennai Kestrels\\\",\\\"limit\\\":10}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1231,
+    "output_tokens": 64,
+    "finish_reason": "stop"
+  },
+  "t": 1793811213.9008253
+}

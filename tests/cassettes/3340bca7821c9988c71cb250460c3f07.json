@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Fan confirmed departure at 16.1 with resume at 16.6, and strategist has chosen recovery, so the receipt needs a spoil/mislead check before commit.\", \"action\": \"dispatch\", \"agent\": \"critic\", \"args_json\": \"{}\", \"reason\": \"Critic must verify the proposed receipt excludes evt_071 at resume 16.6 and does not mislead on the uncertain 16.1-16.3 boundary before committing.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2517,
+    "output_tokens": 96,
+    "finish_reason": "stop"
+  },
+  "t": 1793866058.2593787
+}

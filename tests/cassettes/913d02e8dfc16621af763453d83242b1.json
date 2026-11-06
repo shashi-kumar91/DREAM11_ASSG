@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator repeats 142/3 and says 'same as before'; verified state is 147/5 at 16.6 with a wicket. No new, accurate checkable insight, so publish nothing as fact.\",\"result_json\":\"{\\\"insight_type\\\":\\\"filler\\\",\\\"card_text\\\":null,\\\"claim\\\":null,\\\"prediction\\\":null,\\\"confidence\\\":\\\"high\\\",\\\"reason\\\":\\\"Utterance is a stale repeat ('same as before') and conflicts with get_match_state 147/5 at 16.6; no new fan-useful insight.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1048,
+    "output_tokens": 123
+  },
+  "t": 1793808234.948381
+}

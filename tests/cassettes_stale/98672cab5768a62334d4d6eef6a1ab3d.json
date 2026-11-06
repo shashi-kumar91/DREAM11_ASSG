@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator states a checkable score 142/3, so factual_claim. Quote his words, do not assert as fact: given match_state is 147/5 at 16.6, claim conflicts, so low confidence pending verification.\",\"result_json\":\"{\\\"insight_type\\\":\\\"factual_claim\\\",\\\"claim\\\":\\\"142/3\\\",\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator says: \\\\\\\"Score 142 hai abhi, 142/3, same as before.\\\\\\\"\\\",\\\"card\\\":\\\"Creator says: \\\\\\\"Score 142 hai abhi, 142/3, same as before.\\\\\\\"\\\",\\\"confidence\\\":0.3,\\\"note\\\":\\\"Creator-stated score 142/3 conflicts with provided match_state 147/5 at 16.6; presented as attributed quote, not verified fact.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 858,
+    "output_tokens": 170
+  },
+  "t": 1793806000.5078661
+}

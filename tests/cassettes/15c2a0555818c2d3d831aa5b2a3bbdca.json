@@ -1,0 +1,10 @@
+{
+  "text": "{\"thought\": \"Investigator found 4 clamped material events before evt_075 with frame agreement and no commentary, so strategist should now choose safest recovery modality.\", \"action\": \"dispatch\", \"agent\": \"strategist\", \"args_json\": \"{}\", \"reason\": \"Evidence is gathered within clamp; need modality choice and causal sentence without inventing boundary or showing at/after 17.4.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2161,
+    "output_tokens": 94,
+    "finish_reason": "stop"
+  },
+  "t": 1793811226.269245
+}

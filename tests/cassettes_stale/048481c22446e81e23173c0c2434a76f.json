@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Utterance is bowling advice for death overs, not a checkable score/count or future bet. Classify as tactic, quote creator verbatim, leave claim/prediction null.\",\"tool\":null,\"args_json\":\"{}\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"card_text\\\":\\\"Creator's tactic: \\\\\\\"Death overs mein spin ko medium length par rakhna chahiye, stumps par niche target karke.\\\\\\\"\\\",\\\"card\\\":\\\"Creator's tactic: \\\\\\\"Death overs mein spin ko medium length par rakhna chahiye, stumps par niche target karke.\\\\\\\"\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"confidence\\\":0.94,\\\"attribution\\\":\\\"creator utterance u08 at 02:22\\\",\\\"utterance_id\\\":\\\"u08\\\",\\\"spoken_at\\\":\\\"02:22\\\",\\\"reason\\\":\\\"Advice on bowling length in death overs; not a checkable score/count or future bet, so tactic not factual_claim/prediction.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 882,
+    "output_tokens": 218
+  },
+  "t": 1793807425.0333436
+}

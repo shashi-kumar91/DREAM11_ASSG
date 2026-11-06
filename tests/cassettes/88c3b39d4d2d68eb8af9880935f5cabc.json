@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The strategist has identified the key events (two boundaries and two wickets) for the requested recap, and I will now commit the receipt to the fan.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"answer\", \"headline\": \"Recap of Chennai Kestrels' key moments\", \"body\": \"You missed two boundaries at [evt_068] and [evt_070], and two wickets at [evt_069] and [evt_071] during the interval 15.1-17.4.\", \"salience\": 1.0, \"cited_event_ids\": [\"evt_068\", \"evt_069\", \"evt_070\", \"evt_071\"], \"tags\": [\"recap\", \"Chennai Kestrels\"]}, \"question\": null, \"options\": []}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1643,
+    "output_tokens": 196
+  },
+  "t": 1793893920.0279121
+}

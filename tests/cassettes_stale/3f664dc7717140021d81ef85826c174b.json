@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Creator questions field spread and suggests filling straight boundaries; this is tactical opinion, not checkable fact or prediction, so no claim/prediction numbers.\",\"result_json\":\"{\\\"insight_type\\\":\\\"tactic\\\",\\\"claim\\\":null,\\\"prediction\\\":null,\\\"card_text\\\":\\\"Creator asks: 'Isne field kyun spread kiya? Seedhi boundaries bharna tha, simple logic.' \u2014 his view that straight boundaries should have been filled instead of spreading the field.\\\",\\\"quote\\\":\\\"Isne field kyun spread kiya? Seedhi boundaries bharna tha, simple logic.\\\",\\\"confidence\\\":\\\"high\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 872,
+    "output_tokens": 149
+  },
+  "t": 1793807461.7813609
+}

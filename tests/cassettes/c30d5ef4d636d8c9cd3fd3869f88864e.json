@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Critic rejected uncited digits/name from u02; strategist collapsed tactic to timeline at 0.35, so commit corrected attributed tactic without added numbers.\", \"action\": \"commit\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Creator: reverse sweep possible, third man up\", \"body\": \"Creator suggests the batter could try a reverse sweep, pointing to the field with third man up. This is a tactical opinion, not a verified outcome.\", \"salience\": 0.35, \"cited_utterance_ids\": [\"u02\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"tactic\", \"reverse_sweep\", \"field\"]}, \"reason\": \"Preserves real attributed tactic insight while removing uncited digits/name critic flagged; low salience lets policy demote it.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2221,
+    "output_tokens": 194
+  },
+  "t": 1793808120.505155
+}

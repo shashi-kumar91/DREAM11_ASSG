@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Verdict claims no checkable claim, but utterance, match state and feed all show matching wicket within playback position. Verdict is contradicted by evidence.\",\"result_json\":\"{\\\"agrees\\\": false, \\\"concerns\\\": [\\\"Verdict says no checkable claim, but creator utterance explicitly states wicket and score\\\", \\\"Feed contains matching wicket event for same player, score and over, clamped at playback position not beyond\\\", \\\"Match state confirms out player and score, contradicting UNVERIFIABLE\\\"], \\\"note_for_card\\\": \\\"Wicket claim is checkable and matches feed and match state\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1386,
+    "output_tokens": 148
+  },
+  "t": 1793805528.114439
+}

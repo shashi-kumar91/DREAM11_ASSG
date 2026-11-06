@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"The receipt fails to cite the event IDs for the specific moments described in the body, violating the requirement that causal sentences must carry an [evt_id] citation.\",\"result_json\":\"{\\\"approve\\\":false,\\\"reason\\\":\\\"Causal sentences in the body lack [evt_id] citations.\\\",\\\"must_fix\\\":\\\"Add [evt_id] citations to each event description in the body.\\\"}\"}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1053,
+    "output_tokens": 90
+  },
+  "t": 1793892673.3670278
+}

@@ -1,0 +1,10 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Cross-checked feed, frame pixels, and commentary for 16.2-16.6 interval; all sources agree on 16.3 wicket 142/4, no disagreements found.\",\"result_json\":\"{\\\"sources\\\": [{\\\"tool\\\": \\\"query_event_feed\\\", \\\"found\\\": true, \\\"detail\\\": \\\"3 material events clamped at 16.6: evt_068 16.3 WICKET 142/4, evt_069 16.4 FOUR 146/4, evt_071 16.6 RUN OUT 147/5\\\"}, {\\\"tool\\\": \\\"inspect_frame\\\", \\\"found\\\": true, \\\"detail\\\": \\\"frm_16_3 at 16.3 pixel read score 142/4 over 16.3 rrr 9.71, agrees with feed_score 142/4\\\"}, {\\\"tool\\\": \\\"search_commentary\\\", \\\"found\\\": true, \\\"detail\\\": \\\"2 lines: evt_068 16.3 WICKET 142/4 and evt_071 16.6 RUN OUT 147/5, matching feed text/scores\\\"}], \\\"disagreements\\\": [], \\\"coverage_ok\\\": true}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1815,
+    "output_tokens": 204,
+    "finish_reason": "stop"
+  },
+  "t": 1793845855.8808277
+}

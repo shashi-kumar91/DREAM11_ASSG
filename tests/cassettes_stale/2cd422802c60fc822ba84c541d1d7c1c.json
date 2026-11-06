@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Verdict ver_5f2507edae is UNVERIFIABLE with no checkable claim extracted, and creator's 142/3 conflicts with match_state 147/5 at 16.6 with no new information.\", \"action\": \"skip\", \"reason\": \"No verified new fact worth surfacing; committing would risk misleading fan with stale score.\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2052,
+    "output_tokens": 76
+  },
+  "t": 1793805853.4868324
+}

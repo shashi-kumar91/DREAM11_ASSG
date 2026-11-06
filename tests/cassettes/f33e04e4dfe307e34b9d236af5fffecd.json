@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"The strategist has identified the key wicket event [evt_068] for the recap, and the investigator has confirmed the event feed. I will now commit the receipt to the fan.\", \"action\": \"commit\", \"card\": {\"kind\": \"receipt\", \"insight_type\": \"answer\", \"headline\": \"Recap of Chennai Kestrels' key moments\", \"body\": \"You missed a few key moments between 15.1 and 17.4. The most significant was the wicket at [evt_068], which shifted the momentum for the Chennai Kestrels.\", \"salience\": 0.9, \"cited_event_ids\": [\"evt_068\"], \"tags\": [\"recap\", \"Chennai Kestrels\"]}}",
+  "model": "gemini-3.1-flash-lite",
+  "usage": {
+    "prompt_tokens": 1594,
+    "output_tokens": 165
+  },
+  "t": 1793892669.3297863
+}

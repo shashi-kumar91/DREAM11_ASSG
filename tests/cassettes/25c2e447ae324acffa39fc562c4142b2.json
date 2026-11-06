@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"final\",\"thought\":\"Cited utterance u02 has no digits or player name, but card adds 15.3, 139/3, 176 and Aarav Sen with no cited events. Digits not in cited evidence triggers rejection.\",\"result_json\":\"{\\\"approve\\\": false, \\\"reason\\\": \\\"Digits 15.3, 139/3, 176 and name Aarav Sen appear in card but not in cited utterance u02, with no cited events.\\\", \\\"must_fix\\\": \\\"Remove uncited digits/name or cite event evidence supporting them.\\\"}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 876,
+    "output_tokens": 115
+  },
+  "t": 1793808116.948871
+}

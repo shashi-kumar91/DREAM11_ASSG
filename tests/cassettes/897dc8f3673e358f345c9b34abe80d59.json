@@ -1,0 +1,9 @@
+{
+  "text": "{\"thought\": \"Analyst flagged new tactic insight and strategist collapsed it to timeline at salience 0.35, so it should be committed for demotion not skipped.\", \"action\": \"commit\", \"reason\": \"Attributed speculative tactic is real creator insight but not interruption-worthy; commit and let surface policy demote it.\", \"card\": {\"kind\": \"insight\", \"insight_type\": \"tactic\", \"headline\": \"Creator suggests reverse sweep with third man up\", \"body\": \"At 15.3 (139/3, target 176), the creator suggested Aarav Sen could try a reverse sweep, pointing to the field with third man up. This is the creator's tactical read, not a verified event.\", \"salience\": 0.35, \"cited_utterance_ids\": [\"u02\"], \"cited_event_ids\": [], \"cited_verdict_ids\": [], \"cited_tally_ids\": [], \"tags\": [\"tactic\", \"reverse sweep\", \"field\"]}}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 2110,
+    "output_tokens": 204
+  },
+  "t": 1793808102.7222946
+}

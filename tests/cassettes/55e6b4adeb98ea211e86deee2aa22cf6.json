@@ -1,0 +1,9 @@
+{
+  "text": "{\"kind\":\"tool\",\"thought\":\"Need event feed for 16.3-16.5 gap, clamped before resume evt_071, to cross-check against frames/commentary.\",\"tool\":\"query_event_feed\",\"args_json\":\"{\\\"start_over\\\":\\\"16.2\\\",\\\"end_over\\\":\\\"16.5\\\",\\\"only_material\\\":false}\"}",
+  "model": "stealth/crouton-alpha",
+  "usage": {
+    "prompt_tokens": 1376,
+    "output_tokens": 71
+  },
+  "t": 1793810432.3341827
+}
